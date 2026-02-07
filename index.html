@@ -1036,24 +1036,24 @@ Try asking about:
                 if (uniqueResults.length === 1) {
                     const p = uniqueResults[0];
                     return `Product Details:
-Name: ${p.name}
-AWS Code: ${p.aws_code}
-Page: ${p.page}
-Category: ${p.category}
-Description: ${p.description}
-Applications: ${p.applications}
-${p.positions ? `Welding Positions: ${p.positions}` : ''}
-${p.coating_type ? `Coating Type: ${p.coating_type}` : p.wire_type ? `Wire Type: ${p.wire_type}` : ''}
-${p.current_type ? `Current Type: ${p.current_type}` : ''}
-${p.shielding_gas ? `Shielding Gas: ${p.shielding_gas}` : ''}
-${p.diameter_range ? `Diameter Range: ${p.diameter_range}` : ''}`;
+                    Name: ${p.name}
+                    AWS Code: ${p.aws_code}
+                    Page: ${p.page}
+                    Category: ${p.category}
+                    Description: ${p.description}
+                    Applications: ${p.applications}
+                    ${p.positions ? `Welding Positions: ${p.positions}` : ''}
+                    ${p.coating_type ? `Coating Type: ${p.coating_type}` : p.wire_type ? `Wire Type: ${p.wire_type}` : ''}
+                    ${p.current_type ? `Current Type: ${p.current_type}` : ''}
+                    ${p.shielding_gas ? `Shielding Gas: ${p.shielding_gas}` : ''}
+                    ${p.diameter_range ? `Diameter Range: ${p.diameter_range}` : ''}`;
                 } else {
                     let reply = `Found ${uniqueResults.length} product(s) matching your query:\n\n`;
                     uniqueResults.slice(0, 5).forEach(p => {
                         reply += `🔹 ${p.name} (${p.aws_code})
-Category: ${p.category}
-Page: ${p.page}
-${p.description ? `Description: ${p.description.substring(0, 80)}...\n` : ''}\n`;
+                        Category: ${p.category}
+                        Page: ${p.page}
+                    ${p.description ? `Description: ${p.description.substring(0, 80)}...\n` : ''}\n`;
                     });
                     if (uniqueResults.length > 5) {
                         reply += `... and ${uniqueResults.length - 5} more products. Try a more specific search.`;
