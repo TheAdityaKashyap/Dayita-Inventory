@@ -1343,9 +1343,31 @@ Page: ${p.page}\n\n`;
                     throw new Error('Products JSON not found');
                 })
                 .then(data => {
-                    window.productsData = data;
-                    console.log('D&H product database loaded successfully');
-                })
+    window.productsData = data;
+    console.log("D&H JSON loaded");
+
+    // convert JSON → searchable DB
+    data.product_categories.forEach(cat => {
+        if(cat.subcategories){
+            cat.subcategories.forEach(sub=>{
+                if(sub.products){
+                    sub.products.forEach(p=>{
+                        productDB.push({
+                            name: p.product_name,
+                            grade: p.aws_code || "",
+                            category: cat.category_name,
+                            sub: sub.subcategory_name,
+                            page: p.page_no
+                        });
+                    });
+                }
+            });
+        }
+    });
+
+    console.log("TOTAL PRODUCTS LOADED:", productDB.length);
+})
+
                 .catch(err => {
                     console.log('Using detailed product specifications database');
                 });
