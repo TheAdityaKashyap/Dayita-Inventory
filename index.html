@@ -521,6 +521,26 @@
         const sidebar = document.getElementById('sidebar');
         const suggestionsBox = document.getElementById('suggestions');
 
+        // Global product database
+        let productDB = [];
+        let productDBSimple = [
+            { name: "Lotherme 803", code: "7018", type: "Electrode", category: "SMAW", stock: "142 boxes" },
+            { name: "Autotherme 308L", code: "ER308L", type: "MIG Wire", category: "Stainless Steel", stock: "45 spools" },
+            { name: "Autotherme 316L", code: "ER316L", type: "MIG Wire", category: "Stainless Steel", stock: "32 spools" },
+            { name: "ER70S-6", code: "ER70S-6", type: "MIG Wire", category: "Carbon Steel", stock: "67 spools" },
+            { name: "Cellutherme", code: "E6010", type: "Electrode", category: "Pipe Line", stock: "89 boxes" },
+            { name: "Norma", code: "E6013", type: "Electrode", category: "Mild Steel", stock: "156 boxes" },
+            { name: "Supratherme", code: "E7018", type: "Electrode", category: "Medium Tensile", stock: "203 boxes" },
+            { name: "Indotherme", code: "E7016", type: "Electrode", category: "Medium Tensile", stock: "94 boxes" },
+            { name: "Rutox-A", code: "E308-16", type: "Electrode", category: "Stainless Steel", stock: "78 boxes" },
+            { name: "BATOX-A", code: "E347-15", type: "Electrode", category: "Stainless Steel", stock: "56 boxes" },
+            { name: "D&H 307", code: "E307-16", type: "Electrode", category: "Stainless Steel", stock: "42 boxes" },
+            { name: "MAXFIL-81A1", code: "E81T1-A1C", type: "Flux Cored Wire", category: "FCAW", stock: "112 spools" },
+            { name: "FW 308", code: "ER308", type: "TIG Rod", category: "Stainless Steel", stock: "68 packs" },
+            { name: "FW 316L", code: "ER316L", type: "TIG Rod", category: "Stainless Steel", stock: "54 packs" },
+            { name: "Autotherme Grade-A", code: "EL8", type: "SAW Wire", category: "SAW", stock: "23 spools" }
+        ];
+
         // Auto-resize textarea
         userInput.addEventListener('input', function() {
             this.style.height = 'auto';
@@ -539,6 +559,9 @@
             // Clear input and reset height
             userInput.value = '';
             userInput.style.height = 'auto';
+            
+            // Hide suggestions
+            suggestionsBox.style.display = 'none';
             
             // Show typing indicator
             showTypingIndicator();
@@ -566,10 +589,11 @@
             contentDiv.className = 'message-content';
             
             // Format product information
-            if (sender === 'bot' && (content.includes('Product:') || content.includes('MIG Wire'))) {
+            if (sender === 'bot' && (content.includes('Product:') || content.includes('🔹') || content.includes('Product Card'))) {
                 contentDiv.innerHTML = formatProductResponse(content);
             } else {
-                contentDiv.innerHTML = `<p>${content.replace(/\n/g, '</p><p>')}</p>`;
+                const formattedContent = content.replace(/\n/g, '</p><p>');
+                contentDiv.innerHTML = `<p>${formattedContent}</p>`;
             }
             
             messageDiv.appendChild(avatarDiv);
@@ -585,64 +609,87 @@
 
         // Format product response with styled card
         function formatProductResponse(content) {
-            if (content.includes('Product: Lotherme 803')) {
+            // If it's a product card format from getAIResponse
+            if (content.includes('Product Card:')) {
+                const lines = content.split('\n');
+                let title = '';
+                let details = [];
+                
+                for (let i = 1; i < lines.length; i++) {
+                    if (lines[i].includes('Name:')) title = lines[i].replace('Name:', '').trim();
+                    if (lines[i].includes('AWS Code:')) details.push(['Code', lines[i].replace('AWS Code:', '').trim()]);
+                    if (lines[i].includes('Category:')) details.push(['Category', lines[i].replace('Category:', '').trim()]);
+                    if (lines[i].includes('Stock:')) details.push(['Stock', lines[i].replace('Stock:', '').trim()]);
+                    if (lines[i].includes('Type:')) details.push(['Type', lines[i].replace('Type:', '').trim()]);
+                }
+                
+                let detailsHTML = '';
+                details.forEach(detail => {
+                    detailsHTML += `
+                        <div class="product-detail">
+                            <span class="detail-label">${detail[0]}</span>
+                            <span class="detail-value">${detail[1]}</span>
+                        </div>
+                    `;
+                });
+                
                 return `
-                    <p>I found information about Lotherme 803:</p>
+                    <p>I found this product:</p>
                     <div class="product-card">
-                        <div class="product-title">Lotherme 803 Electrode</div>
+                        <div class="product-title">${title}</div>
                         <div class="product-details">
-                            <div class="product-detail">
-                                <span class="detail-label">Product Code</span>
-                                <span class="detail-value">7018</span>
-                            </div>
-                            <div class="product-detail">
-                                <span class="detail-label">Sizes Available</span>
-                                <span class="detail-value">3.15mm / 4mm</span>
-                            </div>
-                            <div class="product-detail">
-                                <span class="detail-label">Category</span>
-                                <span class="detail-value">Welding Electrode</span>
-                            </div>
-                            <div class="product-detail">
-                                <span class="detail-label">Primary Use</span>
-                                <span class="detail-value">Structural welding</span>
-                            </div>
-                            <div class="product-detail">
-                                <span class="detail-label">Current Stock</span>
-                                <span class="detail-value">142 boxes</span>
-                            </div>
+                            ${detailsHTML}
                         </div>
                     </div>
-                `;
-            } else if (content.includes('MIG Wire')) {
-                return `
-                    <p>Here's what I found about MIG welding wires:</p>
-                    <div class="product-card">
-                        <div class="product-title">Autotherme MIG Wire Series</div>
-                        <div class="product-details">
-                            <div class="product-detail">
-                                <span class="detail-label">308L Stainless</span>
-                                <span class="detail-value">In stock: 45 spools</span>
-                            </div>
-                            <div class="product-detail">
-                                <span class="detail-label">316L Stainless</span>
-                                <span class="detail-value">In stock: 32 spools</span>
-                            </div>
-                            <div class="product-detail">
-                                <span class="detail-label">ER70S-6 Carbon</span>
-                                <span class="detail-value">In stock: 67 spools</span>
-                            </div>
-                            <div class="product-detail">
-                                <span class="detail-label">Diameter Range</span>
-                                <span class="detail-value">0.8mm - 1.2mm</span>
-                            </div>
-                        </div>
-                    </div>
-                    <p>All MIG wires are available in standard 15kg spools.</p>
                 `;
             }
             
+            // For multiple results
+            if (content.includes('🔹')) {
+                let html = `<p>${content.split('\n')[0]}</p>`;
+                const lines = content.split('\n');
+                let currentProduct = null;
+                
+                for (let i = 0; i < lines.length; i++) {
+                    if (lines[i].startsWith('🔹')) {
+                        if (currentProduct) {
+                            html += formatSingleProduct(currentProduct);
+                        }
+                        currentProduct = { name: lines[i].substring(2).trim() };
+                    } else if (lines[i].includes('AWS:')) {
+                        if (currentProduct) currentProduct.code = lines[i].replace('AWS:', '').trim();
+                    } else if (lines[i].includes('Category:')) {
+                        if (currentProduct) currentProduct.category = lines[i].replace('Category:', '').trim();
+                    } else if (lines[i].includes('Page:')) {
+                        if (currentProduct) currentProduct.page = lines[i].replace('Page:', '').trim();
+                    }
+                }
+                
+                if (currentProduct) {
+                    html += formatSingleProduct(currentProduct);
+                }
+                
+                if (content.includes('... and')) {
+                    html += `<p>${content.split('\n').pop()}</p>`;
+                }
+                
+                return html;
+            }
+            
             return `<p>${content}</p>`;
+        }
+        
+        function formatSingleProduct(product) {
+            return `
+                <div class="product-card" style="margin-top: 10px;">
+                    <div class="product-title">${product.name}</div>
+                    <div class="product-details">
+                        ${product.code ? `<div class="product-detail"><span class="detail-label">AWS Code</span><span class="detail-value">${product.code}</span></div>` : ''}
+                        ${product.category ? `<div class="product-detail"><span class="detail-label">Category</span><span class="detail-value">${product.category}</span></div>` : ''}
+                        ${product.page ? `<div class="product-detail"><span class="detail-label">Page</span><span class="detail-value">${product.page}</span></div>` : ''}
+                    </div>
+                </div>
+            `;
         }
 
         // Show typing indicator
@@ -681,65 +728,104 @@
 
         // AI response logic
         function getAIResponse(text) {
-            let productDB = [];
-
-// Load JSON once when site loads
-fetch("products.json")
-.then(res => res.json())
-.then(data => {
-    console.log("JSON loaded");
-
-    // extract all products from nested JSON
-    data.product_categories.forEach(cat => {
-        if(cat.subcategories){
-            cat.subcategories.forEach(sub=>{
-                if(sub.products){
-                    sub.products.forEach(p=>{
-                        productDB.push({
-                            name: p.product_name,
-                            grade: p.aws_code || "",
-                            category: cat.category_name,
-                            sub: sub.subcategory_name,
-                            page: p.page_no
-                        });
+            const q = text.toLowerCase().trim();
+            
+            // Greetings
+            if (q.includes('hello') || q.includes('hi') || q === 'hey') {
+                return "Hello 👋 Ask me any D&H product like 7018, 308L, flux, wire etc.";
+            }
+            
+            // Simple product database search
+            const results = productDBSimple.filter(p => 
+                p.name.toLowerCase().includes(q) ||
+                p.code.toLowerCase().includes(q) ||
+                p.category.toLowerCase().includes(q) ||
+                p.type.toLowerCase().includes(q)
+            );
+            
+            if (results.length > 0) {
+                if (results.length === 1) {
+                    const p = results[0];
+                    return `Product Card:\nName: ${p.name}\nAWS Code: ${p.code}\nType: ${p.type}\nCategory: ${p.category}\nStock: ${p.stock}`;
+                } else {
+                    let reply = `Found ${results.length} product(s) matching "${text}":\n\n`;
+                    results.slice(0, 5).forEach(p => {
+                        reply += `🔹 ${p.name}\nAWS: ${p.code}\nCategory: ${p.category}\nStock: ${p.stock}\n\n`;
                     });
+                    if (results.length > 5) {
+                        reply += `... and ${results.length - 5} more products.`;
+                    }
+                    return reply;
                 }
-            });
-        }
-    });
-
-    console.log("Total products loaded:", productDB.length);
-});
-
-function getAIResponse(text){
-    const q = text.toLowerCase();
-
-    let results = productDB.filter(p =>
-        p.name.toLowerCase().includes(q) ||
-        p.grade.toLowerCase().includes(q) ||
-        p.category.toLowerCase().includes(q)
-    );
-
-    if(results.length > 0){
-        let reply = `Found ${results.length} product(s):\n\n`;
-
-        results.slice(0,10).forEach(p=>{
-            reply += `🔹 ${p.name}
-AWS: ${p.grade}
-Category: ${p.category}
-Page: ${p.page}\n\n`;
-        });
-
-        return reply;
-    }
-
-    if(q.includes("hello") || q.includes("hi")){
-        return "Hello 👋 Ask me any D&H product like 7018, 308L, flux, wire etc.";
-    }
-
-    return "❌ Product not found in D&H database";
-}
-
+            }
+            
+            // Load JSON data from products.json
+            if (productDB.length === 0 && window.productsData) {
+                // If we have loaded JSON data
+                window.productsData.product_categories.forEach(cat => {
+                    if (cat.subcategories) {
+                        cat.subcategories.forEach(sub => {
+                            if (sub.products) {
+                                sub.products.forEach(p => {
+                                    productDB.push({
+                                        name: p.product_name,
+                                        grade: p.aws_code || "",
+                                        category: cat.category_name,
+                                        sub: sub.subcategory_name,
+                                        page: p.page_no
+                                    });
+                                });
+                            }
+                        });
+                    }
+                });
+                
+                // Search in loaded JSON
+                const jsonResults = productDB.filter(p =>
+                    p.name.toLowerCase().includes(q) ||
+                    p.grade.toLowerCase().includes(q) ||
+                    p.category.toLowerCase().includes(q) ||
+                    p.sub.toLowerCase().includes(q)
+                );
+                
+                if (jsonResults.length > 0) {
+                    let reply = `Found ${jsonResults.length} product(s) in D&H database:\n\n`;
+                    jsonResults.slice(0, 5).forEach(p => {
+                        reply += `🔹 ${p.name}\nAWS: ${p.grade}\nCategory: ${p.category}\nPage: ${p.page}\n\n`;
+                    });
+                    if (jsonResults.length > 5) {
+                        reply += `... and ${jsonResults.length - 5} more products.`;
+                    }
+                    return reply;
+                }
+            }
+            
+            // Default responses for common queries
+            if (q.includes('7018') || q.includes('supratherme')) {
+                return "Supratherme (E7018) is a basic electrode for mild and medium tensile steels. Available in 3.15mm and 4.0mm diameters. Stock: 203 boxes.";
+            }
+            
+            if (q.includes('308l') || q.includes('stainless')) {
+                return "Stainless steel products available:\n• Autotherme 308L (ER308L) - 45 spools\n• Rutox-B (E308L-16) - 78 boxes\n• D&H 308L-17 (E308L-17) - 42 boxes\n• FW 308L (ER308L) - 68 packs";
+            }
+            
+            if (q.includes('mig') || q.includes('wire')) {
+                return "MIG welding wires available:\n• Autotherme 308L (ER308L) - 45 spools\n• Autotherme 316L (ER316L) - 32 spools\n• Autotherme 70S-2 (ER70S-2) - 67 spools\n• Autotherme 80S-D2 (ER80S-D2) - 34 spools";
+            }
+            
+            if (q.includes('tig') || q.includes('rod')) {
+                return "TIG rods available:\n• FW 308 (ER308) - 68 packs\n• FW 316L (ER316L) - 54 packs\n• FW 309L (ER309L) - 42 packs\n• FW 347 (ER347) - 38 packs";
+            }
+            
+            if (q.includes('inventory') || q.includes('stock')) {
+                return "Inventory Overview:\n• SMAW Electrodes: 1,450 boxes\n• MIG Wires: 320 spools\n• TIG Rods: 210 packs\n• FCAW Wires: 156 spools\n• SAW Wires & Flux: 89 units";
+            }
+            
+            if (q.includes('help') || q.includes('what can you do')) {
+                return "I can help you with:\n1. Product information (AWS codes, specifications)\n2. Inventory status and stock levels\n3. Product search by name, code, or category\n4. Welding consumables information\n5. D&H Secheron product database queries";
+            }
+            
+            return "I couldn't find specific information about that. Try asking about:\n• Specific product codes (7018, 308L, ER70S-6)\n• Product categories (MIG wires, TIG rods, electrodes)\n• Inventory status\nOr say 'help' for more options.";
         }
 
         // Persistence: save/load chat as array of message objects
@@ -750,7 +836,7 @@ Page: ${p.page}\n\n`;
                     const sender = m.classList.contains('user-message') ? 'user' : 'bot';
                     const contentEl = m.querySelector('.message-content');
                     // store text only, preserve line breaks
-                    const text = Array.from(contentEl.querySelectorAll('p')).map(p => p.textContent).join('\n');
+                    const text = contentEl.textContent || contentEl.innerText;
                     msgs.push({ sender, text });
                 });
                 localStorage.setItem('dayita_chat', JSON.stringify(msgs));
@@ -780,7 +866,9 @@ Page: ${p.page}\n\n`;
 
         // Product suggestions / autocomplete
         const productSuggestions = [
-            '7018', 'Lotherme 803', 'MIG Wire', 'Autotherme 308L', 'Autotherme 316L', 'ER70S-6', 'TIG rods'
+            '7018', 'Lotherme', 'MIG Wire', '308L', '316L', 'ER70S-6', 'TIG rods', 'Stainless steel',
+            'Autotherme', 'Supratherme', 'Indotherme', 'Cellutherme', 'Norma', 'Inventory status',
+            'Flux cored wire', 'SAW wire', 'Electrodes', 'Welding consumables'
         ];
 
         function showSuggestions(input) {
@@ -798,6 +886,7 @@ Page: ${p.page}\n\n`;
                     userInput.value = m;
                     userInput.dispatchEvent(new Event('input', { bubbles: true }));
                     userInput.focus();
+                    suggestionsBox.style.display = 'none';
                 });
                 suggestionsBox.appendChild(div);
             });
@@ -837,6 +926,7 @@ Page: ${p.page}\n\n`;
                     </div>
                 `;
                 clearChatStorage();
+                productDB = []; // Reset product database
             }
         });
 
@@ -877,6 +967,20 @@ Page: ${p.page}\n\n`;
                     </div>
                 `;
             }
+            
+            // Try to load products.json
+            fetch('products.json')
+                .then(res => {
+                    if (res.ok) return res.json();
+                    throw new Error('Products JSON not found');
+                })
+                .then(data => {
+                    window.productsData = data;
+                    console.log('D&H product database loaded successfully');
+                })
+                .catch(err => {
+                    console.log('Using simplified product database');
+                });
         });
     </script>
 </body>
