@@ -1,0 +1,543 @@
+{
+  "company": "D&H Secheron",
+  "document_title": "INDEX - Product List",
+  "total_pages": 16,
+  "product_categories": [
+    {
+      "category_name": "Facility of D&H Secheron",
+      "page_range": "1-8"
+    },
+    {
+      "category_name": "Our Profile",
+      "page_range": "9-30"
+    },
+    {
+      "category_name": "SMAW [Stick Electrodes]",
+      "page_range": "47-298",
+      "subcategories": [
+        {
+          "subcategory_name": "ELECTRODES FOR CROSS COUNTRY PIPE LINE",
+          "products": [
+            {"product_name": "CELLUTHERME", "aws_code": "E6010", "page_no": "48"},
+            {"product_name": "CELLUTHERME-ACE", "aws_code": "E6011", "page_no": "49"},
+            {"product_name": "CELLUTHERME-Mo", "aws_code": "E7010-G", "page_no": "50"},
+            {"product_name": "CELLUTHERME-70P1", "aws_code": "E7010-P1", "page_no": "51"},
+            {"product_name": "CELLUTHERME-80Mo", "aws_code": "E8010-G", "page_no": "52"},
+            {"product_name": "CELLUTHERME-P80", "aws_code": "E8010-P1", "page_no": "53"}
+          ]
+        },
+        {
+          "subcategory_name": "ELECTRODES FOR MILD STEEL",
+          "products": [
+            {"product_name": "NORMA", "aws_code": "E6013", "page_no": "54"},
+            {"product_name": "NORMA-S", "aws_code": "E6013", "page_no": "55"},
+            {"product_name": "NORMA-V", "aws_code": "E6013", "page_no": "56"},
+            {"product_name": "NORMA-X", "aws_code": "E6013", "page_no": "57"},
+            {"product_name": "MEDIO", "aws_code": "E6013", "page_no": "58"},
+            {"product_name": "MEDIO-S", "aws_code": "E6013", "page_no": "59"},
+            {"product_name": "MEDIO-V", "aws_code": "E6013", "page_no": "60"},
+            {"product_name": "EXOBEL", "aws_code": "E6013", "page_no": "61"},
+            {"product_name": "TENSOTHERME", "aws_code": "E6018", "page_no": "62"},
+            {"product_name": "UNITHERME", "aws_code": "E6020", "page_no": "63"},
+            {"product_name": "RAPIDEX", "aws_code": "E7014", "page_no": "64"},
+            {"product_name": "FERROVITE", "aws_code": "E7024", "page_no": "65"}
+          ]
+        },
+        {
+          "subcategory_name": "ELECTRODES FOR MEDIUM & HIGH TENSILE",
+          "products": [
+            {"product_name": "INDOTHERME", "aws_code": "E7016", "page_no": "66"},
+            {"product_name": "INDOTHERME-CS", "aws_code": "E7016", "page_no": "67"},
+            {"product_name": "INDOTHERME(SPL)", "aws_code": "E7016-1", "page_no": "68"},
+            {"product_name": "INDOTHERME(SPL)H4R", "aws_code": "E7016-1 H4R", "page_no": "69"},
+            {"product_name": "SUPRATHERME", "aws_code": "E7018", "page_no": "70"},
+            {"product_name": "SUPRATHERME(MOD)", "aws_code": "E7018", "page_no": "71"},
+            {"product_name": "SUPRATHERME(SPL)MOD-H4R", "aws_code": "E7018-1 H4R", "page_no": "72"},
+            {"product_name": "SUPRATHERME-H4R", "aws_code": "E7018H4R", "page_no": "73"},
+            {"product_name": "SUPRATHERME-P2", "aws_code": "E8018-P2", "page_no": "74"},
+            {"product_name": "TENSAL", "aws_code": "E9018-G", "page_no": "75"},
+            {"product_name": "TENSAL-H4R", "aws_code": "E9018-G H4R", "page_no": "76"},
+            {"product_name": "TENSAL(MOD)", "aws_code": "E9018-G", "page_no": "77"},
+            {"product_name": "TENSAL-MH", "aws_code": "E9018M", "page_no": "78"},
+            {"product_name": "TENSAL-MH(R)", "aws_code": "E9018M H4R", "page_no": "79"},
+            {"product_name": "TENSAL(SPL)", "aws_code": "E10018-D2", "page_no": "80"},
+            {"product_name": "TENSAL-SPL(R)", "aws_code": "E10018-D2 H4R", "page_no": "81"},
+            {"product_name": "ULTRATENSAL(SPL)H4R", "aws_code": "E11016-G H4R", "page_no": "82"},
+            {"product_name": "ULTRATENSAL", "aws_code": "E11018-G", "page_no": "83"},
+            {"product_name": "ULTRATENSAL-1000", "aws_code": null, "page_no": "84"},
+            {"product_name": "ULTRATENSAL-1050", "aws_code": "E14018M-H4", "page_no": "85"},
+            {"product_name": "ULTRATENSAL-MH(H4R)", "aws_code": "E11018M-H4R", "page_no": "86"},
+            {"product_name": "ULTRATHERME-H", "aws_code": "E10016-G", "page_no": "87"},
+            {"product_name": "ULTRATENSAL-Cu", "aws_code": "E10018-G", "page_no": "88"},
+            {"product_name": "ULTRATENSAL-MC", "aws_code": "E10018M", "page_no": "89"},
+            {"product_name": "ULTRATENSAL-MH", "aws_code": "E11018M", "page_no": "90"},
+            {"product_name": "ULTRATHERME", "aws_code": "E11018-G", "page_no": "91"},
+            {"product_name": "ULTRATHERME-M", "aws_code": "E11018M", "page_no": "92"},
+            {"product_name": "CNM(SPL)", "aws_code": "E12018-G", "page_no": "93"},
+            {"product_name": "CNM(SPL)M", "aws_code": "E12018M", "page_no": "94"},
+            {"product_name": "COROTHERME(SPL)", "aws_code": "E8018-W2", "page_no": "95"},
+            {"product_name": "SUPRATHERME(SPL)", "aws_code": "E7018-1", "page_no": "96"},
+            {"product_name": "SUPRATHERME(SPL)H4R", "aws_code": "E7018-1 H4R", "page_no": "97"},
+            {"product_name": "SUPRATHERME(SPL)MOD", "aws_code": "E7018-1", "page_no": "98"},
+            {"product_name": "SUPRATHERME-NM(MOD)", "aws_code": "E8018-G", "page_no": "99"},
+            {"product_name": "SUPRATHERME-NM(MOD)H4R", "aws_code": "E8018-G H4R", "page_no": "100"},
+            {"product_name": "SUPRATHERME-Ni", "aws_code": "E7018-G", "page_no": "101"},
+            {"product_name": "SUPRATHERME-Ni(SPL)", "aws_code": "E8018-G", "page_no": "102"},
+            {"product_name": "SUPRATHERME-Ni(SPL)MOD", "aws_code": "E8018-G", "page_no": "103"},
+            {"product_name": "DK-18Ni(Mod)", "aws_code": "E8018-G", "page_no": "104"},
+            {"product_name": "NIMOTHERME-1", "aws_code": "E8016-C3", "page_no": "105"},
+            {"product_name": "NIMOTHERME-1L(MOD)", "aws_code": "E7018-C3L", "page_no": "106"},
+            {"product_name": "NIMOTHERME-1(SPL)", "aws_code": "E8018-C3", "page_no": "107"},
+            {"product_name": "NIMOTHERME-1(SPL)H4R", "aws_code": "E8018-C3 H4R", "page_no": "108"},
+            {"product_name": "NIMOTHERME-1(SPL)MOD", "aws_code": "E8018-C3", "page_no": "109"},
+            {"product_name": "NIMOTHERME-NM1", "aws_code": "E8018-NM1", "page_no": "110"},
+            {"product_name": "NIMOTHERME-NM2", "aws_code": "E9018-NM2", "page_no": "111"},
+            {"product_name": "NITHERME-1.5(SPL)", "aws_code": "E8018-C4", "page_no": "112"},
+            {"product_name": "NITHERME-2.5", "aws_code": "E8016-C1", "page_no": "113"},
+            {"product_name": "NITHERME-2.5L", "aws_code": "E7018-C1L", "page_no": "114"},
+            {"product_name": "NITHERME-2.5(MOD)", "aws_code": "E10018-G", "page_no": "115"},
+            {"product_name": "NITHERME-2.5(SPL)H4R", "aws_code": "E7018-C1L", "page_no": "116"},
+            {"product_name": "NITHERME-3.5", "aws_code": "E8016-C2", "page_no": "117"},
+            {"product_name": "NITHERME-3.5(SPL)", "aws_code": "E8018-C2", "page_no": "118"},
+            {"product_name": "NITHERME-3.5L", "aws_code": "E7016-C2L", "page_no": "119"},
+            {"product_name": "NITHERME-3.5L(SPL)", "aws_code": "E7018-C2L", "page_no": "120"},
+            {"product_name": "NITHERME-6.5L", "aws_code": "E9015-C5L", "page_no": "121"}
+          ]
+        },
+        {
+          "subcategory_name": "ELECTRODES FOR CREEP RESISTING STEEL",
+          "products": [
+            {"product_name": "MOLYTHERME", "aws_code": "E7018-A1", "page_no": "122"},
+            {"product_name": "MOLYTHERME-EXTRA", "aws_code": "E8018-D3", "page_no": "123"},
+            {"product_name": "MOLYTHERME(MOD)", "aws_code": "E7018-A1", "page_no": "124"},
+            {"product_name": "MOLYTHERME-R", "aws_code": null, "page_no": "125"},
+            {"product_name": "MOLYTHERME(SPL)", "aws_code": "E9018-D1", "page_no": "126"},
+            {"product_name": "MOLYTHERME(SPL)MOD", "aws_code": "E9018-D1", "page_no": "127"},
+            {"product_name": "CROMOTHERME", "aws_code": "E8018-B1", "page_no": "128"},
+            {"product_name": "CROMOTHERME-20", "aws_code": "E8018-G", "page_no": "129"},
+            {"product_name": "CROMOTHERME-0.5", "aws_code": null, "page_no": "130"},
+            {"product_name": "CROMOTHERME-1", "aws_code": "E8018-B2", "page_no": "131"},
+            {"product_name": "CROMOTHERME-1L", "aws_code": "E7018-B2L", "page_no": "132"},
+            {"product_name": "CROMOTHERME-1(MOD)", "aws_code": "E8018-B2", "page_no": "133"},
+            {"product_name": "CROMOTHERME-1L(MOD)", "aws_code": "E7018-B2L", "page_no": "134"},
+            {"product_name": "CROMOTHERME-1(H4R)", "aws_code": "E8018-B2 H4R", "page_no": "135"},
+            {"product_name": "CROMOTHERME-1(RTE)", "aws_code": "E8018-B2", "page_no": "136"},
+            {"product_name": "CROMOTHERME-2", "aws_code": "E9018-B3", "page_no": "137"},
+            {"product_name": "CROMOTHERME-2L", "aws_code": "E8018-B3L", "page_no": "138"},
+            {"product_name": "CROMOTHERME-2(MOD)", "aws_code": "E9018-B3", "page_no": "139"},
+            {"product_name": "CROMOTHERME-2L(MOD)", "aws_code": "E8018-B3L", "page_no": "140"},
+            {"product_name": "CROMOTHERME-2(RTE)", "aws_code": "E9018-B3", "page_no": "141"},
+            {"product_name": "CROMOTHERME-2(16)", "aws_code": "E9016-B3", "page_no": "142"},
+            {"product_name": "CROMOTHERME-2(15)RTE", "aws_code": "E9015-B3", "page_no": "143"},
+            {"product_name": "CROMOTHERME-5", "aws_code": "E8018-B6", "page_no": "144"},
+            {"product_name": "CROMOTHERME-5L", "aws_code": "E8018-B6L", "page_no": "145"},
+            {"product_name": "CROMOTHERME-5(MOD)", "aws_code": "E8018-B6", "page_no": "146"},
+            {"product_name": "CROMOTHERME-5L(MOD)", "aws_code": "E8018-B6L", "page_no": "147"},
+            {"product_name": "CROMOTHERME-5(15)MOD", "aws_code": "E8015-B6", "page_no": "148"},
+            {"product_name": "CROMOTHERME-9", "aws_code": "E8018-B8", "page_no": "149"},
+            {"product_name": "CROMOTHERME-9L", "aws_code": "E8018-B8L", "page_no": "150"},
+            {"product_name": "CROMOTHERME-9(MOD)", "aws_code": "E9018-B9", "page_no": "151"},
+            {"product_name": "CROMOTHERME-9(15)", "aws_code": "E8015-B8", "page_no": "152"},
+            {"product_name": "CROMOTHERME-9M", "aws_code": "E8018-B8", "page_no": "153"},
+            {"product_name": "CROMOTHERME-12", "aws_code": null, "page_no": "154"},
+            {"product_name": "CROMOTHERME-23", "aws_code": "E9015-B23", "page_no": "155"},
+            {"product_name": "CROMOTHERME-24", "aws_code": "E9015-B24", "page_no": "156"},
+            {"product_name": "CROMOTHERME-91", "aws_code": "E9015-B91", "page_no": "157"},
+            {"product_name": "CROMOTHERME-92", "aws_code": "E9015-B92", "page_no": "158"},
+            {"product_name": "CROMOTHERME-20Mo", "aws_code": "E9018-G", "page_no": "159"}
+          ]
+        },
+        {
+          "subcategory_name": "ELECTRODES FOR STAINLESS STEEL",
+          "products": [
+            {"product_name": "SIA", "aws_code": "E307-15(Nearest)", "page_no": "160"},
+            {"product_name": "SIA(RUTILE)", "aws_code": "E307-16(Nearest)", "page_no": "161"},
+            {"product_name": "SIA-Mo", "aws_code": null, "page_no": "162"},
+            {"product_name": "SIA (N)", "aws_code": null, "page_no": "163"},
+            {"product_name": "RUTOX-A", "aws_code": "E308-16", "page_no": "164"},
+            {"product_name": "BATOX-A(ST)", "aws_code": "E347-15", "page_no": "165"},
+            {"product_name": "RUTOX-AH", "aws_code": "E308H-16", "page_no": "166"},
+            {"product_name": "RUTOX-AH(ST)", "aws_code": "E347-16", "page_no": "167"},
+            {"product_name": "RUTOX-A(N)", "aws_code": null, "page_no": "168"},
+            {"product_name": "RUTOX-B", "aws_code": "E308L-16", "page_no": "169"},
+            {"product_name": "BATOX-B", "aws_code": "E308L-15", "page_no": "170"},
+            {"product_name": "BATOX-D", "aws_code": "E316L-15", "page_no": "171"},
+            {"product_name": "SECHERON 308L", "aws_code": "E308L-16(Nearest)", "page_no": "172"},
+            {"product_name": "CRONITHERME-25/12", "aws_code": "E309-16", "page_no": "173"},
+            {"product_name": "D&H 307", "aws_code": "E307-16", "page_no": "174"},
+            {"product_name": "D&H 307-15", "aws_code": "E307-15", "page_no": "175"},
+            {"product_name": "D&H 307-17", "aws_code": "E307-17", "page_no": "176"},
+            {"product_name": "D&H 308L-17", "aws_code": "E308L-17", "page_no": "177"},
+            {"product_name": "D&H 308Mo-17", "aws_code": "E308Mo-17", "page_no": "178"},
+            {"product_name": "D&H 308H-17", "aws_code": "E308H-17", "page_no": "179"},
+            {"product_name": "D&H 309-15", "aws_code": "E309-15", "page_no": "180"},
+            {"product_name": "D&H 309H", "aws_code": "E309H-16", "page_no": "181"},
+            {"product_name": "D&H 309L", "aws_code": "E309L-16", "page_no": "182"},
+            {"product_name": "D&H 309L-15", "aws_code": "E309L-15", "page_no": "183"},
+            {"product_name": "D&H 309L-17", "aws_code": "E309L-17", "page_no": "184"},
+            {"product_name": "D&H 309LMo", "aws_code": "E309LMo-16", "page_no": "185"},
+            {"product_name": "SECHERON 309L", "aws_code": "E309L-16", "page_no": "186"},
+            {"product_name": "D&H 309Cb-15", "aws_code": "E309Nb-15", "page_no": "187"},
+            {"product_name": "D&H 309Mo", "aws_code": "E309Mo-16", "page_no": "188"},
+            {"product_name": "D&H 309Mo-15", "aws_code": "E309Mo-15", "page_no": "189"},
+            {"product_name": "D&H 309LMo", "aws_code": "E309LMo-16", "page_no": "190"},
+            {"product_name": "D&H 310-15", "aws_code": "E310-15", "page_no": "191"},
+            {"product_name": "D&H 310-16", "aws_code": "E310-16", "page_no": "192"},
+            {"product_name": "SECHERON 310L", "aws_code": "E310L-16(MOD)", "page_no": "193"},
+            {"product_name": "BATOX-310H", "aws_code": "E310H-15", "page_no": "194"},
+            {"product_name": "BATOX-310MoN", "aws_code": null, "page_no": "195"},
+            {"product_name": "D&H 310HC", "aws_code": "E310H-16", "page_no": "196"},
+            {"product_name": "D&H 310Mo", "aws_code": "E310Mo-16", "page_no": "197"},
+            {"product_name": "D&H 310Mo-17", "aws_code": "E310Mo-17", "page_no": "198"},
+            {"product_name": "D&H 312", "aws_code": "E312-16", "page_no": "199"},
+            {"product_name": "D&H 312-17", "aws_code": "E312-17", "page_no": "200"},
+            {"product_name": "D&H 316L-17", "aws_code": "E316L-17", "page_no": "201"},
+            {"product_name": "D&H 317-17", "aws_code": "E317-17", "page_no": "202"},
+            {"product_name": "D&H 318-17", "aws_code": "E318-17", "page_no": "203"},
+            {"product_name": "D&H 320", "aws_code": "E320-16", "page_no": "204"},
+            {"product_name": "D&H 320LR", "aws_code": "E320LR-16", "page_no": "205"},
+            {"product_name": "D&H 320LR-15", "aws_code": "E320LR-15", "page_no": "206"},
+            {"product_name": "D&H 347-17", "aws_code": "E347-17", "page_no": "207"},
+            {"product_name": "D&H 383", "aws_code": "E383-16", "page_no": "208"},
+            {"product_name": "D&H 383-17", "aws_code": "E383-17", "page_no": "209"},
+            {"product_name": "D&H 385", "aws_code": "E385-16", "page_no": "210"},
+            {"product_name": "D&H 385-17", "aws_code": "E385-17", "page_no": "211"},
+            {"product_name": "D&H 16/8/2", "aws_code": "E16-8-2-16", "page_no": "212"},
+            {"product_name": "D&H 20/18/6 Cu", "aws_code": null, "page_no": "213"},
+            {"product_name": "D&H 145L", "aws_code": null, "page_no": "214"},
+            {"product_name": "RUTOX-Mo", "aws_code": "E316-16", "page_no": "215"},
+            {"product_name": "RUTOX-Mo(H)", "aws_code": "E316H-16", "page_no": "216"},
+            {"product_name": "BATOX-HP40Nb", "aws_code": null, "page_no": "217"},
+            {"product_name": "RUTOX-D", "aws_code": "E316L-16", "page_no": "218"},
+            {"product_name": "BATOX-D", "aws_code": "E316L-15", "page_no": "219"},
+            {"product_name": "RUTOX-E", "aws_code": "E317L-16", "page_no": "220"},
+            {"product_name": "RUTOX-F", "aws_code": "E316L-16", "page_no": "221"},
+            {"product_name": "BATOX-F", "aws_code": "E316L-15", "page_no": "222"},
+            {"product_name": "SECHERON 316L", "aws_code": "E316L-16", "page_no": "223"},
+            {"product_name": "RUTOX-F(SPL)", "aws_code": "E316L-16(Nearest)", "page_no": "224"},
+            {"product_name": "BATOX-F(U)", "aws_code": "E316L-15(Modified)", "page_no": "225"},
+            {"product_name": "BATOX-F(U)M", "aws_code": "E316LMn-15", "page_no": "226"},
+            {"product_name": "RUTOX-G", "aws_code": "E240-16", "page_no": "227"},
+            {"product_name": "RUTOX-Mo(ST)", "aws_code": "E318-16", "page_no": "228"},
+            {"product_name": "RUTOX-A(ST)", "aws_code": "E347-16", "page_no": "229"},
+            {"product_name": "BATOX-A(ST)", "aws_code": "E347-15", "page_no": "230"},
+            {"product_name": "D&H 13Cr", "aws_code": "E410-15", "page_no": "231"},
+            {"product_name": "D&H 410", "aws_code": "E410-26", "page_no": "232"},
+            {"product_name": "D&H 430 MC", "aws_code": null, "page_no": "233"},
+            {"product_name": "D&H 430 NM", "aws_code": null, "page_no": "234"},
+            {"product_name": "D&H 430Nb", "aws_code": "E430Nb-16", "page_no": "235"},
+            {"product_name": "D&H 444L", "aws_code": "E410NiMo-16", "page_no": "236"},
+            {"product_name": "D&H 444L-15", "aws_code": "E410NiMo-15", "page_no": "237"},
+            {"product_name": "D&H 17Cr", "aws_code": "E430-15", "page_no": "238"},
+            {"product_name": "D&H 430", "aws_code": "E430-26", "page_no": "239"},
+            {"product_name": "D&H-3U", "aws_code": null, "page_no": "240"},
+            {"product_name": "D&H 25/4", "aws_code": null, "page_no": "241"},
+            {"product_name": "D&H SECHERON 209", "aws_code": "E209-16", "page_no": "242"},
+            {"product_name": "D&H 446L", "aws_code": "E630-16", "page_no": "243"},
+            {"product_name": "D&H 2209(NS)", "aws_code": "E2209-16", "page_no": "244"},
+            {"product_name": "D&H 2209-15(NS)", "aws_code": "E2209-15", "page_no": "245"},
+            {"product_name": "D&H 2209-17(NS)", "aws_code": "E2209-17", "page_no": "246"},
+            {"product_name": "D&H 2307-17", "aws_code": "E2307-17", "page_no": "247"},
+            {"product_name": "D&H 2553(NS)", "aws_code": "E2553-16", "page_no": "248"},
+            {"product_name": "D&H 2553-17", "aws_code": "E2553-17", "page_no": "249"},
+            {"product_name": "D&H 2594(NS)", "aws_code": "E2594-16", "page_no": "250"},
+            {"product_name": "D&H 2594-15(NS)", "aws_code": "E2594-15", "page_no": "251"},
+            {"product_name": "D&H 2594-17(NS)", "aws_code": "E2594-17", "page_no": "252"},
+            {"product_name": "D&H 2595(NS)", "aws_code": "E2595-16", "page_no": "253"},
+            {"product_name": "D&H 2595-15(NS)", "aws_code": "E2595-15", "page_no": "254"},
+            {"product_name": "D&H 2595-17(NS)", "aws_code": "E2595-17", "page_no": "255"}
+          ]
+        },
+        {
+          "subcategory_name": "ELECTRODES FOR GALVANISING BATH",
+          "products": [
+            {"product_name": "D&H 45S", "aws_code": null, "page_no": "256"},
+            {"product_name": "D&H 45S(LH)", "aws_code": null, "page_no": "257"}
+          ]
+        },
+        {
+          "subcategory_name": "ELECTRODES FOR HARDFACING",
+          "products": [
+            {"product_name": "BOR-A (R)", "aws_code": null, "page_no": "258"},
+            {"product_name": "BOR-B", "aws_code": null, "page_no": "259"},
+            {"product_name": "BOR-C", "aws_code": null, "page_no": "260"},
+            {"product_name": "BOR-CR", "aws_code": null, "page_no": "261"},
+            {"product_name": "CCR-20", "aws_code": null, "page_no": "262"},
+            {"product_name": "CCR-200", "aws_code": null, "page_no": "263"},
+            {"product_name": "CCR(SPL)", "aws_code": null, "page_no": "264"},
+            {"product_name": "CROMA", "aws_code": null, "page_no": "265"},
+            {"product_name": "D&H 535", "aws_code": null, "page_no": "266"},
+            {"product_name": "D&H 958", "aws_code": null, "page_no": "267"},
+            {"product_name": "D&H 630-H", "aws_code": null, "page_no": "268"},
+            {"product_name": "D&H 9650", "aws_code": null, "page_no": "269"},
+            {"product_name": "DIETHERME-HD", "aws_code": null, "page_no": "270"},
+            {"product_name": "SHC-SIX", "aws_code": null, "page_no": "271"},
+            {"product_name": "SMA", "aws_code": null, "page_no": "272"},
+            {"product_name": "SUPER-Mn", "aws_code": null, "page_no": "273"},
+            {"product_name": "D&H 4130", "aws_code": null, "page_no": "274"},
+            {"product_name": "THERMEHARD 55", "aws_code": null, "page_no": "275"},
+            {"product_name": "FENITHERME", "aws_code": null, "page_no": "276"},
+            {"product_name": "D&H FN", "aws_code": null, "page_no": "277"}
+          ]
+        },
+        {
+          "subcategory_name": "ELECTRODES FOR NICKEL & NICKEL ALLOY",
+          "products": [
+            {"product_name": "D&H 1200T(NS)", "aws_code": "ENiCrFe-2", "page_no": "278"},
+            {"product_name": "D&H 1212(NS)", "aws_code": "ENiCrFe-3", "page_no": "279"},
+            {"product_name": "D&H 1212(MOD)", "aws_code": "ENiCrFe-3(Approx)", "page_no": "280"},
+            {"product_name": "D&H 1217(NS)", "aws_code": "ENiCrFe-7", "page_no": "281"},
+            {"product_name": "D&H 1223(NS)", "aws_code": "ENiCrMo-3", "page_no": "282"},
+            {"product_name": "D&H 1225(NS)", "aws_code": "ENiCrCoMo-1", "page_no": "283"},
+            {"product_name": "D&H 1227(NS)", "aws_code": "ENiCrMo-7", "page_no": "284"},
+            {"product_name": "D&H 1229(NS)", "aws_code": "ENiCrFe-9", "page_no": "285"},
+            {"product_name": "D&H 1232(NS)", "aws_code": "ENiCrMo-12", "page_no": "286"},
+            {"product_name": "D&H 1233(NS)", "aws_code": "ENiCrMo-13", "page_no": "287"},
+            {"product_name": "D&H 1250", "aws_code": "ENiCu-7", "page_no": "288"},
+            {"product_name": "D&H 1260", "aws_code": "ENiCrMo-6", "page_no": "289"},
+            {"product_name": "D&H 1280", "aws_code": "ENi-1", "page_no": "290"},
+            {"product_name": "D&H 1400", "aws_code": "ENiCrMo-5", "page_no": "291"},
+            {"product_name": "D&H 1400(MOD)", "aws_code": "ENiCrMo-4", "page_no": "292"},
+            {"product_name": "D&H 1414(NS)", "aws_code": "ENiCrMo-14", "page_no": "293"},
+            {"product_name": "D&H 1423(NS)", "aws_code": "ENiCrMo-10", "page_no": "294"}
+          ]
+        },
+        {
+          "subcategory_name": "ELECTRODES FOR CAST IRON",
+          "products": [
+            {"product_name": "D&H MONEL", "aws_code": "ENiCuB", "page_no": "295"},
+            {"product_name": "NFM", "aws_code": "ENiCI", "page_no": "296"},
+            {"product_name": "D&H 1111CI", "aws_code": "ENiFeCI", "page_no": "297"},
+            {"product_name": "D&H NM-CIE St", "aws_code": null, "page_no": "298"}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "GMAW [Solid MIG Wire]",
+      "page_range": "299-317",
+      "subcategories": [
+        {
+          "subcategory_name": "CONSUMABLE FOR GMAW",
+          "products": [
+            {"product_name": "AUTOTHERME-1", "aws_code": "ER70S-6", "page_no": "300"},
+            {"product_name": "AUTOTHERME 70S-2", "aws_code": "ER70S-2", "page_no": "301"},
+            {"product_name": "AUTOTHERME 70S-2(NACE)", "aws_code": "ER70S-2", "page_no": "302"},
+            {"product_name": "AUTOTHERME 80S-D2", "aws_code": "ER80S-D2", "page_no": "303"},
+            {"product_name": "AUTOTHERME C-Mo", "aws_code": "ER70S-A1", "page_no": "304"},
+            {"product_name": "AUTOTHERME Cr-Mo 1", "aws_code": "ER80S-B2", "page_no": "305"},
+            {"product_name": "AUTOTHERME Cr-Mo 1 (MOD)", "aws_code": "ER80S-B2", "page_no": "306"},
+            {"product_name": "AUTOTHERME Cr-Mo 2", "aws_code": "ER90S-B3", "page_no": "307"},
+            {"product_name": "AUTOTHERME Cr-Mo 2 (MOD)", "aws_code": "ER90S-B3", "page_no": "308"},
+            {"product_name": "AUTOTHERME Cr-Mo 5", "aws_code": "ER80S-B6", "page_no": "309"},
+            {"product_name": "AUTOTHERME Cr-Mo 9", "aws_code": "ER80S-B8", "page_no": "310"},
+            {"product_name": "AUTOTHERME Cr-Mo 91", "aws_code": "ER90S-B91", "page_no": "311"},
+            {"product_name": "AUTOTHERME Cr-Mo 92", "aws_code": "ER90S-B92", "page_no": "312"},
+            {"product_name": "AUTOTHERME Mn-Mo", "aws_code": "ER80S-G", "page_no": "313"}
+          ]
+        },
+        {
+          "subcategory_name": "CONSUMABLE OF GMAW FOR STAINLESS STEEL",
+          "products": [
+            {"product_name": "AUTOTHERME-308L", "aws_code": "ER308L", "page_no": "314"},
+            {"product_name": "AUTOTHERME-309L", "aws_code": "ER309L", "page_no": "315"},
+            {"product_name": "AUTOTHERME-316L", "aws_code": "ER316L", "page_no": "316"},
+            {"product_name": "AUTOTHERME-347", "aws_code": "ER347", "page_no": "317"}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "GTAW [TIG Rod]",
+      "page_range": "318-362",
+      "subcategories": [
+        {
+          "subcategory_name": "CONSUMABLE OF GTAW FOR MILD STEEL",
+          "products": [
+            {"product_name": "F 70S-6", "aws_code": "ER70S-6", "page_no": "319"},
+            {"product_name": "F 70S-2", "aws_code": "ER70S-2", "page_no": "320"},
+            {"product_name": "F 70S-2(NACE)", "aws_code": "ER70S-2", "page_no": "321"}
+          ]
+        },
+        {
+          "subcategory_name": "CONSUMABLE OF GTAW FOR LOW ALLOY STEEL",
+          "products": [
+            {"product_name": "F 80S-D2", "aws_code": "ER80S-D2", "page_no": "322"},
+            {"product_name": "F 90S-D2", "aws_code": "ER90S-D2", "page_no": "323"},
+            {"product_name": "F C-Mo", "aws_code": "ER70S-A1", "page_no": "324"},
+            {"product_name": "F Cr-Mo 1", "aws_code": "ER80S-B2", "page_no": "325"},
+            {"product_name": "F Cr-Mo 1 (MOD)", "aws_code": "ER80S-B2", "page_no": "326"},
+            {"product_name": "F Cr-Mo 1L", "aws_code": "ER70S-B2L", "page_no": "327"},
+            {"product_name": "F Cr-Mo 2", "aws_code": "ER90S-B3", "page_no": "328"},
+            {"product_name": "F Cr-Mo 2 (MOD)", "aws_code": "ER90S-B3", "page_no": "329"},
+            {"product_name": "F Cr-Mo 2L", "aws_code": "ER80S-B3L", "page_no": "330"},
+            {"product_name": "F Cr-Mo 5", "aws_code": "ER80S-B6", "page_no": "331"},
+            {"product_name": "F Cr-Mo 9", "aws_code": "ER80S-B8", "page_no": "332"},
+            {"product_name": "F Cr-Mo 91", "aws_code": "ER90S-B91", "page_no": "333"},
+            {"product_name": "F Cr-Mo 92", "aws_code": "ER90S-B92", "page_no": "334"},
+            {"product_name": "F Mn-Mo", "aws_code": "ER80S-G", "page_no": "335"},
+            {"product_name": "F 80S-Ni 1", "aws_code": "ER80S-Ni1", "page_no": "336"},
+            {"product_name": "F 80S-Ni 2", "aws_code": "ER80S-Ni2", "page_no": "337"},
+            {"product_name": "F 100S-G", "aws_code": "ER100S-G", "page_no": "338"}
+          ]
+        },
+        {
+          "subcategory_name": "CONSUMABLE OF GTAW FOR STAINLESS STEEL",
+          "products": [
+            {"product_name": "FW 308", "aws_code": "ER308", "page_no": "339"},
+            {"product_name": "FW 308L", "aws_code": "ER308L", "page_no": "340"},
+            {"product_name": "FW 309", "aws_code": "ER309", "page_no": "341"},
+            {"product_name": "FW 309L", "aws_code": "ER309L", "page_no": "342"},
+            {"product_name": "FW 310", "aws_code": "ER310", "page_no": "343"},
+            {"product_name": "FW 316", "aws_code": "ER316", "page_no": "344"},
+            {"product_name": "FW 316L", "aws_code": "ER316L", "page_no": "345"},
+            {"product_name": "FW 317L", "aws_code": "ER317L", "page_no": "346"},
+            {"product_name": "FW 320", "aws_code": "ER320", "page_no": "347"},
+            {"product_name": "FW 347", "aws_code": "ER347", "page_no": "348"},
+            {"product_name": "FW 385", "aws_code": "ER385", "page_no": "349"},
+            {"product_name": "FW 410", "aws_code": "ER410", "page_no": "350"},
+            {"product_name": "FW 410NiMo", "aws_code": "ER410NiMo", "page_no": "351"},
+            {"product_name": "FW 430", "aws_code": "ER430", "page_no": "352"},
+            {"product_name": "FW 2209", "aws_code": "ER2209", "page_no": "353"},
+            {"product_name": "FW 2553", "aws_code": "ER2553", "page_no": "354"},
+            {"product_name": "FW 2594", "aws_code": "ER2594", "page_no": "355"}
+          ]
+        },
+        {
+          "subcategory_name": "CONSUMABLE OF GTAW FOR NICKEL & ITS ALLOY",
+          "products": [
+            {"product_name": "FW 1223", "aws_code": "ERNiCrMo-3", "page_no": "356"},
+            {"product_name": "FW 1225", "aws_code": "ERNiCrCoMo-1", "page_no": "357"},
+            {"product_name": "FW 1250", "aws_code": "ERNiCu-7", "page_no": "358"},
+            {"product_name": "FW 1280", "aws_code": "ERNi-1", "page_no": "359"},
+            {"product_name": "FW 1400", "aws_code": "ERNiCrMo-4", "page_no": "360"},
+            {"product_name": "FW 1423", "aws_code": "ERNiCrMo-10", "page_no": "361"},
+            {"product_name": "FW NiCr-3", "aws_code": "ERNiCr-3", "page_no": "362"}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "FCAW [Flux Cored Wire]",
+      "page_range": "363-418",
+      "subcategories": [
+        {
+          "subcategory_name": "Consumable Of FcaW For Carbon Steel & Low Alloy Steel",
+          "products": [
+            {"product_name": "MAXFIL-81A1", "aws_code": "E81T1-A1C", "page_no": "396"},
+            {"product_name": "MAXFIL-81R(SPL)", "aws_code": "E81T1-B2C", "page_no": "397"},
+            {"product_name": "MAXFIL-81R", "aws_code": "E81T1-B2M", "page_no": "398"},
+            {"product_name": "MAXFIL-81W", "aws_code": "E81T1-W2C", "page_no": "399"},
+            {"product_name": "MAXFIL-91D1", "aws_code": "E91T1-D1C", "page_no": "400"},
+            {"product_name": "MAXFIL-701G5", "aws_code": "E70T5-GC", "page_no": "401"},
+            {"product_name": "MAXFIL-801G5", "aws_code": "E80T5-GC", "page_no": "402"},
+            {"product_name": "MAXFIL-901G5", "aws_code": "E90T5-GC", "page_no": "403"},
+            {"product_name": "MAXFIL-1101G5", "aws_code": "E110T5-GC", "page_no": "404"},
+            {"product_name": "MAXFIL-1201G5", "aws_code": "E120T5-GC-H4", "page_no": "405"},
+            {"product_name": "MAXFIL-1401G5", "aws_code": "E140T5-GC-H4", "page_no": "406"},
+            {"product_name": "COREFIL-Ni(MOD)", "aws_code": "E81T1-G", "page_no": "407"},
+            {"product_name": "MAXFIL-308L", "aws_code": "E308LT0-1", "page_no": "408"},
+            {"product_name": "MAXFIL-308H", "aws_code": "E308HT0-1", "page_no": "409"},
+            {"product_name": "MAXFIL-309L", "aws_code": "E309LT0-1", "page_no": "410"},
+            {"product_name": "MAXFIL-309L Mo", "aws_code": "E309LMoT0-1", "page_no": "411"},
+            {"product_name": "MAXFIL-310", "aws_code": "E310T0-1", "page_no": "412"},
+            {"product_name": "MAXFIL-316L", "aws_code": "E316LT0-1", "page_no": "413"},
+            {"product_name": "MAXFIL-347", "aws_code": "E347LT0-1", "page_no": "414"},
+            {"product_name": "MAXFIL-410NiMo", "aws_code": "E410NiMoT0-1", "page_no": "415"},
+            {"product_name": "MAXFIL-410", "aws_code": "E410T0-1", "page_no": "416"},
+            {"product_name": "MAXFIL-2209", "aws_code": "E2209T0-1", "page_no": "417"},
+            {"product_name": "MAXFIL-2594", "aws_code": "E2594T0-1", "page_no": "418"}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "SAW [Wire/Flux Combination]",
+      "page_range": "419-485",
+      "subcategories": [
+        {
+          "subcategory_name": "CONSUMABLE OF SAW WIRE",
+          "products": [
+            {"product_name": "AUTOTHERME GRADE-A", "aws_code": "EL8", "page_no": "421"},
+            {"product_name": "AUTOTHERME GRADE-B", "aws_code": "EM12K", "page_no": "422"},
+            {"product_name": "AUTOTHERME GRADE-C", "aws_code": "EH14", "page_no": "423"},
+            {"product_name": "AUTOTHERME GRADE-E", "aws_code": "EH10K", "page_no": "424"},
+            {"product_name": "AUTOTHERME GRADE-E (SPL)", "aws_code": "EH12K", "page_no": "425"},
+            {"product_name": "AUTOTHERME GRADE-E (MOD)", "aws_code": "EH11K", "page_no": "426"},
+            {"product_name": "AUTOTHERME GRADE-F", "aws_code": "EA2", "page_no": "427"},
+            {"product_name": "AUTOTHERME GRADE-G", "aws_code": "EG", "page_no": "428"},
+            {"product_name": "AUTOTHERME GRADE-H", "aws_code": "ENi2", "page_no": "429"},
+            {"product_name": "AUTOTHERME GRADE-J", "aws_code": "EA4", "page_no": "430"},
+            {"product_name": "AUTOTHERME GRADE-L", "aws_code": "EB2", "page_no": "431"},
+            {"product_name": "AUTOTHERME GRADE-LR", "aws_code": "EB2R", "page_no": "432"},
+            {"product_name": "AUTOTHERME GRADE-M", "aws_code": "EB3", "page_no": "433"},
+            {"product_name": "AUTOTHERME GRADE-MR", "aws_code": "EB3R", "page_no": "434"},
+            {"product_name": "AUTOTHERME GRADE-N", "aws_code": "EB9", "page_no": "435"},
+            {"product_name": "AUTOTHERME GRADE-P", "aws_code": "EF3", "page_no": "436"},
+            {"product_name": "AUTOTHERME GRADE-Q", "aws_code": "EM4", "page_no": "437"},
+            {"product_name": "AUTOTHERME GRADE-R", "aws_code": "EB6", "page_no": "438"},
+            {"product_name": "AUTOTHERME GRADE-S", "aws_code": "ENi3", "page_no": "439"},
+            {"product_name": "AUTOTHERME GRADE-T", "aws_code": "ENi1", "page_no": "440"},
+            {"product_name": "AUTOTHERME GRADE-T (MOD)", "aws_code": "ENi6", "page_no": "441"},
+            {"product_name": "AUTOTHERME GRADE-U", "aws_code": "EA3", "page_no": "442"},
+            {"product_name": "AUTOTHERME GRADE-U (MOD)", "aws_code": "EA3K", "page_no": "443"},
+            {"product_name": "AUTOTHERME GRADE-V", "aws_code": "EB8", "page_no": "444"},
+            {"product_name": "AUTOTHERME GRADE-W", "aws_code": "EF2", "page_no": "445"},
+            {"product_name": "AUTOTHERME GRADE-Y", "aws_code": "ENi5", "page_no": "446"},
+            {"product_name": "AUTOTHERME GRADE-308L", "aws_code": "ER308L", "page_no": "447"},
+            {"product_name": "AUTOTHERME GRADE-308H", "aws_code": "ER308H", "page_no": "448"},
+            {"product_name": "AUTOTHERME GRADE-309L", "aws_code": "ER309L", "page_no": "449"},
+            {"product_name": "AUTOTHERME GRADE-316L", "aws_code": "ER316L", "page_no": "450"},
+            {"product_name": "AUTOTHERME GRADE-318", "aws_code": "ER318", "page_no": "451"},
+            {"product_name": "AUTOTHERME GRADE-347", "aws_code": "ER347", "page_no": "452"},
+            {"product_name": "AUTOTHERME GRADE-410", "aws_code": "ER410", "page_no": "453"},
+            {"product_name": "AUTOTHERME GRADE-430", "aws_code": "ER430", "page_no": "454"},
+            {"product_name": "AUTOTHERME GRADE-1223", "aws_code": "ER1223", "page_no": "455"}
+          ]
+        },
+        {
+          "subcategory_name": "CONSUMABLE OF SAW FLUX",
+          "products": [
+            {"product_name": "MAXFLUX SAF-2", "aws_code": "F7AZ-EL8, F7A0-EM12K", "page_no": "460"},
+            {"product_name": "MAXFLUX SAF-4", "aws_code": "F6A2-EL8, F7A4-EM12K, F7A4-EH14", "page_no": "461"},
+            {"product_name": "MAXFLUX SAF-4 (SPL)", "aws_code": "F7A4-EM12K, F7A4/P4 -EH14, F7A4/P4-EH10K", "page_no": "462"},
+            {"product_name": "MAXFLUX SAF-4 (PW)", "aws_code": "F7A4/P4-EM12K, F8A4/F7P5-EH14", "page_no": "463"},
+            {"product_name": "MAXFLUX SAF-4 (UV)", "aws_code": "F7A4/P4-EH14, F7A5/P5-EH10K", "page_no": "464"},
+            {"product_name": "MAXFLUX SAF-4 (UV)", "aws_code": "F8A4/P4-EA2-A2&EA3-A3,F9A4/P2-EF3-F3, F11A4/F10P5-EM4-M4", "page_no": "465-466"},
+            {"product_name": "MAXFLUX SAF-5", "aws_code": "F7A4-EM12K,F7A5-H14, F7A5-EH10K", "page_no": "467"},
+            {"product_name": "MAXFLUX SAF-7S", "aws_code": "F7AZ-EL8,F7A0-EM12K", "page_no": "468"},
+            {"product_name": "MAXFLUX SAF-8 (LS)", "aws_code": "F7A2/P2-EM12K, F7A6/P6/P8-EH10K", "page_no": "469-470"},
+            {"product_name": "MAXFLUX SAF-8 (PW)", "aws_code": "F7P5/P6-EH10K,F7P5/P6-EH14,F7P6/P8-EH12K", "page_no": "471"},
+            {"product_name": "MAXFLUX SAF-9", "aws_code": "F8A5/A6-ENi2-Ni2, F8A5/A6-ECNi2-Ni2", "page_no": "472"},
+            {"product_name": "MAXFLUX SAF-11", "aws_code": "F8A2-EG-G", "page_no": "473"},
+            {"product_name": "MAXFLUX SAF-12", "aws_code": "F8P2-EB6-B6, F8P2-EB2R-B2, F9P2-EB3R-B3, F9PZ-EB9-B9", "page_no": "474"},
+            {"product_name": "MAXFLUX SAF-13", "aws_code": "F8P2-EB2-B2, F9P2-EB3-B3", "page_no": "475"},
+            {"product_name": "MAXFLUX SAF-223", "aws_code": "F7A4-EH14,F7A4-EM12K,F8A2-EA2-A2", "page_no": "476"},
+            {"product_name": "MAXFLUX SAF-223 (SPL)", "aws_code": "F6A2-EL8, F7A4/A5-EM12K, F7A4/P4-EH14, F8A2-EA2-A2", "page_no": "477"},
+            {"product_name": "MAXFLUX SAF-704", "aws_code": null, "page_no": "478"},
+            {"product_name": "MAXFLUX SAF-723", "aws_code": "F8P2-EA4-A4, F8A4/F7P4-EA3-A3", "page_no": "479"},
+            {"product_name": "MERGEARC SAF-723", "aws_code": "F8P2-EA4-A4", "page_no": "480"},
+            {"product_name": "MAXFLUX SS-4", "aws_code": "F520AZ-ER308L/308L F520PZ-ER410/410 F450PZ-ER430/430", "page_no": "481"},
+            {"product_name": "MAXFLUX SS-4(LT)", "aws_code": "F520AZ/A20-ER308L/308L, F520AZ-ER309L/309L, F490AZ/A20-ER316L/316L, F550AZ-ER318/318, F520AZ-ER347/347", "page_no": "482-483"},
+            {"product_name": "MAXFLUX HF-250", "aws_code": null, "page_no": "484"},
+            {"product_name": "MAXFLUX SAF-NA", "aws_code": "F110A32-ENiCrMo-3/NiCrMo-3", "page_no": "485"}
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "Technical Data",
+      "page_range": "486-539"
+    },
+    {
+      "category_name": "Recommendations for the storage, re-drying and handling of D&H Secheron covered electrodes",
+      "page_range": "540-541"
+    }
+  ],
+  "summary": {
+    "total_categories": 9,
+    "total_products": 485,
+    "welding_processes": ["SMAW", "GMAW", "GTAW", "FCAW", "SAW"],
+    "materials_coverage": ["Carbon Steel", "Mild Steel", "High Tensile Steel", "Stainless Steel", "Nickel Alloys", "Cast Iron", "Hardfacing", "Galvanizing Bath", "Creep Resisting Steel"]
+  }
+}

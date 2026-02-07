@@ -681,29 +681,49 @@
 
         // AI response logic
         function getAIResponse(text) {
-            const lowerText = text.toLowerCase();
-            
-            if (lowerText.includes('7018') || lowerText.includes('lotherme')) {
-                return "Product: Lotherme 803\nSize: 3.15 / 4mm\nCategory: Welding Electrode\nUse: Structural welding\nStock: 142 boxes available";
-            }
-            
-            if (lowerText.includes('mig') || lowerText.includes('wire')) {
-                return "MIG Wire available: Autotherme series (308L, 316L, ER70S-6 etc)\nAvailable in 0.8mm, 1.0mm, and 1.2mm diameters\nStandard 15kg spools in stock";
-            }
-            
-            if (lowerText.includes('inventory') || lowerText.includes('stock')) {
-                return "Current inventory status:\n- Welding electrodes: 842 boxes across 15 types\n- MIG wires: 144 spools across 6 grades\n- TIG rods: 235 packets\n- Flux cored wires: 78 spools\n\nAll items are in stock with healthy levels.";
-            }
-            
-            if (lowerText.includes('hello') || lowerText.includes('hi')) {
-                return "Hello 👋 I am Dayita Inventory AI. I can help you with product information, stock levels, and inventory queries. What would you like to know?";
-            }
-            
-            if (lowerText.includes('thank')) {
-                return "You're welcome! Let me know if you need any more information about our inventory.";
-            }
-            
-            return "I can help you with product information from the Dayita inventory. Try asking about specific products like '7018 electrodes', 'MIG wires', or ask for an inventory overview.";
+            let productDB = [];
+
+// Load product database
+fetch("products.json")
+.then(res => res.json())
+.then(data => {
+    productDB = data;
+    console.log("Product database loaded:", productDB.length);
+});
+
+function getAIResponse(text) {
+    const q = text.toLowerCase();
+
+    // search in database
+    let found = productDB.filter(p =>
+        p.name.toLowerCase().includes(q) ||
+        p.grade.toLowerCase().includes(q) ||
+        p.category.toLowerCase().includes(q) ||
+        p.type.toLowerCase().includes(q)
+    );
+
+    if(found.length > 0){
+        let reply = "";
+        found.forEach(p=>{
+            reply += `Product: ${p.name}
+Type: ${p.type}
+Grade: ${p.grade}
+Brand: ${p.brand}
+Sizes: ${p.sizes.join(", ")}
+Use: ${p.use}
+
+`;
+        });
+        return reply;
+    }
+
+    if(q.includes("hello") || q.includes("hi")){
+        return "Hello 👋 I am Dayita Inventory AI. Ask me any product.";
+    }
+
+    return "❌ Product not found in database. (More products adding soon)";
+}
+
         }
 
         // Persistence: save/load chat as array of message objects
