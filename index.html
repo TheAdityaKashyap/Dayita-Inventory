@@ -328,6 +328,27 @@
             color: #ffffff;
         }
 
+        /* Specifications table */
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 8px;
+            font-size: 14px;
+        }
+
+        .specs-table th {
+            text-align: left;
+            padding: 8px;
+            background-color: #2d2d32;
+            color: #d1d5db;
+            font-weight: 500;
+        }
+
+        .specs-table td {
+            padding: 8px;
+            border-bottom: 1px solid #4d4d4f;
+        }
+
         /* Mobile responsiveness */
         .mobile-menu-btn {
             display: none;
@@ -365,6 +386,10 @@
 
             .message {
                 max-width: 100%;
+            }
+            
+            .specs-table {
+                font-size: 12px;
             }
         }
 
@@ -443,15 +468,15 @@
                 </div>
                 <div class="chat-history-item">
                     <i class="fas fa-message"></i>
-                    <span>MIG Wire Availability</span>
+                    <span>MIG Wire Specifications</span>
                 </div>
                 <div class="chat-history-item">
                     <i class="fas fa-message"></i>
-                    <span>Product Database Status</span>
+                    <span>Product Database Search</span>
                 </div>
                 <div class="chat-history-item">
                     <i class="fas fa-message"></i>
-                    <span>Inventory Overview</span>
+                    <span>AWS Code Information</span>
                 </div>
             </div>
 
@@ -460,7 +485,7 @@
                     <div class="user-avatar">DA</div>
                     <div class="user-info">
                         <div class="user-name">Dayita Admin</div>
-                        <div class="user-status">Inventory Manager</div>
+                        <div class="user-status">Product Database</div>
                     </div>
                 </div>
             </div>
@@ -472,7 +497,7 @@
                 <div class="ai-avatar">
                     <i class="fas fa-robot"></i>
                 </div>
-                <h1>Dayita Inventory AI Assistant</h1>
+                <h1>D&H Secheron Product Database</h1>
             </div>
 
             <div class="chat-messages" id="chatMessages">
@@ -482,13 +507,14 @@
                         <i class="fas fa-robot"></i>
                     </div>
                     <div class="message-content">
-                        <p>Hello! I'm Dayita Inventory AI Assistant. I can help you with product information, stock levels, and inventory queries.</p>
+                        <p>Hello! I'm your D&H Secheron Product Database Assistant. I can help you find detailed product information from the D&H Secheron catalog.</p>
                         <p>You can ask me about:</p>
                         <ul>
-                            <li>Specific products like "7018" or "Lotherme"</li>
-                            <li>MIG welding wires</li>
-                            <li>Product categories and specifications</li>
-                            <li>Inventory status and availability</li>
+                            <li>Specific products like "CELLUTHERME" or "NORMA"</li>
+                            <li>AWS codes like "E7018" or "ER308L"</li>
+                            <li>Product categories: SMAW, GMAW, GTAW, FCAW, SAW</li>
+                            <li>Material types: Mild Steel, Stainless Steel, Nickel Alloys</li>
+                            <li>Page numbers from the product catalog</li>
                         </ul>
                         <p>How can I assist you today?</p>
                     </div>
@@ -498,14 +524,14 @@
             <!-- Input Area -->
             <div class="input-container">
                 <div class="input-wrapper">
-                        <textarea class="input-box" id="userInput" placeholder="Ask about any product..." rows="1" aria-label="Message input"></textarea>
+                        <textarea class="input-box" id="userInput" placeholder="Ask about any product or AWS code..." rows="1" aria-label="Message input"></textarea>
                         <div class="suggestions" id="suggestions" role="listbox" aria-label="Product suggestions"></div>
                         <button class="send-button" id="sendButton" aria-label="Send message">
                             <i class="fas fa-paper-plane"></i>
                         </button>
                 </div>
                 <div class="input-footer">
-                    Dayita Inventory AI • Can make mistakes. Verify important information.
+                    D&H Secheron Product Database • Contains 485+ welding products • Refer to official catalog for complete specifications
                 </div>
             </div>
         </div>
@@ -521,24 +547,176 @@
         const sidebar = document.getElementById('sidebar');
         const suggestionsBox = document.getElementById('suggestions');
 
-        // Global product database
+        // Global product database (loaded from JSON)
         let productDB = [];
-        let productDBSimple = [
-            { name: "Lotherme 803", code: "7018", type: "Electrode", category: "SMAW", stock: "142 boxes" },
-            { name: "Autotherme 308L", code: "ER308L", type: "MIG Wire", category: "Stainless Steel", stock: "45 spools" },
-            { name: "Autotherme 316L", code: "ER316L", type: "MIG Wire", category: "Stainless Steel", stock: "32 spools" },
-            { name: "ER70S-6", code: "ER70S-6", type: "MIG Wire", category: "Carbon Steel", stock: "67 spools" },
-            { name: "Cellutherme", code: "E6010", type: "Electrode", category: "Pipe Line", stock: "89 boxes" },
-            { name: "Norma", code: "E6013", type: "Electrode", category: "Mild Steel", stock: "156 boxes" },
-            { name: "Supratherme", code: "E7018", type: "Electrode", category: "Medium Tensile", stock: "203 boxes" },
-            { name: "Indotherme", code: "E7016", type: "Electrode", category: "Medium Tensile", stock: "94 boxes" },
-            { name: "Rutox-A", code: "E308-16", type: "Electrode", category: "Stainless Steel", stock: "78 boxes" },
-            { name: "BATOX-A", code: "E347-15", type: "Electrode", category: "Stainless Steel", stock: "56 boxes" },
-            { name: "D&H 307", code: "E307-16", type: "Electrode", category: "Stainless Steel", stock: "42 boxes" },
-            { name: "MAXFIL-81A1", code: "E81T1-A1C", type: "Flux Cored Wire", category: "FCAW", stock: "112 spools" },
-            { name: "FW 308", code: "ER308", type: "TIG Rod", category: "Stainless Steel", stock: "68 packs" },
-            { name: "FW 316L", code: "ER316L", type: "TIG Rod", category: "Stainless Steel", stock: "54 packs" },
-            { name: "Autotherme Grade-A", code: "EL8", type: "SAW Wire", category: "SAW", stock: "23 spools" }
+        
+        // Fallback product database with detailed specifications
+        const productDBSpecs = [
+            { 
+                name: "CELLUTHERME", 
+                aws_code: "E6010", 
+                page: "48",
+                category: "SMAW - Cross Country Pipe Line",
+                description: "Cellulosic electrode for cross country pipe welding. Suitable for vertical down welding.",
+                applications: "Pipeline construction, girth welds",
+                positions: "All positions except vertical up",
+                coating_type: "Cellulosic",
+                current_type: "DC+"
+            },
+            { 
+                name: "CELLUTHERME-ACE", 
+                aws_code: "E6011", 
+                page: "49",
+                category: "SMAW - Cross Country Pipe Line",
+                description: "Cellulosic electrode with improved arc stability for AC welding.",
+                applications: "Pipeline welding with AC power sources",
+                positions: "All positions",
+                coating_type: "Cellulosic",
+                current_type: "AC or DC+"
+            },
+            { 
+                name: "CELLUTHERME-Mo", 
+                aws_code: "E7010-G", 
+                page: "50",
+                category: "SMAW - Cross Country Pipe Line",
+                description: "Molybdenum bearing electrode for high strength pipeline applications.",
+                applications: "High strength pipelines, pressure vessels",
+                positions: "All positions",
+                coating_type: "Cellulosic",
+                current_type: "DC+"
+            },
+            { 
+                name: "NORMA", 
+                aws_code: "E6013", 
+                page: "54",
+                category: "SMAW - Mild Steel",
+                description: "General purpose rutile electrode with smooth arc and easy slag removal.",
+                applications: "General fabrication, sheet metal, mild steel welding",
+                positions: "All positions",
+                coating_type: "Rutile",
+                current_type: "AC or DC±"
+            },
+            { 
+                name: "SUPRATHERME", 
+                aws_code: "E7018", 
+                page: "70",
+                category: "SMAW - Medium & High Tensile",
+                description: "Low hydrogen iron powder electrode for high quality weld metal with excellent mechanical properties.",
+                applications: "Structural welding, pressure vessels, critical applications",
+                positions: "All positions",
+                coating_type: "Low hydrogen iron powder",
+                current_type: "AC or DC+"
+            },
+            { 
+                name: "AUTOTHERME-308L", 
+                aws_code: "ER308L", 
+                page: "314",
+                category: "GMAW - Stainless Steel",
+                description: "MIG wire for welding 304/304L type stainless steels with low carbon content.",
+                applications: "Food processing equipment, chemical containers, architectural",
+                wire_type: "Solid MIG wire",
+                diameter_range: "0.8mm - 1.2mm",
+                shielding_gas: "Argon + 2-5% CO2 or Argon + Oxygen"
+            },
+            { 
+                name: "AUTOTHERME 70S-2", 
+                aws_code: "ER70S-2", 
+                page: "301",
+                category: "GMAW - Carbon Steel",
+                description: "Triple deoxidized MIG wire for welding of carbon steels with moderate surface contamination.",
+                applications: "General fabrication, automotive, construction",
+                wire_type: "Solid MIG wire",
+                diameter_range: "0.8mm - 1.6mm",
+                shielding_gas: "CO2 or Argon/CO2 mixture"
+            },
+            { 
+                name: "FW 308", 
+                aws_code: "ER308", 
+                page: "339",
+                category: "GTAW - Stainless Steel",
+                description: "TIG rod for welding 304 type stainless steels.",
+                applications: "Precision welding, pipe welding, aerospace",
+                rod_type: "TIG filler rod",
+                diameter_range: "1.6mm - 4.0mm",
+                current_type: "DCEN (DC Electrode Negative)"
+            },
+            { 
+                name: "FW 316L", 
+                aws_code: "ER316L", 
+                page: "345",
+                category: "GTAW - Stainless Steel",
+                description: "Low carbon TIG rod for welding 316/316L type stainless steels with molybdenum for corrosion resistance.",
+                applications: "Chemical processing, marine, pharmaceutical",
+                rod_type: "TIG filler rod",
+                diameter_range: "1.6mm - 4.0mm",
+                current_type: "DCEN"
+            },
+            { 
+                name: "MAXFIL-81A1", 
+                aws_code: "E81T1-A1C", 
+                page: "396",
+                category: "FCAW - Carbon & Low Alloy Steel",
+                description: "Flux cored wire for welding carbon-molybdenum steels (A1 classification).",
+                applications: "Pressure vessels, boilers, structural steel",
+                wire_type: "Flux cored wire",
+                diameter_range: "1.2mm - 2.4mm",
+                shielding_gas: "CO2 or Argon/CO2 mixture"
+            },
+            { 
+                name: "AUTOTHERME GRADE-A", 
+                aws_code: "EL8", 
+                page: "421",
+                category: "SAW - Wire",
+                description: "Submerged arc welding wire for mild steel applications.",
+                applications: "Heavy fabrication, shipbuilding, structural beams",
+                wire_type: "SAW wire",
+                diameter_range: "2.0mm - 6.0mm",
+                flux_compatibility: "Works with neutral to active fluxes"
+            },
+            { 
+                name: "RUTOX-A", 
+                aws_code: "E308-16", 
+                page: "164",
+                category: "SMAW - Stainless Steel",
+                description: "Rutile coated electrode for welding 304 type stainless steels.",
+                applications: "Stainless steel fabrication, food industry",
+                positions: "All positions",
+                coating_type: "Rutile",
+                current_type: "AC or DC±"
+            },
+            { 
+                name: "D&H 307", 
+                aws_code: "E307-16", 
+                page: "174",
+                category: "SMAW - Stainless Steel",
+                description: "Electrode for welding dissimilar metals and for overlay applications.",
+                applications: "Dissimilar joints, hardfacing, joining stainless to carbon steel",
+                positions: "All positions",
+                coating_type: "Rutile",
+                current_type: "AC or DC±"
+            },
+            { 
+                name: "NIMOTHERME-1", 
+                aws_code: "E8016-C3", 
+                page: "105",
+                category: "SMAW - Nickel Alloy",
+                description: "Nickel-chromium-iron electrode for welding nickel alloys and dissimilar metals.",
+                applications: "Nickel alloy welding, dissimilar joints, high temperature applications",
+                positions: "All positions",
+                coating_type: "Low hydrogen",
+                current_type: "DC+"
+            },
+            { 
+                name: "D&H 1111CI", 
+                aws_code: "ENiFeCI", 
+                page: "297",
+                category: "SMAW - Cast Iron",
+                description: "Nickel-iron electrode for welding cast irons with minimal preheat.",
+                applications: "Cast iron repair, machine bases, engine blocks",
+                positions: "All positions",
+                coating_type: "Nickel-iron",
+                current_type: "AC or DC±"
+            }
         ];
 
         // Auto-resize textarea
@@ -571,7 +749,7 @@
                 removeTypingIndicator();
                 const reply = getAIResponse(message);
                 addMessage(reply, 'bot');
-            }, 800);
+            }, 600);
         }
 
         // Add message to chat
@@ -589,7 +767,7 @@
             contentDiv.className = 'message-content';
             
             // Format product information
-            if (sender === 'bot' && (content.includes('Product:') || content.includes('🔹') || content.includes('Product Card'))) {
+            if (sender === 'bot' && (content.includes('Product:') || content.includes('🔹') || content.includes('Product Details'))) {
                 contentDiv.innerHTML = formatProductResponse(content);
             } else {
                 const formattedContent = content.replace(/\n/g, '</p><p>');
@@ -607,70 +785,45 @@
             saveChatToStorage();
         }
 
-        // Format product response with styled card
+        // Format product response with detailed specifications
         function formatProductResponse(content) {
-            // If it's a product card format from getAIResponse
-            if (content.includes('Product Card:')) {
+            // Parse the content to extract product information
+            if (content.includes('Product Details:')) {
                 const lines = content.split('\n');
-                let title = '';
-                let details = [];
+                const product = {};
                 
-                for (let i = 1; i < lines.length; i++) {
-                    if (lines[i].includes('Name:')) title = lines[i].replace('Name:', '').trim();
-                    if (lines[i].includes('AWS Code:')) details.push(['Code', lines[i].replace('AWS Code:', '').trim()]);
-                    if (lines[i].includes('Category:')) details.push(['Category', lines[i].replace('Category:', '').trim()]);
-                    if (lines[i].includes('Stock:')) details.push(['Stock', lines[i].replace('Stock:', '').trim()]);
-                    if (lines[i].includes('Type:')) details.push(['Type', lines[i].replace('Type:', '').trim()]);
+                for (const line of lines) {
+                    if (line.includes('Name:')) product.name = line.replace('Name:', '').trim();
+                    if (line.includes('AWS Code:')) product.aws_code = line.replace('AWS Code:', '').trim();
+                    if (line.includes('Page:')) product.page = line.replace('Page:', '').trim();
+                    if (line.includes('Category:')) product.category = line.replace('Category:', '').trim();
+                    if (line.includes('Description:')) product.description = line.replace('Description:', '').trim();
+                    if (line.includes('Applications:')) product.applications = line.replace('Applications:', '').trim();
                 }
                 
-                let detailsHTML = '';
-                details.forEach(detail => {
-                    detailsHTML += `
-                        <div class="product-detail">
-                            <span class="detail-label">${detail[0]}</span>
-                            <span class="detail-value">${detail[1]}</span>
-                        </div>
-                    `;
-                });
-                
-                return `
-                    <p>I found this product:</p>
-                    <div class="product-card">
-                        <div class="product-title">${title}</div>
-                        <div class="product-details">
-                            ${detailsHTML}
-                        </div>
-                    </div>
-                `;
+                // Build the detailed product card
+                return createDetailedProductCard(product);
             }
             
             // For multiple results
-            if (content.includes('🔹')) {
+            if (content.includes('🔹') && !content.includes('Product Details:')) {
                 let html = `<p>${content.split('\n')[0]}</p>`;
                 const lines = content.split('\n');
-                let currentProduct = null;
                 
                 for (let i = 0; i < lines.length; i++) {
                     if (lines[i].startsWith('🔹')) {
-                        if (currentProduct) {
-                            html += formatSingleProduct(currentProduct);
+                        const productName = lines[i].substring(2).trim();
+                        let product = findProductByNameOrCode(productName);
+                        
+                        if (!product && i+1 < lines.length && lines[i+1].includes('AWS:')) {
+                            const awsCode = lines[i+1].replace('AWS:', '').trim();
+                            product = findProductByNameOrCode(awsCode);
                         }
-                        currentProduct = { name: lines[i].substring(2).trim() };
-                    } else if (lines[i].includes('AWS:')) {
-                        if (currentProduct) currentProduct.code = lines[i].replace('AWS:', '').trim();
-                    } else if (lines[i].includes('Category:')) {
-                        if (currentProduct) currentProduct.category = lines[i].replace('Category:', '').trim();
-                    } else if (lines[i].includes('Page:')) {
-                        if (currentProduct) currentProduct.page = lines[i].replace('Page:', '').trim();
+                        
+                        if (product) {
+                            html += createProductSummaryCard(product);
+                        }
                     }
-                }
-                
-                if (currentProduct) {
-                    html += formatSingleProduct(currentProduct);
-                }
-                
-                if (content.includes('... and')) {
-                    html += `<p>${content.split('\n').pop()}</p>`;
                 }
                 
                 return html;
@@ -679,17 +832,116 @@
             return `<p>${content}</p>`;
         }
         
-        function formatSingleProduct(product) {
+        function createDetailedProductCard(product) {
+            return `
+                <div class="product-card">
+                    <div class="product-title">${product.name || 'Product'}</div>
+                    <div class="product-details">
+                        ${product.aws_code ? `<div class="product-detail"><span class="detail-label">AWS Code</span><span class="detail-value">${product.aws_code}</span></div>` : ''}
+                        ${product.page ? `<div class="product-detail"><span class="detail-label">Catalog Page</span><span class="detail-value">Page ${product.page}</span></div>` : ''}
+                        ${product.category ? `<div class="product-detail"><span class="detail-label">Category</span><span class="detail-value">${product.category}</span></div>` : ''}
+                    </div>
+                    
+                    ${product.description ? `<p style="margin-top: 12px;">${product.description}</p>` : ''}
+                    
+                    ${product.applications ? `
+                        <div style="margin-top: 12px;">
+                            <div class="detail-label">Typical Applications:</div>
+                            <div class="detail-value">${product.applications}</div>
+                        </div>
+                    ` : ''}
+                    
+                    ${product.positions ? `
+                        <div class="product-detail" style="margin-top: 8px;">
+                            <span class="detail-label">Welding Positions</span>
+                            <span class="detail-value">${product.positions}</span>
+                        </div>
+                    ` : ''}
+                    
+                    ${product.coating_type || product.wire_type ? `
+                        <div class="product-detail" style="margin-top: 8px;">
+                            <span class="detail-label">${product.coating_type ? 'Coating Type' : 'Wire Type'}</span>
+                            <span class="detail-value">${product.coating_type || product.wire_type}</span>
+                        </div>
+                    ` : ''}
+                    
+                    ${product.current_type ? `
+                        <div class="product-detail" style="margin-top: 8px;">
+                            <span class="detail-label">Current Type</span>
+                            <span class="detail-value">${product.current_type}</span>
+                        </div>
+                    ` : ''}
+                    
+                    ${product.shielding_gas ? `
+                        <div class="product-detail" style="margin-top: 8px;">
+                            <span class="detail-label">Recommended Shielding Gas</span>
+                            <span class="detail-value">${product.shielding_gas}</span>
+                        </div>
+                    ` : ''}
+                    
+                    ${product.diameter_range ? `
+                        <div class="product-detail" style="margin-top: 8px;">
+                            <span class="detail-label">Available Diameters</span>
+                            <span class="detail-value">${product.diameter_range}</span>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+        }
+        
+        function createProductSummaryCard(product) {
             return `
                 <div class="product-card" style="margin-top: 10px;">
                     <div class="product-title">${product.name}</div>
                     <div class="product-details">
-                        ${product.code ? `<div class="product-detail"><span class="detail-label">AWS Code</span><span class="detail-value">${product.code}</span></div>` : ''}
-                        ${product.category ? `<div class="product-detail"><span class="detail-label">Category</span><span class="detail-value">${product.category}</span></div>` : ''}
-                        ${product.page ? `<div class="product-detail"><span class="detail-label">Page</span><span class="detail-value">${product.page}</span></div>` : ''}
+                        <div class="product-detail">
+                            <span class="detail-label">AWS Code</span>
+                            <span class="detail-value">${product.aws_code || 'N/A'}</span>
+                        </div>
+                        <div class="product-detail">
+                            <span class="detail-label">Category</span>
+                            <span class="detail-value">${product.category || 'N/A'}</span>
+                        </div>
+                        <div class="product-detail">
+                            <span class="detail-label">Page</span>
+                            <span class="detail-value">${product.page || 'N/A'}</span>
+                        </div>
                     </div>
+                    ${product.description ? `<p style="margin-top: 8px; font-size: 14px;">${product.description.substring(0, 100)}...</p>` : ''}
                 </div>
             `;
+        }
+        
+        function findProductByNameOrCode(query) {
+            query = query.toLowerCase().trim();
+            
+            // Search in detailed specs first
+            const fromSpecs = productDBSpecs.find(p => 
+                p.name.toLowerCase() === query || 
+                p.aws_code.toLowerCase() === query
+            );
+            
+            if (fromSpecs) return fromSpecs;
+            
+            // Search in loaded JSON data
+            if (productDB.length > 0) {
+                const fromJSON = productDB.find(p => 
+                    p.name.toLowerCase().includes(query) || 
+                    p.grade.toLowerCase().includes(query)
+                );
+                
+                if (fromJSON) {
+                    return {
+                        name: fromJSON.name,
+                        aws_code: fromJSON.grade,
+                        page: fromJSON.page,
+                        category: fromJSON.category,
+                        sub: fromJSON.sub
+                    };
+                }
+            }
+            
+            return null;
         }
 
         // Show typing indicator
@@ -726,42 +978,93 @@
             }
         }
 
-        // AI response logic
+        // AI response logic - Focused on product information only
         function getAIResponse(text) {
             const q = text.toLowerCase().trim();
             
             // Greetings
             if (q.includes('hello') || q.includes('hi') || q === 'hey') {
-                return "Hello 👋 Ask me any D&H product like 7018, 308L, flux, wire etc.";
+                return "Hello! I'm your D&H Secheron Product Database Assistant. I can help you find detailed product specifications, AWS codes, and catalog information for welding consumables. What product are you looking for?";
             }
             
-            // Simple product database search
-            const results = productDBSimple.filter(p => 
+            // Help command
+            if (q.includes('help') || q.includes('what can you do')) {
+                return `I specialize in D&H Secheron welding product information. I can provide:
+
+1. **Product Specifications** - AWS codes, descriptions, applications
+2. **Catalog Information** - Page numbers, product categories
+3. **Technical Details** - Welding positions, current types, coating types
+4. **Product Search** - Find products by name, AWS code, or category
+
+Try asking about:
+• "E7018 electrode specifications"
+• "Stainless steel MIG wires"
+• "Page 164 product"
+• "AWS code ER308L"
+• "Cast iron welding electrodes"`;
+            }
+            
+            // Search for products
+            const searchResults = productDBSpecs.filter(p => 
                 p.name.toLowerCase().includes(q) ||
-                p.code.toLowerCase().includes(q) ||
+                p.aws_code.toLowerCase().includes(q) ||
                 p.category.toLowerCase().includes(q) ||
-                p.type.toLowerCase().includes(q)
+                (p.description && p.description.toLowerCase().includes(q)) ||
+                (p.applications && p.applications.toLowerCase().includes(q))
             );
             
-            if (results.length > 0) {
-                if (results.length === 1) {
-                    const p = results[0];
-                    return `Product Card:\nName: ${p.name}\nAWS Code: ${p.code}\nType: ${p.type}\nCategory: ${p.category}\nStock: ${p.stock}`;
+            // Also search AWS code patterns
+            const awsPattern = q.match(/(e\d{4}|er\d+s?\-?\d*[a-z]*)/i);
+            if (awsPattern) {
+                const awsCode = awsPattern[0].toUpperCase();
+                const awsResults = productDBSpecs.filter(p => 
+                    p.aws_code.toUpperCase().includes(awsCode)
+                );
+                
+                if (awsResults.length > 0) {
+                    searchResults.push(...awsResults.filter(r => 
+                        !searchResults.some(sr => sr.name === r.name)
+                    ));
+                }
+            }
+            
+            // Remove duplicates
+            const uniqueResults = Array.from(new Set(searchResults.map(r => r.name)))
+                .map(name => searchResults.find(r => r.name === name));
+            
+            if (uniqueResults.length > 0) {
+                if (uniqueResults.length === 1) {
+                    const p = uniqueResults[0];
+                    return `Product Details:
+Name: ${p.name}
+AWS Code: ${p.aws_code}
+Page: ${p.page}
+Category: ${p.category}
+Description: ${p.description}
+Applications: ${p.applications}
+${p.positions ? `Welding Positions: ${p.positions}` : ''}
+${p.coating_type ? `Coating Type: ${p.coating_type}` : p.wire_type ? `Wire Type: ${p.wire_type}` : ''}
+${p.current_type ? `Current Type: ${p.current_type}` : ''}
+${p.shielding_gas ? `Shielding Gas: ${p.shielding_gas}` : ''}
+${p.diameter_range ? `Diameter Range: ${p.diameter_range}` : ''}`;
                 } else {
-                    let reply = `Found ${results.length} product(s) matching "${text}":\n\n`;
-                    results.slice(0, 5).forEach(p => {
-                        reply += `🔹 ${p.name}\nAWS: ${p.code}\nCategory: ${p.category}\nStock: ${p.stock}\n\n`;
+                    let reply = `Found ${uniqueResults.length} product(s) matching your query:\n\n`;
+                    uniqueResults.slice(0, 5).forEach(p => {
+                        reply += `🔹 ${p.name} (${p.aws_code})
+Category: ${p.category}
+Page: ${p.page}
+${p.description ? `Description: ${p.description.substring(0, 80)}...\n` : ''}\n`;
                     });
-                    if (results.length > 5) {
-                        reply += `... and ${results.length - 5} more products.`;
+                    if (uniqueResults.length > 5) {
+                        reply += `... and ${uniqueResults.length - 5} more products. Try a more specific search.`;
                     }
                     return reply;
                 }
             }
             
-            // Load JSON data from products.json
-            if (productDB.length === 0 && window.productsData) {
-                // If we have loaded JSON data
+            // Try to load and search JSON data if available
+            if (window.productsData && productDB.length === 0) {
+                // Parse the JSON data
                 window.productsData.product_categories.forEach(cat => {
                     if (cat.subcategories) {
                         cat.subcategories.forEach(sub => {
@@ -791,7 +1094,10 @@
                 if (jsonResults.length > 0) {
                     let reply = `Found ${jsonResults.length} product(s) in D&H database:\n\n`;
                     jsonResults.slice(0, 5).forEach(p => {
-                        reply += `🔹 ${p.name}\nAWS: ${p.grade}\nCategory: ${p.category}\nPage: ${p.page}\n\n`;
+                        reply += `🔹 ${p.name}
+AWS: ${p.grade}
+Category: ${p.category}
+Page: ${p.page}\n\n`;
                     });
                     if (jsonResults.length > 5) {
                         reply += `... and ${jsonResults.length - 5} more products.`;
@@ -800,32 +1106,55 @@
                 }
             }
             
-            // Default responses for common queries
-            if (q.includes('7018') || q.includes('supratherme')) {
-                return "Supratherme (E7018) is a basic electrode for mild and medium tensile steels. Available in 3.15mm and 4.0mm diameters. Stock: 203 boxes.";
+            // Category-based responses
+            if (q.includes('smaw') || q.includes('stick') || q.includes('electrode')) {
+                return "SMAW (Shielded Metal Arc Welding) electrodes in the D&H catalog:\n• CELLUTHERME series (E6010, E6011) - Pipe welding\n• NORMA series (E6013) - General purpose mild steel\n• SUPRATHERME series (E7018) - Low hydrogen for structural welding\n• RUTOX series (E308-16, E316L-16) - Stainless steel\n• NIMOTHERME series - Nickel alloy electrodes\n\nSearch for specific AWS codes or product names for more details.";
             }
             
-            if (q.includes('308l') || q.includes('stainless')) {
-                return "Stainless steel products available:\n• Autotherme 308L (ER308L) - 45 spools\n• Rutox-B (E308L-16) - 78 boxes\n• D&H 308L-17 (E308L-17) - 42 boxes\n• FW 308L (ER308L) - 68 packs";
+            if (q.includes('gmaw') || q.includes('mig') || q.includes('wire')) {
+                return "GMAW (Gas Metal Arc Welding) wires in the D&H catalog:\n• AUTOTHERME series - Solid MIG wires\n• Carbon steel: ER70S-2, ER70S-6\n• Stainless steel: ER308L, ER316L, ER309L\n• Low alloy: ER80S-D2, ER90S-B3\n• Available in diameters 0.8mm to 1.6mm\n\nSearch for specific AWS codes like 'ER308L' for detailed specifications.";
             }
             
-            if (q.includes('mig') || q.includes('wire')) {
-                return "MIG welding wires available:\n• Autotherme 308L (ER308L) - 45 spools\n• Autotherme 316L (ER316L) - 32 spools\n• Autotherme 70S-2 (ER70S-2) - 67 spools\n• Autotherme 80S-D2 (ER80S-D2) - 34 spools";
+            if (q.includes('gtaw') || q.includes('tig') || q.includes('rod')) {
+                return "GTAW (Gas Tungsten Arc Welding) filler rods in the D&H catalog:\n• FW series - TIG rods for precision welding\n• Stainless steel: ER308, ER316L, ER309L\n• Carbon steel: ER70S-2, ER70S-6\n• Nickel alloys: ERNiCrMo-3, ERNiCrFe-3\n• Available in diameters 1.6mm to 4.0mm\n\nSearch for specific AWS codes for detailed information.";
             }
             
-            if (q.includes('tig') || q.includes('rod')) {
-                return "TIG rods available:\n• FW 308 (ER308) - 68 packs\n• FW 316L (ER316L) - 54 packs\n• FW 309L (ER309L) - 42 packs\n• FW 347 (ER347) - 38 packs";
+            if (q.includes('fcaw') || q.includes('flux') || q.includes('cored')) {
+                return "FCAW (Flux Cored Arc Welding) wires in the D&H catalog:\n• MAXFIL series - Flux cored wires\n• Carbon steel: E71T-1, E81T1-A1C\n• Low alloy: E91T1-D1C\n• Stainless steel: E308LT0-1, E316LT0-1\n• Gas-shielded and self-shielded types available";
             }
             
-            if (q.includes('inventory') || q.includes('stock')) {
-                return "Inventory Overview:\n• SMAW Electrodes: 1,450 boxes\n• MIG Wires: 320 spools\n• TIG Rods: 210 packs\n• FCAW Wires: 156 spools\n• SAW Wires & Flux: 89 units";
+            if (q.includes('saw') || q.includes('submerged')) {
+                return "SAW (Submerged Arc Welding) consumables in the D&H catalog:\n• AUTOTHERME GRADE series - SAW wires\n• MAXFLUX series - SAW fluxes\n• Wire grades: EL8, EM12K, EH14 for mild steel\n• EB2, EB3 for chromium-molybdenum steels\n• ENi2, ENi3 for nickel alloys\n• Wire-flux combinations for specific applications";
             }
             
-            if (q.includes('help') || q.includes('what can you do')) {
-                return "I can help you with:\n1. Product information (AWS codes, specifications)\n2. Inventory status and stock levels\n3. Product search by name, code, or category\n4. Welding consumables information\n5. D&H Secheron product database queries";
+            if (q.includes('stainless') || q.includes('304') || q.includes('316')) {
+                return "Stainless steel welding products in D&H catalog:\n\n**SMAW Electrodes:**\n• RUTOX-A (E308-16) - for 304 stainless\n• RUTOX-D (E316L-16) - for 316L stainless\n• D&H 309L (E309L-16) - for dissimilar joints\n\n**GMAW/MIG Wires:**\n• AUTOTHERME-308L (ER308L)\n• AUTOTHERME-316L (ER316L)\n• AUTOTHERME-309L (ER309L)\n\n**GTAW/TIG Rods:**\n• FW 308 (ER308)\n• FW 316L (ER316L)\n• FW 347 (ER347)\n\nSearch for specific products for detailed specifications.";
             }
             
-            return "I couldn't find specific information about that. Try asking about:\n• Specific product codes (7018, 308L, ER70S-6)\n• Product categories (MIG wires, TIG rods, electrodes)\n• Inventory status\nOr say 'help' for more options.";
+            if (q.includes('page') || q.includes('catalog')) {
+                const pageMatch = q.match(/page\s*(\d+)/i);
+                if (pageMatch) {
+                    const pageNum = pageMatch[1];
+                    // Try to find products on this page
+                    const pageProducts = productDBSpecs.filter(p => p.page === pageNum);
+                    if (pageProducts.length > 0) {
+                        let reply = `Products listed on page ${pageNum}:\n\n`;
+                        pageProducts.forEach(p => {
+                            reply += `🔹 ${p.name} (${p.aws_code}) - ${p.category}\n`;
+                        });
+                        return reply;
+                    }
+                    return `Page ${pageNum} in the D&H Secheron catalog. I don't have specific product details for this page. Try searching by product name or AWS code.`;
+                }
+            }
+            
+            // AWS code explanation
+            if (q.includes('aws') || q.includes('code') || q.includes('meaning')) {
+                return "AWS (American Welding Society) codes explained:\n\n**SMAW Electrodes:** E7018\n• E = Electrode\n• 70 = Tensile strength in ksi (70,000 psi)\n• 1 = Welding positions (1 = all positions)\n• 8 = Coating type & current (8 = low hydrogen iron powder, AC/DC+)\n\n**GMAW/GTAW Wires:** ER308L\n• ER = Electrode/Rod\n• 308 = Alloy composition (308 = 19% Cr, 10% Ni)\n• L = Low carbon (<0.03%)\n\n**FCAW Wires:** E71T-1\n• E = Electrode\n• 7 = Tensile strength (70,000 psi)\n• 1 = Welding positions\n• T = Tubular (flux cored)\n• 1 = Performance capability\n\nAsk about specific AWS codes for detailed information.";
+            }
+            
+            // Default response
+            return "I couldn't find specific information about that query. Try searching for:\n• Specific product names (e.g., 'CELLUTHERME', 'SUPRATHERME')\n• AWS codes (e.g., 'E7018', 'ER308L', 'E6010')\n• Product categories (e.g., 'SMAW electrodes', 'MIG wires', 'TIG rods')\n• Material types (e.g., 'stainless steel', 'mild steel', 'nickel alloy')\n\nOr type 'help' to see what information I can provide.";
         }
 
         // Persistence: save/load chat as array of message objects
@@ -866,9 +1195,11 @@
 
         // Product suggestions / autocomplete
         const productSuggestions = [
-            '7018', 'Lotherme', 'MIG Wire', '308L', '316L', 'ER70S-6', 'TIG rods', 'Stainless steel',
-            'Autotherme', 'Supratherme', 'Indotherme', 'Cellutherme', 'Norma', 'Inventory status',
-            'Flux cored wire', 'SAW wire', 'Electrodes', 'Welding consumables'
+            'E7018', 'E6010', 'E6013', 'ER308L', 'ER316L', 'ER70S-6', 'E308-16', 'E316L-16',
+            'CELLUTHERME', 'NORMA', 'SUPRATHERME', 'INDOTHERME', 'RUTOX-A', 'AUTOTHERME',
+            'Stainless steel', 'Mild steel', 'Nickel alloy', 'MIG wire', 'TIG rod', 'Flux cored',
+            'SMAW', 'GMAW', 'GTAW', 'FCAW', 'SAW', 'AWS codes', 'Catalog page',
+            'Pipe welding', 'Structural welding', 'Dissimilar metals', 'Cast iron'
         ];
 
         function showSuggestions(input) {
@@ -908,6 +1239,42 @@
                 e.preventDefault();
                 sendMessage();
             }
+            
+            // Navigate suggestions with arrow keys
+            if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+                const items = suggestionsBox.querySelectorAll('.suggestion-item');
+                if (items.length === 0) return;
+                
+                e.preventDefault();
+                let currentIndex = -1;
+                
+                items.forEach((item, index) => {
+                    if (item.classList.contains('active')) {
+                        currentIndex = index;
+                        item.classList.remove('active');
+                    }
+                });
+                
+                if (e.key === 'ArrowDown') {
+                    currentIndex = (currentIndex + 1) % items.length;
+                } else if (e.key === 'ArrowUp') {
+                    currentIndex = (currentIndex - 1 + items.length) % items.length;
+                }
+                
+                items[currentIndex].classList.add('active');
+                items[currentIndex].scrollIntoView({ block: 'nearest' });
+            }
+            
+            // Select suggestion with Enter
+            if (e.key === 'Enter' && suggestionsBox.style.display === 'block') {
+                const activeItem = suggestionsBox.querySelector('.suggestion-item.active');
+                if (activeItem) {
+                    e.preventDefault();
+                    userInput.value = activeItem.textContent;
+                    suggestionsBox.style.display = 'none';
+                    userInput.focus();
+                }
+            }
         });
 
         // New chat button - clears storage and resets chat
@@ -920,8 +1287,8 @@
                             <i class="fas fa-robot"></i>
                         </div>
                         <div class="message-content">
-                            <p>Hello! I'm Dayita Inventory AI Assistant. I can help you with product information, stock levels, and inventory queries.</p>
-                            <p>How can I assist you today?</p>
+                            <p>Hello! I'm your D&H Secheron Product Database Assistant. I can help you find detailed product specifications, AWS codes, and catalog information for welding consumables.</p>
+                            <p>What product are you looking for?</p>
                         </div>
                     </div>
                 `;
@@ -953,6 +1320,7 @@
         // Load saved chat on start
         window.addEventListener('DOMContentLoaded', () => {
             loadChatFromStorage();
+            
             // If nothing loaded, ensure welcome message exists
             if (chatMessages.children.length === 0) {
                 chatMessages.innerHTML = `
@@ -961,8 +1329,8 @@
                             <i class="fas fa-robot"></i>
                         </div>
                         <div class="message-content">
-                            <p>Hello! I'm Dayita Inventory AI Assistant. I can help you with product information, stock levels, and inventory queries.</p>
-                            <p>You can ask me about specific products, categories, or inventory status.</p>
+                            <p>Hello! I'm your D&H Secheron Product Database Assistant. I can help you find detailed product specifications, AWS codes, and catalog information for welding consumables.</p>
+                            <p>What product are you looking for?</p>
                         </div>
                     </div>
                 `;
@@ -979,7 +1347,7 @@
                     console.log('D&H product database loaded successfully');
                 })
                 .catch(err => {
-                    console.log('Using simplified product database');
+                    console.log('Using detailed product specifications database');
                 });
         });
     </script>
