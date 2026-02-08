@@ -1,0 +1,33 @@
+1
+e
+D&H
+Secheron
+Compile Welding Support
+DH 1217(NS)
+Codification 
+AWS SPA 5.11 7 ENiCrFe-7_
+Characteristics  Applications 
+Non- synthetic electrode depositing Ni-Cr-Fe weld metal which is very good resistance to
+SCC and IGC due to low carbon content and absence of sigma phase. Control boron and
+zirconium are helpful in reducing the tendency for ductility dip cracking. It has scaling
+temperature up to 1100C in air. It is ideally suited for welding the Ni-Cr-Fe alloy of the
+UNS number NOG69O It is also use for the welding of Ni-Cr-Fe alloys to steels and
+stainless atecls and for corrosion resistant overlays on steels. Typical specifications for Ni-
+Cr-Fe base metals are ASTM B166 BL67 and B168. Ideal for stringent requirements in the
+construction of nuclear reactors
+Typical Chemical Compositions Of All Weld Metal (s) 
+ Element   Si tr NbTa Mo
+CVN Impact Lateral Expansion)
+Strength (J) (mum)
+RT
+Welding Positions 
+Current And Packing Data Dee)
+Size (mm) Dia x Length  5x3 1x 2 fixed
+ Weight/Carton (kgs) ap has as ae
+Precautions
+1. Ensurethe electrodes are dry Re-dry the electrodes at 300-325C for 1 hour
+Maintain a short are stringer bead and minimize the heat input
+For dissimilar metal welding control the dilution by
+a. Operating at lower currents
+b. Using stringer beads and faster welding speeds.
+www.dnhSecheron.co

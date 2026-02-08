@@ -1,0 +1,31 @@
+AUTOTHERME 708-2
+Secheron
+Compile Welding Support
+Codification 
+ AWS SFA 5.18
+EN ISO 14341-B G49A3 C182
+(Dor SECHEROM ELECTIVONES
+Characteristics  Applications 
+Autotherme 708-2 is triple deoxidized copper coated mild steel wire for GMAW available
+in bright finish gives smooth flow stable are and spatter free under optimum welding
+conditions It gives radiographic quality welds It is suitable for mild steel pipes. Ideal for
+welding ASG A285 Grade C A515-55 A516-70 ete.
+Typical  eens ate are oe
+Element  ls Ti  Zr Ni Mo
+Typical  0.05 1.25 055 0.02  0.02) 0.00) 0.09) 0.09  0.06) 010) 0.10) 0.10
+Typical Mechanical Properties Of All Weld Metal i
+Properties UTS(MPa YS(MPa
+Typical 530 440)
+Welding Positions
+Welding Parameter DC()
+Diameter (mm) Volt () Current (A)
+0.80 28-32 170-200
+260-290
+330-360
+Shielding Gas  Ar Co
+Approval  
+Packing Data 
+Standard Size  Diameter 0.8 mm 1.2 mm  1.6 mm
+Quantity  15.0 kes wire random/ layer wound in a plastic spool that conforms to
+DIN-8549 SD-300
+www.dnhSecheron.co

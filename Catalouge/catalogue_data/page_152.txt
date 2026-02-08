@@ -1,0 +1,31 @@
+CROMOTHERME-5(MOD)
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5
+EN ISO 3580-A E CrMo5 B42 H5
+Characteristics  Applications 
+Cromotherme-i(MOD) is a basie coated. low hydrogen type electrode depositing a weld
+metal with 6%Cr-0.5%Mo ideally suited for welding of creep resisting steels of similar
+composition where superior notch toughness required at sub-zero temperatures. The weld
+metal possesses excellent creep properties up to 550C. Typical applications include
+welding of 6%0Gr-0.68Mo0 steels in oil refinery chemical plant and equipments.
+Specifically applicable wherever prolonged heat treatments are involved.
+Typical Chemical Composition Of All Weld Metal (%) 
+Typical 06 A F a 0.007  0.018
+Typical Mechanical Properties Of All Weld Metal
+CVN Impact Creep Strength
+Properties  UTS(MPa) Strength (J)  at 550C (1% offset in
+-rc 10000 hrs) (Mpa)
+Typical
+Welding Positions 
+AREER
+Current And ct Data ma
+Qty (Pc aearioal
+Approvals  CE
+Precautions 
+1 Ensure the electrodes are dry Re-dry the electrodes at 300C for 2 hours.
+2 Use short arc low current and stringer beads.
+Note Low carbon version Cromotherme-5L (MOD) conforming to AWS E8018 BéL is
+also available.
+www.dnhSecheron.co

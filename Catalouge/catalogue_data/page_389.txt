@@ -1,0 +1,32 @@
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.29  E100T5-K3c
+Characteristics  Applications 
+Maxfil-40B is a low alloy steel flux cored wire designed for welding of high strength fine
+grained quenched  tempered steels to mect sub-zero impact resistance property down to -
+61C. The wire gives optimum performance under CO shielding and deposits radiographic
+quality weld metal The weld has excellent bead appearance and easy slag removal. Maxfil-
+40B is designed for single and multi-pass welding of similar composition steels and
+equivalent grade steels like HY-80 NAXTRA-60/65 T-1 A/B grades of 5A-203 A/BIC
+grades of SA-662 ete. This wire is used for fabrication of crane plate earth moving
+equipments off-shore platforms and similar high strength applications ete.
+Typical oe se  oo Metal (%) 
+CVN Impact
+oH Strength (J)
+Properties UTS(MPa) YS(MPa) (L4d)
+Range 690-830 610 Min 16.0 Min
+Typical  70  oo  
+Welding Positions
+ADR
+Welding Parameter  DC ()
+Diameter Horizontal / Flat Vertical Up
+(mmm) Volt (V)  Current (A) Volt  Current (A)
+20 24-28 160-260 100-160
+11-200
+Shielding Gas Carbon Dioxide CO (100%) at flow rate 15-20 litres per minute.
+Packing Data
+Standard Size 120 1.60mm Other diameters may be available on request.
+Quantity  Bupplied approximately LOK gs in a plastic spool Each spool is sealed in an air
+tight polythene bag and then packed in a corrugated box
+www.dnhSecheron.co

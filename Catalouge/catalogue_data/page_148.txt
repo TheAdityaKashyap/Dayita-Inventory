@@ -1,0 +1,29 @@
+CROMOTHERME-2(16) 
+Compile Welding Support
+Codification 
+AWS SFA 5.5  9016-B3
+Characteristics  Applications 
+Low hydrogen electrode depositing 2.25%Cr-1%QMo weld metal display remarkable
+atrength and creep resistance at elevated temperatures up to 676C. It is used for welding
+2.25%Cr-1%Mo creep resistant steel and Cr-Mo-V steels resistant to hydrogen under
+pressure as well as for cast steels of a similar composition to the weld metal Typical
+applications include steam boiler construction welding of steam and super heater piping
+power plants oil refmery and chemical plants.
+Element    Mn  si  P  8  Cr  Mo 
+Typical 0.060 0.80  0.50 0.0230.022 2.25  1.00 
+Typical Chemical Composition Of All Weld Metal (%) 
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 690C FOR 1 HR)
+aE
+ tee  OT rs
+Properties UTS(MPa) YS(MPa) (L4a)
+Typical G0 oat 23.0
+Welding Positions 
+Current  Packing Data AC/DC ()
+Size (mm) Dia x Length
+Current Range (Amps)
+Qty (Pcs/Carton)
+Precautions 
+1 Re-dry the electrodes at 250-300 for 01 hour as perour standard recommended practice.
+2. Use short areand stringer bead.
+www.dnhSecheron.co

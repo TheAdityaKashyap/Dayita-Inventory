@@ -1,0 +1,30 @@
+CROMOTHERME-12 22)22
+Compile Welding Support
+Codification 
+ENISO3580-A  -E CrMoWV12 Ba2
+Characteristics  Applications 
+Cromotherme-12 is a lime-fluoride type electrode yielding a deposit containing 11%Cr -
+O.5%oNi -Li0%Mo -0.0% -0.5%W. The weld metal has excellent creep and oxidation
+resistant properties up to TOOC. The electrode is used for welding creep resistant 12%Cr
+steels in turbines steam boilers and chemical plant where operating temperatures of the
+order of 600C are encountered. Following are some of the creep-resiatant steels that can
+he welded.
+DIN X20 Cr Mo 12 122CrMoV121X20Cr Mo W V 121GX 22 Cr Mo MV 121
+Typical Chemical ae asa Of All Weld Metal ee
+Element
+TE
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 740C - 780C FOR 2 HR)
+.  ee.  CVN Impact Strength (J)
+Properties  UTS(MPa YS(MPa)  7 54)
+20C
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length 35 4x350  3.15350) 2.5x350
+Current Range (Amps) 180-220  140-180 Ltoosse  70-00 
+Qty (Pes/Carton)
+Precautions 
+1. Ensure the electrodes are dry Re-dry the electrodes at 300C for 2 hours.
+2. Use short arc and stringer bead
+www.dnhSecheron.co

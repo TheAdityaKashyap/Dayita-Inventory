@@ -1,0 +1,27 @@
+Djxz
+Secheron
+Compile Welding Support
+Conversion Table
+For Corrosion Data
+Corrosion Conversion Factors
+data Units gimh mm/year mils/year
+gimh 8.64/d 340/d
+gim 24h 0.360/d 14.2d
+gidm/24h 36.0/d 1420.0/d
+mg/dm/24h 0.036/d 1.42/d
+mgicm/24h 3.60/d 1421d
+Ibsift/24h 1760/d 69200/d
+lbs/ftlyear 4.68/d 192d
+mm/year 0 1.0 39.4
+mm/manth 12.0 473.0
+um/4éh 0.180 7.18
+inlyear 25.4 1000.0
+infmonth 305 12000.0
+mils/year 0.025 1.0
+mils/month 0.305 12.0
+Where d  metal density
+18/8 steel  7.9 gmsicc
+Titanium  4.5 gms/ec
+Aluminium  2.7 gms/ce
+mils  inch x 10
+() 91 9833550505 538) www.dnhSecheron.com

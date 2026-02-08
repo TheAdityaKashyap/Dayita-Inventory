@@ -1,0 +1,33 @@
+ULTRATHERMEH 22)
+Compile Welding Support
+Codification 
+AWS SFA 5.5  E10016-G
+
+é
+Lat
+Characteristics  Applications 
+Basic coated extra low hydrogen electrode ideally suited for welding high strength steels
+QT steels The weld metal is of radiographic quality and possesses excellent strength
+combined with good toughness. Ideal for welding high strength steels under the site
+conditions having high relative humidity and higher joint restraints as the extra low
+hydrogen levels ensure freedom from hydrogen induced cracking
+Tyas) Chemical eh Of All Weld Metal 
+ Element iC Si Ni
+Typical Mechanical Properties Of All Weld Metal 
+1B)  CVN Impact Strength (J) 
+Properties UTS(MPa) YS(MPa)  1 44)
+- 50C
+Typical 740 G50 19.0 a0
+Diffusible Hydrogen Content  3 ml/100gms of weld metal Max.
+Moisture Content  0.15 % Max.
+Welding Positions 
+SRoEEYR
+Current And Packing Data  DC()
+Size (mm) Dia x Length Z c 315x350 2.53650
+Approvals  Indian Navy
+Precautions 
+Ensure the electrodes are dry. Re-dry the electrode at 400C for 01 howr.
+Keep the minimum heat input during welding.
+Controlling preheat and inter pass temperatures between 120-150C.
+Use stringer beads and minimize weaving.
+www.dnhSecheron.co

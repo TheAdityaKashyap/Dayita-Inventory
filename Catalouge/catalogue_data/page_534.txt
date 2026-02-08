@@ -1,0 +1,12 @@
+Secheron
+Compile Welding Support
+WEIGHT OF WELDMETAL (STEEL)
+IN VARIOUS JOINTS
+(BASED ON DATA FROM AWS WELDING HANDBOOK)
+Single V groove Butt joint
+5  3mm T8
+2mm T8
+2 4 6 8 101214 16 18 20 22 24 26
+T thk mm
+(Excel software available on request for accurate calculation)
+() 91 9833550505 530) www.dnhSecheron.com

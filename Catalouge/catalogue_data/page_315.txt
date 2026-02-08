@@ -1,0 +1,41 @@
+AUTOTHERME Cr-Mo 2 (MOD)
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.28  ER908-Ba
+EN ISO 21952-B G 62 M13 2C1M
+a ELECTHGUES
+Characteristics  Applications  see
+Autotherme Cr-Mo 2 (MOD) is a copper-coated solid wire for GMAW available in bright
+finish gives smooth flow stable arc and spatter free under optimum welding conditions.
+This wire having lesser impurities 1.e 5 P will improve the subzero impact property. It
+gives radiographic quality welds. It 19 suitable for welding 2.25%Cr-1%Mo steel The weld
+metal possesses good high temperature properties. Especially suitable for welding of pipes
+and tubes of matching composition in Power plants Refineries Petrochemicals Fertilizer
+plants ete. Suitable for welding of ASTM steels Grade F232 (elass 1  3) of SA-182 and SA-
+446 Grade T4 T22 of 84-199 Grade T22 of SA-215 Grade WC9 of SA-217 Grade P22 of
+54-335 Grade FP22 of SA-369 Grade 22 22L of SA-387 Grade CP22 of SA-426 Grade 22
+of 84-541 Claas lof A BtypesofSA-542 etc.
+Typical Chemical Composition Of Solid Wire (%)
+Element  C Mn Si   P  Gr Mo Cu Sn as 
+Typical 0.080.460.50/0.007/0.009 2.50 1.00 0.05 0.003/0.0030.002
+X- factor (oP  5Sb  48n  As) (100 12 ppm (elements in ppm)
+J-factor (MnSi) x (PSn) 10  120
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT  690C FOR 1HR)
+p az CTSIKER TSCM %E  CVN Impact Strength
+roperties UTS(MPa) (MPa) (L5d)
+Typical
+Welding Positions
+LEER TR
+Welding Parameter DC()
+Diameter (man. Volt (V) Current (Ay
+S00-360
+340-420
+Shielding Gas  Argon / 1-5% O
+Approval CE
+Packing Data
+Standard Size  Diameter 1.2 mm  1.6 mm.
+Quantity  15.0 ke wire layer wound in a plastic spool that conforms to
+DIN-8559 8D-300
+www.dnhSecheron.co

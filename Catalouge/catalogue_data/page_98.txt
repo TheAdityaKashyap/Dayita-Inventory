@@ -1,0 +1,32 @@
+ULTRATHERMEM 222
+Compile Welding Support
+Codification 
+AWS SPA 5.5  11018M
+EN ISO 18275-B E7618-N4M2 A HS
+Characteristics  Applications  a
+Basic coated hydrogen cantrol electrode with a stable and smooth are that is easy to strike
+and restrike. Low spatter and good bead finish. Welds are of radiographic quality. The
+weld metal displays good crack resistance and produces sound weld metal possessing
+excellent strength combined with good impact properties at subzero temperature. It is
+ideally suited for welding high strength Q  T steels like WEL-TEN 80 SA 517 grades and
+their equivalents. The electrodes are ideally suited for welding restrained joints in high
+strength steels
+Typical Chemical Composition Of All Weld Metal () 
+(Fiement   Mn si S  P Cr Ni  Mo
+Typical Hi a 0.40  0.020 0.020 0.20
+Typical Mechanical Properties Of All Weld Metal
+af  CWN Impact Strength (u )
+(L5d)
+Properties UTS(MPa)) YS(MPa)
+- 60C
+Typ 70 705 22 a0
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length  4x45 4450
+Approvals  CE
+Precautions
+Redry the electrodes at 300C for 01 hour.
+During welding the heat input should be kept to a minimum. Preheat and interpass
+temperature shall never be more than 120-150C
+Use stringent beads and minimize weaving
+www.dnhSecheron.co

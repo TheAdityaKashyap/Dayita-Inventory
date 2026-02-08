@@ -1,0 +1,34 @@
+g 
+D&H
+Secheron
+Compile Welding Support
+CROMOTHERME-5
+Codification 
+AWS SFA 5.5
+EN ISO 3580-A
+Characteristics  Applications 
+Low hydrogen iron powder electrode producing a weld deposit containing 5%Cr - 0.5%Mo
+which has excellent creep resistance at elevated temperatures up to 650C. Typical
+appheations include welding of 4-6%Cr steela in oil refinery chemical plant and
+equipment
+Typical Chemical Composition Of All Weld Metal (%) 
+Element   Mn  Si Gr Mo S P 
+Typical 0.020  0.020
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 740C FOR 1 HR)
+oH Creep Strength
+Properties UTS(MPa) YS(MPa) betes at 550d (1% offset
+in 100000 hrs) (MPa)
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length  6.4x450  50450 4x50  3.150350 2.50350
+Current Range (Amps) 240-300  180-240  140-180  100-130  70-100
+Qty (Pes/Carton)
+Approvals  BHEL CE EIL
+Precautions 
+Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours.
+Use short are low current and stringer beads.
+Note  Low carbon version Croamotherme - 6L conforming to AWS  E8018-B6L is also
+available.
+www.dnhSecheron.com

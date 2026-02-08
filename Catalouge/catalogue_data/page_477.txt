@@ -1,0 +1,42 @@
+ot ey
+YD pEX
+eron
+Compile Welding Support
+Codification 
+F7P5/P6-EH10K F7P5/P6-EH1L4
+FU P6/P8-EH12K
+EN ISO 14174 SA FB 167 DC
+AWS SPA 5.17
+Characteristics  Applications
+Maxflux SAF-8 (PW) is an agglomerated Muoride-basic type flux suitable to weld medium
+to high strength steels where very low diffusible hydrogen content good crack resistance
+and higher sub-zero toughness properties are desired from the weld metal. The flux is
+neutral in Mn  Si pick up and especially designed to meet the tensile  impact
+requirements after post-weld heat treatment condition up to 7 hours of holding at 620C.
+The weld deposit is of radiographic quality.Maxflux SAF-8 (PW) is suitable for single 
+multi-layer welding of high tensile quenched  tempered steel fine grained steels heat
+resistant structural steels nuclear sector fabrication etc.
+Typical Chemical Composition Of All Weld Metal (0) 
+SAW Wire  Element   Mn  si  s  P  Cu 
+AUTOTHERME
+GRADER  Typical
+sa HE Typical
+1 ME 1 
+AUTOTHERME
+GRADE-E
+(SR620C/6HR)
+AUTOTHERME
+GRADE-C
+(SH620C/2HR)
+AUTOTHERME
+GRADE-E SPL
+(SR620C THR)
+SiO  TiO
+10%. 48%
+Approvals  CE
+Precautions  Re-dry the flux at 300-350C for 2 hours before use.
+Additional Information 
+BasicityIndex  3.40
+Grain Size  0.35-1.60 mm (BS 10to44)
+Packaging Data  25 Ke Polv-Lined Paper Bag
+www.dnhSecheron.com

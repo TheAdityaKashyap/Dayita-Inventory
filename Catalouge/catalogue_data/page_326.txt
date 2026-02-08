@@ -1,0 +1,28 @@
+F 708-6
+Secheron
+Compile Welding Support
+Codification
+AWS SPA 5.18  ER708-6
+EN ISO 636-A W 423 38il
+Characteristics  Applications 
+F 708-6 1s 2 copper coated mild steel wire for GTAW. Suitable for welding of mild steel low
+carbon steel and other structural steels of tensile strength up to 540 MPa The wire burns
+with smooth arc. It is designed for welding of low and medium carbon steels like SA-56
+A/BIC/D grades of 84-283 A/B/C grades of SA-285 A/B grades of SA-414 etc.
+Typical Chemical Composition Of Solid Wire (%) 
+ Element
+ wel si 
+Typical Mechanical Properties Of All Weld Metal 
+CVN Impact Strength (J)
+Properties UTS(MPa) YS(MPa)
+Welding Positions 
+Shielding Gas  Argon
+Current Condition  DCEN
+Approval BV CE
+Packing Data
+Standard Size  Diameter 1.6mm 2.0 mm 2.4mm  3.2 mm in cut lengths of 500 mm
+1000 mm each
+Quantity   kg wire put in an air-tight polythene bag and finally packed in a
+plastic container.
+Identification AWS code is punched on each wire
+www.dnhSecheron.co

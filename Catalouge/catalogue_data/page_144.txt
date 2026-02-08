@@ -1,0 +1,31 @@
+1
+e
+D&H
+Secheron
+Compile Welding Support
+CROMOTHERME-2L
+Codification 
+AWS SFA 5.5  8018-B3L
+EN ISO 3580-A E CrMo2L B42 H5
+Characteristics  Applications 
+A low hydrogen type electrode depositing 2%Cr-1%Mo low carbon weld metal. The weld
+metal possesses controlled hardness excellent mechanical properties creep properties.
+Suitable for service temperature upto 600C
+Typical Chemical Composition Of All Weld Metal (%) 
+Element c Mn Si Cr Mo Ss P
+Typical  0.045  0.78  0.50  220 10  0.020  0.020 
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 690C FOR 1 HR)
+eK
+Properties  UTS(MPa)) YS(MPa)  7 4)
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x L ength 6.4450 fxd 35 .15x350 i
+Current Range (Amps)  260-320  130-240 Eno 1oc-is0  70-100
+Qty (Pcs/Carton) 25
+Approvals  BV CE
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour
+2. Use short are low current and stringer beads.
+3550505 www.dnhSecheron.com

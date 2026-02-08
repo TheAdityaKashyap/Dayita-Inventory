@@ -1,0 +1,29 @@
+DH 446L
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  Eea0-16
+EN ISO 3581-A
+Characteristics  Applications 
+DH 446L is a unique electrode depositing a stainless steel weld metal having a nominal
+composition of 16%Cr-45%Ni-3.6%Cu-Ch weld metal. The weld metal possesses excellent
+properties and attains high strength on heat treatment It is ideally suited for welding
+martensitic precipitation hardening stainless steels of the type 17-4 PH ete
+Typical Chemical Composition Of All Weld Metal (s) 
+Typical Mechanical Properties Of All Weld Metal
+Heated to 1025-1050C held for 1 hour and air cooled to ambient and then precipitation
+hardened at 610-630C held for 4 howrs and air cooled to ambient.
+Properties UTS(MPa) Pica
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length  Sx850  42850  .15x850
+Current Range (Amps)
+Weight/Carton (kgs)
+Approvals CE
+Precautions
+Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 1 hour.
+Itis preferable to weld the 17-4 PH materials in the solution treated and quenched condition
+When welded in the solution treated sand quenched condition the 17-4 PH materials do not
+require preheat.
+www.dnhSecheron.co

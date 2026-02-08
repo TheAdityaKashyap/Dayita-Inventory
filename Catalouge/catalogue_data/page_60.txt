@@ -1,0 +1,24 @@
+NORMA-S
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.1  e013
+Characteristics  Applications 
+A medium coated general purpose all position mild steel electrode for welding low carbon
+and mild structural steels. It gives radiographic quality weld metal. The electrode
+operates with a quiet arc and deposits a smooth bead with fine ripples. The slag is easily
+detachable. The electrode produces minimum spatter and has good striking and re-
+striking characteristics. The electrode operates well under low OCY transformers. Typical
+appheations include welding of steel structures tanks truck frames and bodies
+machinery construction auto bodies frames pipes ete.
+Typical Chemical Compimnin Of All Weld Metal (%) 
+0.025  0.025
+Typical Mechanical Properties Of All Weld Metal
+of) CVN Impact Strength (J)
+Properties  UTS(MPa) YS(MPa) (L4d)
+Typical 480 420 24
+Welding Positions 
+Curr ent And Packing Data AC / DC(- )
+Size (mm) Dia x Length  4x450 3.155350  253 30
+Qty (Pcs/Carton)
+www.dnhSecheron.co

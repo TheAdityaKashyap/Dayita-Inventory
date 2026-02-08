@@ -1,0 +1,22 @@
+DH 430
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.4  B4a0-26
+Characteristics  Applications 
+DH 450 is a heavy rutile type electrode depositing a 17%Cr weld metal. The weld metal
+displays good resistance to corrosion and hest. Ideally suited for surfacing of straight
+chromium steels and similar materials
+Typical Chemical Composition Of All Weld Metal () 
+Element i Si Cr
+Weld Metal Hardness  250-280 VPN
+Welding Positions 
+LE-FHTR
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  5x350 4x350  2.150350  2.55550
+Current Range (Amps)  180-230  150-180  100-140
+Weight/Carton (kes)  25 25 25
+Precautions
+i. Ensure the electrodes are dry. Re-dry the electrodes at 200-250C for 01 hour.
+2. Useshortarcand minimum heat input.
+www.dnhSecheron.co

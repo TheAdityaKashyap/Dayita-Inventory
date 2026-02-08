@@ -1,0 +1,32 @@
+FC-Mo Secheron
+Compile Welding Support
+Codification
+AWS SPA 5.28  ER70S-A1
+EN ISO 21952-B W 52 1TL1M3
+Characteristics  Applications 
+F (-Mo is a copper-coated solid wire for GTAW available in bright finish. The wire gives
+atable arc smooth welding performances and deposits radiographic quality welds. It is
+ideally suited for welding of low alloy ferritic steels of similar composition. The weld metal
+possesses good high temperature properties. Typical applications include the welding of
+Carbon Molybdenum steels such as ASTM Grade Fl of SA-182  54-336 Grade A of SA-
+204 Grade T1/Tla/T1b of SA-209 Grade WC1 of SA-217 Grade A of SA-302 Grade P1 of
+A4-335 Class 1 of A grades of SA-533 ete.
+Typical Chemical Set Of Solid Wire (%)
+Element
+-snieaowss xan oa ow wora eas
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT  620C FOR 1HR)
+El
+Properties UTS(MPa)) YS(MPa) (L8d)
+Typical 5 5 25
+Welding Positions
+Shielding Gas Argon
+Current Conditions DCEN
+Approval  Adani Infra BHEL CE. CIB-MP
+Packing Data
+Standard Size  Diameter 1.6 mm 2.0 mm 2.4mm  3.2 mm in cut lengths of 500 mm /
+1000 mm each.
+Quantity  6 kg wire put in an air-tight polythene bag and finally packed in a
+plastic container
+Identification AWS code is punched on each wire.
+www.dnhSecheron.co

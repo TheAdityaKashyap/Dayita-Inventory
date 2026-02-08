@@ -1,0 +1,26 @@
+RUTOX-AH
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  B308H-16
+Characteristics  Applications 
+Astainlegs steel electrode depositing 19%Cr-10% Ni stainless steel weld metal with carbon
+In the range of 0.04%-0.08% Weld metal possesses excellent crack resistance and displays
+good elevated temperature properties Ideally suited for joining 16/8 stainless steels
+where the carbon content is in the range of 0.04-0.081e AIST 304H material
+Typical Chemical Composition Of All Weld Metal (%) 
+Blement  Mn si cr  mi s  P 
+Typical 1.06  140  0.40 5 10.0  0.020  0.020
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical 
+BERR
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  5x350 4x350  3.15x350 2.5x350
+Current Range (Amps)
+Weight/Carton (kgs)
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+2 Useshortare stringer bead and low current.
+3. Avoid build- up of heat during welding.
+www.dnhSecheron.co

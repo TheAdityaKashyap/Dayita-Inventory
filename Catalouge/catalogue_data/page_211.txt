@@ -1,0 +1,31 @@
+DH 320 DEE
+Compile Welding Support
+Codification 
+EN ISO 3581-A
+Characteristics  Applications 
+DH 320 ts a rutile type non-synthetic all position electrode depositing 20%Cr-35%Ni-
+2.4 Mo-3.6% Cu-Nb weld metal. The weld metal has excellent resistance to oxidation and
+scaling at 1200C continuous service. Quiet and stable arc. Less spatter loss good bead
+appearance with equal ripples. It is primarily used to weld base metals of similar
+composition for applications where resistance to severe corrosion is required for a wide
+range of chemicals including sulfuric and sulfurous acid and their salts. These electrodes
+can be used to weld both castings and wrought alloys of similar composition without post
+weld heat treatment The typical applications include HV-9A stainless steel for
+fabricating carpenter 20 stainless steels etc.
+Typical Chemical Composition Of All Weld Metal () 
+Element
+Typical
+Welding Positions 
+LEEBRTR
+Current And Packing Data AC / DC()
+5x30
+
+ Current Range (Amps) 150-180  110-140
+Weight/Carton (kgs)
+Approvals  CE
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour
+2. Use short are stringer bead and smallest possible size of electrode and min. current to
+reduce the heat input.
+Note DH 420-15 conforming to AWS Ee20-151s also available
+www.dnhSecheron.co

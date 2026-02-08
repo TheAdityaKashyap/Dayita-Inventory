@@ -1,0 +1,33 @@
+AUTOTHERME 808-D2
+Secheron
+Compile Welding Support
+ERS80S-D2
+EN ISO 14341-B
+(Dor SECHEROM ELECTIVONES
+Characteristics  Applications 
+Autotherme 805-D2 is a eopper-coated solid wire for GMAW available in bright finish. The
+wire gives stable arc smooth welding performances and deposits radiographic quality
+welds t is recommended for welding of molybdenum (0.5) containing high strength
+fine-grained structural steels The wire also is suitable for welding of penstock pipe-line
+fabrication of earth moving equipments ete. where high tensile strength property is
+desired from the weld metal. Suitable for welding of ASTM ateels SA-455/ SA-455M
+Gr 60 G65 steels of SA-515 515M Gr.60 Gr.66 steels of SA-516/ 8A-516M Class 1 of
+A B.C D prades of SA-5.34/ SA-533M ete.
+Typical Chemical Composition Of Solid Wire (%) 
+Element  C  Mn  Si 5 P  Mo Cu
+Typical  0.075 1.78  0.55  0.014) 0.015) 0.45  0.15
+Typical Mechanical Properties Of All Weld Metal 
+Properties
+Typical
+Welding Positions
+Welding Parameter DC()
+Diameter (mm) Volt () Current (A)
+Shielding Gas  Argon / 1-5 0
+Approval  CE
+Packing Data
+Standard Size  Diameter 12mm  1.6mm
+Quantity 16.0 kgs wire random/ layer wound in a plastic spool that conforms to
+DIN-8559 SD-300.
+Note 1 The product satisfies the requirement of AWS SFA 5.28 ERSUS-D2 clase also.
+2. Please check availability and minimum order quantity before placing the order.
+www.dnhSecheron.co

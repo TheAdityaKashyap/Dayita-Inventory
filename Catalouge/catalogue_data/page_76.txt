@@ -1,0 +1,30 @@
+1
+e
+SUPRATHERME(MOD) 225
+Compile Welding Support
+Codification 
+AWS SFA 5.1
+EB5426HIX
+EN ISO 2560-A R423 B92H5
+Characteristics  Applications 
+Supratherme(Mod) is a basic coated iron powder hydrogen controlled all conventional
+position electrode produces radiographic quality welds having excellent cracking
+resistance. The electrode ideally suited for welding carbon steels used in the construction
+of equipment subject to heavy dynamic load impact and severe service conditions in sour
+gas service
+Typical Chemical al Of All Weld Metal (%) 
+Weld Metal
+Hardness
+(HV5)
+Corrosion Test  Passes corrosion test as per NACE standard
+TM-01-77-96 (SSCC) and TM-02-84-96(HIC).
+Diffusible Hydrogen Content  5m /100 gms of weld metal Max.
+Welding Positions 
+Current And Packing Data AC / DC()
+Size (mm) Dia x an 6.3450 jae   S.1hxd50  2.5x350
+Qty (Pes/Car Joa)
+Approvals CE EIL
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 00C for 2 hours.
+2. Use short are minimize heat input.
+www.dnhSecheron.com

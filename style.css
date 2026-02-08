@@ -1,0 +1,31 @@
+:root{--bg:#343541;--panel:#40414f;--muted:#9ca3af;--accent:#10a37f}
+*{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:linear-gradient(135deg,var(--bg) 0%,#2f2f36 100%);color:#fff;height:100vh}
+.app{display:flex;height:100vh}
+.sidebar{width:280px;background:#202123;padding:16px;border-right:1px solid #3b3b40;display:flex;flex-direction:column}
+.brand{font-weight:700;margin-bottom:12px}
+.categories{flex:1;overflow:auto;display:flex;flex-direction:column;gap:8px}
+.cat{background:transparent;color:#d1d5db;border:1px solid #333;padding:10px;border-radius:6px;text-align:left;cursor:pointer}
+.cat:hover{background:#2d2d32}
+.sidebar-footer{font-size:13px;color:var(--muted);padding-top:8px}
+.main{flex:1;display:flex;flex-direction:column}
+.header{padding:18px 20px;border-bottom:1px solid #3b3b40}
+.header-title{font-weight:700}
+.header-sub{font-size:13px;color:var(--muted);margin-top:6px}
+.chat{flex:1;overflow:auto;padding:20px}
+.messages{display:flex;flex-direction:column;gap:14px;max-width:900px;margin:0 auto}
+.msg{display:flex}
+.msg.user{justify-content:flex-end}
+.bubble{padding:12px 14px;border-radius:12px;max-width:80%}
+.bubble.user{background:#5436da;color:#fff;border-bottom-right-radius:4px}
+.bubble.bot{background:var(--panel);color:#d1d5db;border-bottom-left-radius:4px}
+.composer{display:flex;gap:8px;padding:14px;border-top:1px solid #3b3b40;background:linear-gradient(to top, rgba(0,0,0,0.2), transparent)}
+.input{flex:1;padding:12px;border-radius:10px;border:1px solid #565869;background:#2f2f36;color:#fff;resize:vertical;min-height:48px}
+.send{width:48px;border-radius:10px;border:0;background:var(--panel);color:#fff;cursor:pointer}
+.card{background:#2f2f36;padding:10px;border-radius:8px;margin-top:8px;border-left:4px solid var(--accent)}
+.card-title{font-weight:700;margin-bottom:6px}
+.card-row{font-size:13px;color:var(--muted);display:flex;gap:6px}
+.k{color:var(--muted);width:70px}
+.v{color:#fff}
+
+@media(max-width:800px){.sidebar{display:none}.messages{padding:0 12px}.header{padding:12px}}

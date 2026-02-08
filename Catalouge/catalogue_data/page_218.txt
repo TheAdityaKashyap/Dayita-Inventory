@@ -1,0 +1,26 @@
+DH 385-17 Der
+Compile Welding Support
+Codification 
+AWS SFA 5.4
+Characteristics  Applications 
+DH 385-17 is a stainless steel electrode which exhibits excellent resistance to corrosion
+In non oxidizing media like sulfuric acid phosphoric acid acetic acid formic acid fatty
+acids oxalic acid etc. It works well with transformer and good restriking characteristic
+Better welder appeal including easy slag detachability characteristics. On horizontal
+fillet welds produce more of spray arc and a finer rippled weld bead and the bead shape is
+typically flat to concave. It has no red hot tendency within current range specified and no
+porosity. Iris particularly suited for welding Carpenter 20 HV9 HV9A Uranus B6 VHB
+9041. Sandvik 2RKG65 and similar materials which are used for these service conditions.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element C  Mn Si  Cr  Ni  Mo Cu S P
+Typical 0.025) 2.0 O80 ) 20.0 ) 25.0 44 LSO  O12) 0.020
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical
+Welding Positions 
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length dx350  8.155350
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours.
+2. Use low current short are and minimum weaving.
+www.dnhSecheron.co

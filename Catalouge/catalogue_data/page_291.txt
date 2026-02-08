@@ -1,0 +1,31 @@
+1
+e
+DH1227(NS) Wit
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.11  ENiCrMo-7
+Characteristics  Applications 
+Anon-synthetie nickel base electrode depositing weld metal of Ni-Cr-Mo-Co-Ti-W alloys.
+The weld deposit resists corrosion resistance at room temperature as well as resistance to
+oxidation and reducing atmospheres at elevated temperatures. Electrodes are used for
+welding Ni-Cr-Mo alloy for the welding of the clad side of joints in steel clad with Ni-Cr-Mo
+alloy and for joining Ni-Cr-Mo alloys to steel and to other nickel base alloys. Some of the
+materials which are welded with these electrodes are ASTM B 574.B 575 B 619 B 622
+and B 626 having UNS number N 06985.
+Typical Chemical Composition Of All Weld Metal (s) 
+Typical Mechanical Properties Of All Weld Metal 
+oEl
+Properties UTS(MPa) (L4d)
+Typical 725 41
+Welding Positions
+LE
+Current And sar Data DC()
+Size (mm) Dia x Length c 3.15350  2.5x450
+ Current Range (Amps) senso renise  e0-ie  60-70
+Weight/Carton (kgs)
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300-4325C for 1 hour.
+2. Operate the electrodes wherever possible weld in flat position only.
+4. Maintain a short arc use stringer bead and minimize the heat input.
+www.dnhSecheron.co

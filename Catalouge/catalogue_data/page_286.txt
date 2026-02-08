@@ -1,0 +1,40 @@
+1
+e
+D&H
+Secheron
+Compile Welding Support
+ENiCrFe-3
+EN ISO 14172
+Characteristics  Applications 
+Anon-synthetic electrode depositing homogeneous Ni-Cr-Fe alloy composition. It is ideally
+sulted for welding alloys of similar compositions to themselves for surfacing steel with
+Nickel-Chromium-lron alloy when high Manganese contents are not detrimental for
+welding clad side of Nickel Chromium-Iron clad steel and dissimilar metal combinations.
+Specially recommended for welding 9Ni Steels for cryogenic service. Also used for
+welding of Nickel-Chromium allovs used for high temperature applications like furnace
+heating elements and reformer tubes.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element  C  Mn si  P  S  Cr  Ni  Fe  Nb
+Typical  0.03  6.0  0.25 _ 9.010  0.009  15.0  Bal.  6.0  2.2
+Typical Mechanical Properties of All Weld Metal 
+CVN Impact Lateral Expansion
+SE
+asa) Strength (J) (mum)
+196C 196C
+Properties  UTS(MPa)
+Typieal 590 40  8h 0.85
+Welding Positions 
+LErETR
+Current And socenes Data a
+(on) Dia x Length
+Current Range (Amps) 150-180
+Weight/Carton (kgs.)  2.5
+Approvals  CE CIB-MP NPCL
+Precautions 
+Ensure the electrodes are dry. Re-dry the electrodes. at 300-325C for 1 hour
+Maintain a short arc stringer bead and minimize the heat input.
+Allow the weld to coal down to below 50C before depositing the next layer.
+For dissimilar metal welding control the dilution by
+a Operating at lower currents
+b Using stringer beads and faster welding speeds.
+www.dnhSecheron.co

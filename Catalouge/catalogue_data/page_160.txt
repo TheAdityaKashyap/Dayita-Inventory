@@ -1,0 +1,28 @@
+g 
+CROMOTHERME-9M -
+Compile Welding Support
+Codification 
+AWS SPA 5.5  s018-Bs
+Characteristics  Applications 
+Cromotherme-9M is a basic coated low hydrogen electrode for depositing 9%0Cr -1%Mo
+weld metal. The weld metal is resistant to oxidizing atmospheres up to about TOOC tis
+used for welding similar composition plates pipes forging and tubes where sub zero
+impact properties are required. Typical applications include welding of A387 Gr.9 plate
+Ad34 P pipe A217 C12 castings A213 TS tubes ete
+Typical Chemical Composition Of All Weld Metal (%)
+Element Cc Mn  Si P 5 Cr  Mo
+O06 o.012
+Typical O60  0.20 0.010) 9.10  1.00
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 740C FOR 1 HR)
+Properties UTS(MPa) YS(MFPa)
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length .5x4950
+Current Range (Amps) 180-240  140-180  100-130 70-10)
+Qty (Pes/Carton) ee 15 100
+Precautions 
+Re-dry the electrodes at 250-300C for 01 hour.
+2. Use short arc and stringer bead.
+www.dnhSecheron.com

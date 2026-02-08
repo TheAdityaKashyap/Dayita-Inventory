@@ -1,0 +1,24 @@
+MOLYTHERME-EXTRA 222
+Compile Welding Support
+Codification 
+Characteristics  Applications 
+Molytherme-Extra is a low hydrogen electrode yielding a weld deposit containing Mn-Mo.
+The electrode is ideally suited for welding steels of similar composition. The weld metal
+possesses good high temperature properties and has excellent toughness
+Typical Chemical Composition Of All Weld Metal (%) 
+P
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 620C FOR 1 HR)
+Properties UTS(MPa) S(MPa)
+Typical
+Welding Positions
+Current And  Data pee.
+Size (mm) Dia x Length
+Cc
+Qty PonCanton)
+Approvals  BHEL CE
+Precautions 
+1. Ensure the electrodes are dry Re-dry the electrodes at 800C for 2 hours.
+2. Use short arc and stringer bead.
+www.dnhSecheron.com

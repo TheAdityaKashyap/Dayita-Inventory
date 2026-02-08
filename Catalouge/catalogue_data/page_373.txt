@@ -1,0 +1,42 @@
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.18 E70C-6M H4
+EN 180 17632-B  T199T15-0MA-K
+IS 157692008 ET540MM9-H10
+Dé Hi SECMERDA ELECTIVOMES
+Characteristics  Applications 
+Maxfil-MC-31 is a gas shielded metal-cored wire designed for welding of low  medium
+tensilo steels structures subjected to dynamic loading. The wire encompasses the
+deposition advantages of flux cored wire along with the high deposition efficiencies of a
+solid wire with both single and multi-layer applications. The deposited weld metal is
+virtually free from slag covering and thus reduces post-weld cleaning time. The wire burns
+with smooth arc and low spatter Weld metal contains extremely low diffusible hydrogen
+(dm per 100gm). Maxfil-MC-31 15 suitable for welding of similar composition sine ls and
+equivalent prade si  DEIFIG grades of SA-414 Gr.60/Gr.65 steels of SA-515
+Gr.60/Gr.65 steels of SA-516 etc. The wire can be used for robotic welding applications
+Typical Chemical Composition Of All Weld Metal (%) 
+fElemene_C Ma sil Ss  P Ni  Gr  Mo 
+Range ls 7H  0.8 K 403 5 a ls 0.08
+Typical  0.1 F 0.50 0.011  0. 5 2 0.30  0.080
+Typical Mechanical Properties Of All Weld Metal 
+CVN Impact
+Properties UTS(MPa) YS(MPa) rr. Strength (J)
+480Min  400Min  22.0 Min 27.0 Min
+ae al
+Diffusible hy rae content is 2.8m1 per 100 gm of all-weld metal. 
+Tensile test piece aged for 48 hrs at 104C.
+Welding Positions 
+Welding Parameter  DC ()
+Diameter
+(mm) Volt (V) Current (A) Volt (Vj  Current (A)
+L.20 32-46 Za0-400 2-36 280-40
+Loo a2. 36 a00-500 S236 200-500
+Approvals CE BIS
+Shielding Gas Argon- Carbon Dioxide CO2 (8020%) at flow rate 15-20 litres per minute
+Packing Data
+Standard Size 1.20 1.60mm Other diameters may be available on request
+ q
+Quantity  Supplied approximately 125/15Kgs in a plastic spool Each spool is vacuum
+sealed followed by polythene bag and then packed in a corrugated box.
+www.dnhSecheron.co

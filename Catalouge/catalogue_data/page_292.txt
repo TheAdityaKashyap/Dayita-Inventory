@@ -1,0 +1,31 @@
+1
+e
+DH1229(NS) 2
+Compile Welding Support
+Codification 
+AWS SPA 5.11  ENiCrFe-9
+Characteristics  Applications 
+DH1229(N8) is a non-synthetic nickel base electrode. It gives soft and smooth arc which
+is easy to strike and re-strike. The weld metal isof radiographic quality and displays a good
+combination of strength and impact strength even at -196C Electrodes of sizes up to 3.15
+mm dia can be used for welding in all positions. t is recommended to use other sizes in
+horizontal and flat positions for achieving better resulta. Ideal for welding 9% Nickel steel
+for ervogenic storage tanks for LNG and other similar alloys as well as the clad side of joints
+in steel clad with a Ni-Cr-Fe alloy and for welding Ni-Cr-Fe alloys to steel and to other
+nickel base alloys
+Typical Chemical a ae a  Metal (0) 
+Element Cc Mn Ww Fe NbTa
+ Typical 0.09 2.0 an  0.015) 0.012) Bal 4.0) 14.0 Lo 0 1.
+Typical Mechanical Properties Of All Weld Metal
+CVN Impact
+Strength (I)
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length axsoo  4x50  315x350 25x350 
+i Current Range (Amps) 150-180  120-150  80-110 60-70
+Weight/Carton (kgs)
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300-325C for 1 hour.
+2. Operate the electrodes wherever possible weld in flat position only.
+3. Maintain a short are use stringer bead and minimize the heat input.
+www.dnhSecheron.co

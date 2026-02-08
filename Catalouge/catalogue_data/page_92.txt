@@ -1,0 +1,34 @@
+ULTRATHERME-H 2222
+Compile Welding Support
+Codification 
+AWS SPA 5.5  10016-G
+Characteristics  Applications  a
+Basic coated extra low hydrogen electrode ideally suited for welding high strength steels
+QT steels. The weld metal is of radiographic quality and possesses excellent strength
+combined with good toughness. Ideal for welding high strength steels under the site
+conditions having high relative humidity and higher joint restraints as the extra low
+hydrogen levels ensure freedom from hydrogen induced cracking
+Typical Chemical Composition Of All Weld Metal (%) 
+Blement  C_
+Typical A  0.430  0.020  0.022
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 690C FOR 1 HR)
+CVN Impact Strength (J
+Properties UTS(MPa) YS(MPa) een pact Sirengsh (3)
+Typical 740)
+Diffusible Hydrogen Content  3 ml/100 gms of weld metal Max.
+Moisture Content  0.15 % Max.
+Welding Positions 
+LE-FRTR
+Current And Packing Data DC()
+Size (mm) Dia x Length  ax35o  4xan0  3.15x950 2.5x350 
+Current Range (Amps) 190-260  140-190  100-150  70-100 
+2.5 2.5 20
+Weight/Carton (kgs)
+Approvals  Indian Navy
+Precautions
+Ensure the electrodes are dry. Re-dry the electrode at 400C for 01 hour.
+Keep the minimum heat input during welding.
+Controlling preheat and inter pass temperatures between 120-150C.
+Use stringer beads and minimize weaving.
+www.dnhSecheron.co

@@ -1,0 +1,35 @@
+ed
+D&H
+Secheron
+Compile Welding Support
+Recommendations for the storage re-drying and handling
+of DH Secheron covered electrodes
+General Information
+All coverad electrodes are sensitive to moisture re-absarption to a greater or lesser degree.
+Care must be taken during storage and handling to prevent moisture being re-absorbed.
+Storage
+Covered electrodes of any type will pick up moisture only very slowly if they are stored in the
+following climatic conditions.
+Temperature Relative Humidity
+5-15C  60%
+16-25C  50%
+above 25C  40%
+During the winter itis possible to have low relative humidity by keeping the temperature in
+the storeroom at least 10C above the outdoor temperature. During certain periods in the
+summer and ina tropical climate sutficiently low relative humidity can be maintained by air
+dehumiditication If the electrodes have been stored in a cold place allow them to reach
+ambient temperature before breaking the package
+VacPac
+Electrodes in VacPac will not pick up any moisture during storage. They require no re-drying
+before use provided the package is undamaged. This is indicated by the vacuum in the
+package.
+Re-drying
+Low-hydrogen basic electrodes should be re-dried before use whenever there are
+application requirements relating to weld metal hydrogen content and radiographic
+soundness (not needed for VacPac). Acid rutile stainless electrodes and all types of basic
+electrode may produce pores in the weld if they have not been stored in sufficiently dry
+conditions. Re-drying the electrodes will restore their usability Mild steel rutile and acid
+electrodes normally require no re-drying. Cellulose electrodes must not be re-dried.
+Electrodes which are seriously damaged by moisture can normally not be re-dried with first-
+class results. These electrodes should be scrapped
+91 9833550505 522) www.dnhSecheron.com

@@ -1,0 +1,30 @@
+SUPRATHERME-NM(MOD) ped
+Compile Welding Support
+Codification 
+AWS SFA 5.5
+Characteristics  Applications  a
+Supratherme-NM(Mod) is a basic coated low hydrogen high purity electrode for NACE
+requirements. Radiographic quality welds having excellent cracking resistance excellent
+toughness to withstand heavy dynamic loading and impact. Ideally suited for welding fine
+grained steels low alloy stecls subjected to sub-zero temperature applications down to -
+50C. Ideal for welding heavy sections highly restrained joints subjected to dynamic
+loading. Ideal for pressure vessels tanks spheres ete
+Typical Chemical  Of All Weld Metal (%) 
+Element
+O12 La 0.80) 0.05  0.08
+Max  Max  Max  Max  Max 0.60-1.90  0.20-0.60
+Typical 2  O.d0  0.008) 0.010
+Typical Mechanical Properties Of All Weld Metal 
+nelies CVN Impact Havdives
+Properties  UTS(MPa)YS(MPa)  _ Strength (J) pert
+Diffusible Hydrogen Content 5 ml/100 gms of weld metal Max.
+Corrosion Test  Passes NACE TM-O1-77-96 (SSCC)  TM-02-84-96 (HIC).
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length  x450 35 3.15x350 a5x350 j
+Current Range (Amps)  220-280  160-190  100-135  80-100
+Qty (Pes/Carton)
+Precautions 
+1. Ensure the electrodes aredry Re-dry the electrodes at 250-300C for 01 hour.
+2. Useshort arc and stringer beads
+www.dnhSecheron.co

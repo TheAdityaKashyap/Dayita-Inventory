@@ -1,0 +1,28 @@
+1
+e
+CROMOTHERME2 22322
+Compile Welding Support
+Codification 
+AWS SFA 5.5  9018-B3
+IS 1395. E63 BBS 26 Fe
+EN ISO 3580-A E CrMo2 B42
+Characteristics  Applications 
+Cromotherme-2 is an iron powder low hydrogen electrode producing a weld deposit
+containing 2.25%Cr - 1.Mo which 1s oxidation resistant up ta 676C. Suitable for welding
+2.25%0Cr -1%Mo Cr-Mo-V steels as well as cast steels of similar composition
+Typical Chemical Composition of All Weld Metal (%)
+ CVN Impact Creep Strength
+Properties  UTS é (MPs Strength (J)  (1% offset in 10000 hrs)
+(MPa)
+Typical dd  at 50C 118
+ypica x at 675C 85
+BERR
+Current And Packing Data sel
+Size (mm) Dia x L ength 6.3x450 fi 3.15x350  2.5x350
+Qty (Pes/C i
+Approvals  Adani Infra BHEL. i CIB-MP EIL NTPC PDIL Reliance
+(SASAN Power)
+Precautions
+1. Ensure the electrodes are dry Re-dry the electrodes at 300C for 2 hours
+2. Useshort are and stringer bead.
+www.dnhSecheron.com

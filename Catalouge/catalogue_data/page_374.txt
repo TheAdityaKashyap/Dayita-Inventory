@@ -1,0 +1,42 @@
+MAXFIL-12RJ
+Codification 
+sas E71T-1C/M.VE71T-9C/
+AWS SFA 5.20 MJ/E71T-12MJ H4
+EN ISO 17632-B T494T1-1CA-K
+OA ELECTWOMES
+Characteristics  Applications 
+Maxfil-12RJ is anall-position mild steel flux cored wire designed for optimum performance
+and excellent impact properties when using 100%CO ArCO gas shielding. The wire is
+characterized with smooth metal transfer uniform welding even on vertical-wp stringer
+beads and easy slag removal. Filler contour is fat to slightly convex with equal leg lengths
+and uniform sidewall wetting. Weld metal is of radiographic quality and contains
+extremely low diffusible hydrogen (4ml per 100gms).
+Maxfil-12RJ is designed for single and multi-pass welding of low and medium carbon steels
+like SA-36 AVAICD grades of SA-283 AJAVC grades of SA-285 AB prades of SA-414 etc
+The wire is suitable for structural fabrication ship building converter vessels rotary kiln
+shells heavy duty structures  tanks boilers dredgers etc
+Typical Chemical Composition Of All Weld Metal (%)
+Secheron
+Compile Welding Support
+Element Cc  Mn  Si 5 P  cr  Ni  Mo Vv  ocu
+Typical  070 Lot 0.75  O010  015  0.012  0.010  8.008  0018  Ooo
+Typical Mechanical Properties Of All Weld Metal 
+El CVN Impact Strength (J)
+Properties UTS(MPa) YS(MPa) (L4d)
+Range
+Typical
+Welding Positions 
+
+Welding Parameter  DC ()
+Diameter Horizontal / Flat Vertical Up Over Head
+mm) Volt (V) Current (A) Volt (VW) Current (A)) Volt (V) Current (A)
+1.60 24-50 180-200) 20-26 0170  2225  110-200 
+ApprovalsCE
+Shielding Gas Carbon Dioxide CO(100%)/ Argon - Carbon Dioxide CO (80-20%) at
+flow rate 15-20 litres per minute
+Packing Data
+Standard Size) 1.20) 1.60mm. Other diameters may be available on request.
+Quantity  Supply approximately 11Kgs ina plastic sponl  total weight of the box 12.5
+Kga maximum Bach spool is sealed in an atr tight polythene bag and then
+packed in a corrugated box.
+www.dnhSecheron.co

@@ -1,0 +1,32 @@
+g 
+D&H
+Secheron
+Compile Welding Support
+CROMOTHERME-5L
+Codification 
+AWS SFA 5.5  8018-B6L
+ECrMo5 B 42 H5
+Characteristics  Applications 
+Low carbon low hydrogen iron powder producing a weld deposit contaiming 5%Cr 
+0.6%Mo which has excellent creep resistance at elevated temperatures up te 540C. The
+weld metal displays excellent creep resistance with controlled hardness. The lower levels
+of carbon limit in weld metal ensuring higher ductility. Ideal for welding steels of similar
+composition Typical applications include welding of 4-%0Cr steels in oil refinery
+chemical plant and equipment.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element  Cc  Mn si  P  8  Cr  Mo 
+Typical  0.040 0.90  0.40  0.020 0.020) 5.20  0.50
+Typical Mechanical Properties Of All Weld Metal 
+ EL  CVN Impact Strength (J)
+Properties  UTS(MPa) YS(MPa) (L4d)
+RT
+Typical Sao 490 a4 60
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia sx Length  64.450 fxd 3.158950  2.55350
+Approvals  CE.
+Precautions 
+1. Re-dry the electrodes at 250-300C for 01 hour as per our standard recommended
+practice
+2. Use short are and stringer bead.
+www.dnhSecheron.com

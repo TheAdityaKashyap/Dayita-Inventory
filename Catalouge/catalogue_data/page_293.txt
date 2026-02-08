@@ -1,0 +1,39 @@
+mT
+e
+D&H
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.11  ENiCrMo-12
+Characteristics  Applications 
+Non-synthetic basic coated clectrode depositing Ni-Cr-Mo-Nb weld metal. Highly crack
+resistant weld also possesses good corrosion resistance characteristics. It has scaling
+temperature up to 1100C in air It is ideally suited for welding Cr-Ni-Mo austenitic
+stainless steels to themselves to duplex stamless steels to Ni-Cr-Mo alloys and ta steel or
+for just overlays. Typical specifications for the Cr-Ni-Mo stainless steel base metal are
+AS40 Al67 AlB2 A249 A876 A312 A358 ASTS and A479 most particularly the grade
+UNS 831254 / 254 SMO / 6% Mo SS type. In a chloride containing environment the fully
+austenitic weld-metal exhibits high resistance to Pitting Crevice Corrosion  Stress
+Corrosion Cracking It is ideal for Sulphuric and Phosphoric acid media that has been
+contaminated by chlorides. It can also be used for welding of 625 and 825 grade Ni-baged
+alloys.
+Typical Chemical a Of All Weld Metal () 
+Typical o.40  0.015  0.010 62.0
+Typical Mechanical Properties Of All Weld Metal 
+re CVN Impact Lateral 
+Properties UTS(MPa) . _ Strength (J) Expansion (mm)
+- 196C  196C
+Typical
+Welding Positions 
+Current And Packing Data DC()
+ Size (mm) Dia x Length  5xa50  4xa50 3.140850 2.52350
+
+Current Range (Amps) 150-180
+ Weight/Carton (kgs)
+Precautions 
+Ensure the electrodes are dry. Re-dry the electrodes at 300-425C for 1 hour.
+Maintain a short are stringer bead and minimize the heat input with an IPT of LOOC
+maximum is of vitally importance
+For dissimilar metal welding control the dilution by
+Operating at lower currents b. Using stringer beads and faster welding speeds
+www.dnhSecheron.com

@@ -1,0 +1,27 @@
+g 
+DH2553(NS) 2
+Compile Welding Support
+E2554-16
+EN ISO 3581-B
+Characteristics  Applications 
+Non-synthetic rutile coated electrode depositing duplex stainless steel weld metal. Weld
+metal consisting of austenite and ferrite matrix which pives good toughness and freedam
+from weld cracking A soft and smooth arc which is easy to strike and re-strike Better
+welder appeal including easy slag detachability characteristics The electrode can be used
+where resistance to pitting corrosive attack and resistance to stress corrosion cracking are
+required. The major application area includes oil  gas industry offshore platforms
+petrochemical plants mechanical  structural components demanding high strength
+together with high corrosion resistance.
+Typical Chemical Composition Of All Weld Metal () 
+ Element Cc Si 5 P Cr  Ni  Mo  Cu N
+Typical 0.025 4  ONO  0.012 ) 250 Tai aad 2.0 0.17
+Typical Mechanical Properties Of All Weld Metal
+Properties
+Typical
+Approvals  CE
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 1 hour.
+2. Use stringer beads short arc and smallest possible size which helps in reducing the heat
+input.
+Note  DE 2553-15 (NS) conforming to AWS E2654- 151s alsoavailable.
+www.dnhSecheron.co

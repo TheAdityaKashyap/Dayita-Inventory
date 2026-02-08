@@ -1,0 +1,22 @@
+DH 45S
+Secheron
+Compile Welding Support
+Characteristics  Applications 
+DH 455 is a special purpose electrodes depositing almost pure iron weld metal which is
+ideally suited for welding galvanizing baths. The very low silicon content ensures
+excellent resistance to corrosion by molten zinc. Typical applications include welding of
+galvanizing baths and filling up of worn out bodies of galvanizing bath to resist corrosion
+by molten zinc.
+Typical Chemical Composition Of All Weld Metal (%)
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical  408
+LEER
+Current And Packing Data AC/DC()
+Size (mm) Diax Length  4545 dxdt)
+Current Range (Amps) 200-240  160-180
+Weight/Carton (kgs) 4 4
+Precautions 
+1 Ensure the electrodes are dry. Re-dry the electrodes at 150C for 1 hour.
+Note The low hydrogen version DH 455(LH) is also available.
+www.dnhSecheron.co

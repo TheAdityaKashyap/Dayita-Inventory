@@ -1,0 +1,32 @@
+1
+e
+DH 309Mo poles
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  E809Mo-16
+IS 5206 E23.12.2 R16
+EN ISO 3581-B ES 309Mo-16
+Characteristics  Applications 
+DH 309 Mo is a stainless steel electrode yielding a weld deposit of 25%Cr-12%Ni-
+25%.Mo which has good oxidation resistance up to 1060C. Ideally suited for welding 18-
+11-Mo type steels to mild steel welding the clad side of 18-11-Mo clad steels overlays on
+ferritic steels buffer layers etc
+Typical  an Of All _ _ (%)
+Element
+Paspteal oor cor eso esan 150  as nooe oan
+Typical Mechanical Properties Of All Weld Metal 
+aE
+Properties  UTS(MPa) (L5d)
+Typical
+Welding Positions 
+LE-LHTR
+Current And Packing Data AC / DC()
+Size (mm) Dias Length  45x350 4x350  3.150350 2.5xa50
+Current Range (Amps) 150-180  120-150  80-100 60-80
+Approvals  Adani Infra CE EIL PDIL
+Precautions 
+1. Are should be as short as possible and welding current should not be too high.
+2 Ensure the electrodes are dry Re-dry the electrodes at 250-300C for 01 hour.
+Note DH 309 Mo-15 conforming to. AWS E309 Mo-15 1s also available.
+www.dnhSecheron.com

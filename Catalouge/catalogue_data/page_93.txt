@@ -1,0 +1,26 @@
+ULTRATENSAL-Cu 2322
+Compile Welding Support
+Codification 
+AWS SFA 5.5 y 9018-G
+Characteristics  Applications 
+Basic coated extra low hydrogen electrode. The weld metal displays excellent crack
+resistance and produces sound weld metal possessing excellent strength combined with
+good impact properties at sub-zero temperature. Ideally suited for welding of high
+atrength QT steels ike WEL TEN 80 54.517 grades WB36 pipes and their equivalent
+frades. Welding highly restrained joints in high strength steels under site conditions with
+relative humidity since the extra low hydrogen content of the weld metal helps preventing
+hydrogen induced cracking.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element
+Typical
+Welding Positions
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length 4450 .15xd50 2.690050 
+Current Range (Amps) 180-240 140-180 90-140 50-90
+Approvals  Adani Infra CIB-MP
+Precautions 
+Ensure the electrodes are dry. Re-dry the electrodes at 400C for 01 hour.
+Ensure cleanliness of the surface to be welded.
+Use short arc and minimum heat input. The preheat and Inter pass temperature shall
+never be more than 150C
+www.dnhSecheron.co

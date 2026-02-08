@@ -1,0 +1,30 @@
+CRONITHERME-25/12
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  B309-16
+IS 5206 B23.12R16
+EN ISO 3581-4 E (22 12) R32
+Characteristics  Applications 
+A26%Cr-12.Ni electrode producing high strength stainless steel weld metal having good
+oxidation resistance up to 1100C. The weld metal possesses excellent resistance to
+corrosion and oxidation Ideal for welding 18/5 type steels to mild steels clad side of 18/8
+clad steels lining of 12%QCr steels on mild steels overlays of ferritic steels dissimilar
+steels and difficult to weld steels
+Typical Chemical Composite Of All Weld Metal () 
+ Element
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa
+Typieal  594
+Welding Positions 
+Current And Packing Data AC / DC()
+ Size (mm) Dia x Length 4.15
+Current Range (Amps) 150-180  110-140
+Weight/Carton (kgs)  2.5  25
+Approvals  CE CIB-MP BHEL EIL NPCIL NTPC PDIL
+Precautions 
+1. Uselowest possible current short are and stringer bead.
+2. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+Note DH 309-15 conforming to AWS ES09-15is also available.
+www.dnhSecheron.co

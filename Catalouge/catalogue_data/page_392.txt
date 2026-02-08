@@ -1,0 +1,34 @@
+MAXFIL-41B3
+Secheron
+Compile Welding Support
+EN ISO 17632-B TS7ZT5-0CP-G
+Characteristics  Applications 
+Masxfil-41 Bis a low alloy steel Mux cored wire designed todeposit approximately 2. 25%Cr-
+10%Mo weld metal for high temperature creep resistance applications. The wire gives
+optimum performance under CO shielding with radiographic quality weld deposits. The
+wire produces thin  friable slag covering with shiny bead appearance. Maxfil-41B3 is
+designed for single and multi-pass welding of similar composition steels and equivalent
+grade steels like Gr. F22 of SA-182  and 54-446 Gr. T4/T22 of SA-199 Gr T22 of SA-215
+Gr. WC9 of SA-217 Gr. P22 of SA-335 Gr. FP22 of SA-369 Gr. 22/231 of SA-387 Gr. CP22
+of SA-426 Gr. 22 of SA-541 Clase 1 of A Btypes of SA-542 ete.
+Typical oT Composition Of All Weld Metal (%) 
+fame  o_we a os  e  o 
+Ty sical
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 690C FOR 1 Hr)
+Properties UTS(MPa) YS(MPa)
+Range 620-760 540 Min 17.0 Min
+Typical 692 608 20.0
+Welding Positions 
+Welding Parameter  DC ()
+Diameter Vrtical Up
+Volt  Current (A)) Volt (V)  Current (A)
+160-260 160-260 100-10
+LS0-300  24-28. 180-500 28 110-200
+Approvals Cl
+Shielding Gas Carbon Dioxide CO (100%) at flow rate 15-20 litres per minute.
+Packing Data
+Standard Size 1.20 1.60mm Other diameters may be available on request.
+Quantity Supplied approximately LoKgs in a plastic spool Hach spool is sealed in an air
+tight polythene bag and then packed in a corrugated box.
+www.dnhSecheron.co

@@ -1,0 +1,30 @@
+1
+e
+D&H
+Secheron
+Compile Welding Support
+MOLYTHERME-R
+Codification 
+ B63 BD1264
+Characteristics  Applications 
+Molytherme-R is a low hydrogen electrode yielding a weld deposit containing Mn-Mo. The
+electrode is ideally suited for welding steels of similar composition CONCOR BOGIES ete.
+The weld metal possesses good high temperature properties and has excellent toughness
+The deposits will also meet the metal recovery of 110% min requirements
+Typical Chemical Composition of All Weld Metal (%)
+Element  C  Mn Si  Mo 8  P 
+Typical O06  130  0.50  0.40  0.020) 0021
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 620C FOR 1 HR)
+El CVN Impact Strength (J)
+Properties  UTS(MPa) YS(MPa) (L8d)
+ 50C
+Typical 640 550 24 40
+Welding Positions 
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length  6.4x%450 5 45 315x350  2.5350
+Qe Peat arton)
+Precautions 
+1. Ensure the electrodes are dry Re-dry the electrodes at 250-300C for 1 hour
+2. Use short are and stringer bead.
+www.dnhSecheron.com

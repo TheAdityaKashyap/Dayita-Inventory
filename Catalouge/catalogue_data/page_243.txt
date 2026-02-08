@@ -1,0 +1,33 @@
+1
+e
+D&H
+Secheron
+Compile Welding Support
+DH 444L
+Codification 
+AWS SFA 5.4  Es10NiMo-16
+Characteristics  Applications 
+DH 4441 is a special purpose electrode depositing2%Cr-4.6%Ni-0.54%.Mo weld metal
+which has excellent resistance to corrosion erosion pitting and impact Ideally suited for
+joining of similar composition materials groove welding and surfacing applications
+Typical applications include surfacing of high pressure valves turbine blades valve seats
+repairs of runners pulp and paper plant equipment etc
+Typical Chemical Composition Of All Weld Metal 
+ Element C 5 
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 610C FOR 1 HR)
+Hardness
+Properties  UTS(MPa) (VPN)
+Typical 4 i 325-360
+(PWHT NR 1050C for 3Hrs  SR 670C for 3 Hrs  SR 605C for 3Hrs)
+CVN Impact Strength at - 46C 70 Joules
+Welding Positions 
+Current And Packing Data Dew)
+Size (mm) Tia x Length  4x850 3.155350
+ Current Range (Amps)  150-190  110-150  40-100 cer
+Weight/Carton (kgs)
+Approvals  CE
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at 200-250C for 01 hour.
+2. Use short are and minimum heat input.
+www.dnhSecheron.com

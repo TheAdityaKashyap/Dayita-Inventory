@@ -1,0 +1,44 @@
+Djxz
+Secheron
+Compile Welding Support
+CONVERSION TABLE
+PROPERTY TO CONVERT FROM TO MULTIPLY BY
+Area dimension in mm 6.451 600 x 10
+mm in 1.550 033 x 10
+Current density Alin Almm 1.550 033 x 10
+A/mm Alin 6.451 600 x 10
+Deposition rate bih kglh 0.45
+kg/h Ib/h 2.2
+Flow rate felh Litre/minute 4.719 475 x 10
+gallon/hour litre/minute 6.309 020 x 10
+gallon/minute litre/minute 3.785 412
+cm/min litre/minute 1.000 000 x 10
+itre/minute ft/h 2.118 880
+cm/min fh 2.118 880 x 10
+Heat input Jilin Jim 3.937 008 x 1
+dim Jiin 2.540 000 x 10
+Linear measurement in mm 2.540 000 x 1
+Ft mm 3.048
+Ox
+0
+0
+mm in 3.937 008 x 1
+4
+mm ft 3.280 840 x 10
+Tensile strength  psi Pa 6.894 75
+Ibift Pa 4.788 02
+Nimm- Pa 1.000 000 x 1
+7
+fit
+Pa 1.450 377 x 1
+5
+7x
+6 x
+Pa 2.088 543 x J 
+Pa 1.000 000 x 10
+Travel speed in/min 4.233 333 x1
+Wire feed speed mmis 2.462 205
+Energy J 0.737
+J 0.102
+ Approximate conversion
+91 9833550505 www.dnhSecheron.com

@@ -1,0 +1,30 @@
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.4
+Characteristics  Applications 
+DH 2595-15(NS) is a non-synthetic basic coated electrode depositing super duplex
+stainless steel weld metal. The weld metal exhibits high strength and resistance to stress
+corrosion cracking pitting and crevice corrosion tis ideally suited for welding of super
+duplex stainless steels UNS 532550 532750 and S32760 (wrought) and UNS J93370
+J95380 J94404 CD4MCuNicast) and similar compositions. Examples of application
+areas are Oil and gas industry Oil country tubular Food processing Valves and fittings
+Flue gas de-sulfurizers Off shore platforms Petrochemical plants Mechanical and
+structural components.
+Typical Mechanical Properties Of All Weld Metal 
+. El
+Properties UTS(MPa) (Ldd)
+Typical 2a
+Pitting Resistance Number  Meets the requirement of PREN240.
+Ferrite (FN)  40-60
+Welding Positions 
+Current And Packing Data DC()
+ Size (mm) Dia x Length 4x350  3.15x350  2.60050
+Current Range (Amps)  150-180 80-110  60-80
+ Weight/Carton (kgs)
+Precautions 
+Ll. Redry the electrodes at 250-3006C for  hour.
+2. The heat input should be in the range of5-15 Kd/mm
+3. Please ensure inter pass temperature is less than 150C and better less than 102C
+4. For better results solution annealing at 1080-11 20C is required.
+www.dnhSecheron.co

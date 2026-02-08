@@ -1,0 +1,25 @@
+SUPRATHERME-Ni(SPL) 
+Compile Welding Support
+Codification 
+Characteristics  Applications 
+Supratherme-Ni(Spl) is a basic coated low hydrogen iron powder type electrode yielding
+a weld metal containing 1.5%Mn and 0.7%Ni. Excellent quality welds for welding heavy
+sections of fine grained high strength steels with particular reference to low temperature
+service down to -60C. Typical applications include welding of fine grained QT steels for
+pressure vessels tanks penstocks where high strength and sub-zero temperature
+toughness properties are of importance.
+Typical   7 Wald Metal (0)
+Hi ment
+EL CVN
+Properties UTS(MPa) YS(MPa)  54
+Diffusible Hydrogen Content 5 ml/ 100 gms of weld metal Max.
+Welding Positions 
+Current And Packing Data  DC()
+Size (mm) Diax Length 63.450 bxd50 ded 50 .15x450 2.5x350
+Current Range (Amps) 270-330 220-280 160-190 110-135 50-100
+fay evan  as  as Ys
+Approvals  CE EIL PDIL
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours.
+2. Minimise heat input during welding
+www.dnhSecheron.co

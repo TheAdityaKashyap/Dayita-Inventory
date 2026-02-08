@@ -1,0 +1,24 @@
+BOR-B
+Secheron
+Compile Welding Support
+Characteristics  Applications 
+BOR-B is a rutile coated electrode producing an air hardening type weld metal for
+hardfacing of carbon and low alloy steels. The weld metal is highly resistant to abrasive
+wear and has a fair degree of toughness. Ideally suited for applications in which abrasion
+resistance is required with a fair degree of toughness. Typical applications include brake
+shoes shear blades wheels cams gears pulleys drive sprockets ete.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element  Cc  Mn Si  Cr
+Typical 0.25  O80  O40  280
+Hardness (As Welded After 3 Layers on Mild Steel) 350-400 BHN
+Welding Positions 
+Current And Packing Data AC / DC(-)
+Size (mm) Dia x Length 4x450  U.15x450
+Current Range (Amps)
+Approvals  BHEL
+Precautions 
+1 Ensure the electrodes are dry. Re-dry the electrodes at 150C for 1 hour.
+2. Maintain short arc and avoid weaving.
+5. Use suitable buffer layers and preheating depending on the material composition and
+thickness
+www.dnhSecheron.co

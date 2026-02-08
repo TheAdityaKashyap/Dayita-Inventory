@@ -1,0 +1,31 @@
+Secheron
+Compile Welding Support
+Characteristics  Applications 
+Electrode is depositing 65%.Ni-20%Cr-2%Nb-1.5%Mo weld metal. Radiographic quality
+weld metal of superior properties. t is ideally suited for welding alloys of similar
+compositions to themselves for surfacing steel with Nickel-Chromium-Iron alloy when
+high Manganese contents are not detrimental for welding clad side of Nickel Chromium-
+Iron clad steel and dissimilar metal combinations Suitable for overlay of forge plates.
+Specially recommended for welding %Ni Steels for cryogenic service Also used for
+welding of Nickel-Chromium alloys used for high temperature applications like furnace
+heating elements and reformer tubes_
+Ty pical Chemical Composition Of All Weld Metal (%) 
+Hea  c mn si  cr  Ni - Mo  Fe  Nb  Cu  Ti
+Typical  0.04 40  0.50  20.0  Bal 1.5 4.0 2.0 130  0.40
+Tyna Mechanical Properties Of A Of All Weld  Weld Metal 
+CYNI Impact Lt reep St Strength
+Strength (J) Expansion (mm) MPa
+-196C 600C for 1000 hrs
+Properties (MPa) (MPa)
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length  4350 dx 350
+ Current Range (Amps) Tee  we  oem
+ WeightiC arton (kes)
+Approvals  BHEL CE
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at. 300-325C for 1 hour.
+2. Maintain a short arc atringer head and minimize the heat input.
+3. Allow the weld to-cool down to below 50C before depositing the next layer.
+www.dnhSecheron.co

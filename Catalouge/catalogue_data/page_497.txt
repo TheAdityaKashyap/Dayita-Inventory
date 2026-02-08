@@ -1,0 +1,81 @@
+Secheron
+Compile Welding Support
+Specitication tor Wires and Fluxes for
+Submerged Arc Welding According to AWS A5.17
+Tensile Test
+Wire-Flux Tensile Yield Elongation
+Combination Strength psi Strength psi
+te
+Tensile Test
+Wire-Flux Tenslia Yield Elongation
+Combination Strength psi Strength psi te
+FoxX-EXX GO000-60000 84000
+FIXX-EXXM FODOO-95000 Sa)
+22
+22
+FaRCERKN 430-560 330 22
+F4SXX-EXMX 480-660 400 22
+ Impect Test
+Min.
+Max Test Average
+Symbol TemperatureF Energy
+oO
+20
+40
+50
+60
+20
+20 ft ibt
+4 Without Hest Traatmant
+P PWHT
+Impect Test
+Min.
+Max Tast Average
+Symbol Temperature F Energy
+60
+Not Required
+A Without Haat Trestrmert
+P PWHT
+Symbol UNS Number
+Low-Manganese Electrodes
+EL a KOTO0 0.70
+EL ak KOoW0S 0.70
+Eliz Kone 0.040.714
+Medium-Manganese Electrodes
+EM 4K Kod O.07 015
+EM 12 KOA O.06015
+EM 12K HOW 0.050.135
+EM 13K Kod1s 0.060.716
+EM 14K Ko1a14 0.06019
+EM 15K Ka1815 0. 1000.20
+High-Manganese Electrodes.
+EH 10K KoWZ1o 0.07.15
+EH 71K Kido O07 0.15
+EH 12k Kot213 O.060.15
+EH 14 K11S8S O10. 20
+EG
+O.28/0.80
+0.25080
+0.25/00
+100) 7.80
+0.80125
+0.80125
+0.90740
+0.90140
+0.80125
+1.30170
+Not Specified
+oor
+O10
+O10
+0.6503 BS
+o.10
+O05
+O.380.75
+OSS 75 0.025 035 0040.17
+0.100 35 
+O.050.25
+0.80.15 0.03
+0.26065 (026 0.025
+O10 0.03 0.09
+www.dnhSecheron.com

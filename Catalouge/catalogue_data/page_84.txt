@@ -1,0 +1,33 @@
+TENSAL-MH(R) 22%
+Codification 
+AWS SPA 5.5  E9018M H4R
+Characteristics  Applications 
+Tensal-MH(R) is hydrogen controlled basic coated moisture resistant. electrode
+depositing a high strength weld metal. The electrode possesses excellent operating
+characteristics and 1s suitable for welding in all positions The extra low hydrogen content
+reduces susceptibility from hydrogen induced cracking. The weld metal possesses high
+strength together with good notch toughness. Ideally suited for welding fine-grained
+steels high strength steele. QT steels used in the fabrication of structures bridges
+penstocks and other components.
+Typical Chemical Composition Of All Weld Metal (%) 
+ Element   Mn  si P 8  Ni  Mo 
+Typical 0.35  0.018  0.018
+Typical Mechanical Properties Of All Weld Metal 
+CVNI rt Strength (J
+Properties UTS(MPa) YS(MPa) moet nivanats ()
+Typical
+Diffusible Hydrogen Content 4 m1/ 100 gmeof weld metal Max.
+Moisture As Conditioned  0.15 Max.
+Moisture As Exposed (80% RH 27C For 9 Hrs) 0.40 Max.
+Advantage  Electrodes are Vacuum packed no need of drying and can be used straight
+on the job
+Welding Positions 
+AN) Fal Pa) val ES
+Current And Packing Data DC()
+Size (mm) Dia x Length  6.ax450  gxd50  dxd50  9.155450 2.5850
+Current Range (Amps)  280-450  200-250  140-190  100-140
+Qty (Pes/Cartan) 15 20 30 45
+Precautions
+lL. Restrict the heat input use short arc.and stringer bead.
+Re-dry the electrodes at 250C for 1 hour ifexpose to atmosphere.
+www.dnhSecheron.co

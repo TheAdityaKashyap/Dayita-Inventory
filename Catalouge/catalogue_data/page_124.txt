@@ -1,0 +1,32 @@
+NITHERME-3.5(SPL) 
+Compile Welding Support
+Codification 
+AWS SPA 5.5  Es018-c2
+Characteristics  Applications 
+Nitherme-3.5(8PL) is a low hydrogen iron powder electrode depositing .5% Ni weld metal.
+It is pleasing operating characteristics and weld metal is of radiographic quality. Weld
+metal possesses excellent toughness at sub-zero temperatures. Ideal for welding fine
+grained Nickel steels for service temperatures down to - 74C Typical applications include
+pressure veseels piping valves and tanks used for storage transportation and
+distribution of liquefied gases.
+Typical Chemical Composition Of All Weld Metal (%) 
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+Properties
+Typical
+Corrosion Test 
+Passes corrosion test as per NACE standard TM-01-77-96 (S8CC)
+LEF-HTR
+Current And Packing Data DC()
+Size (mm) Dia x Length I Bxd50  axaso  a.15x350
+Current Range (Amps)  200-250  150-200  110-140
+Qty (Pes/Carton) 4a 56 ri
+Precautions  (For best impact strength)
+1. Accomplish minimum heat input during welding by
+a. Controlling preheat and interpass temperature.
+b. Using smallest size of electrode possible.
+c Minimum weaving.
+d. Welding in down hand position wherever possible.
+2. Deposit maximum number of layers which enables grain refinement
+Ensure the electrodes are dry. Re-dry the electrodes at 500C for 2 hours
+www.dnhSecheron.co

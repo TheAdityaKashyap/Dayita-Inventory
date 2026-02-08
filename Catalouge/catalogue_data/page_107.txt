@@ -1,0 +1,32 @@
+SUPRATHERME-Ni
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5  E7018-G
+IS 1395. E49BG126 Fe
+Characteristics  Applications 
+A low hydrogen iron powder type electrode yielding a 0.5% Ni in the weld metal. Ideally
+sulted for welding fine-grained steels heavy sections and restrained joints requiring goad
+Impact strength at sub-zero temperatures down to -50C. Typical applications include
+welding of C-Mn grain refined steels heavy sections and restrained joints requiring good
+impact strength at sub-zero temperatures down to -A0C
+Typical Chemical Composition Of All Weld Metal (%) 
+Element Cc  Mn  Si  wi  8S  P
+ Typical  oo  1.0  00  055  0.018  0.018
+Typical Mechanical Properties Of All Weld Metal 
+aE)  CVN Impact Strength (3)
+(L4d) 1
+- 60C
+Properties UTS(MPa) Y5S(MPa)
+Typical 525 446 28.0 43
+Welding Positions 
+a   i ied
+Current And Packing Data  DC()
+Size (mm) Diax Length  6.3x450 4x450  a.5x450  2.54950
+Current Range (Amps)  270-350  200-280 160-190  110-135  80-100 
+25 36 a5 Ti 125
+Qty (Pcs/Carton)
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+2. Prevent excessive heat input-during welding.
+www.dnhSecheron.co

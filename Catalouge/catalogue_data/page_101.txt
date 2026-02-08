@@ -1,0 +1,28 @@
+g 
+COROTHERME(SPL) ped
+Compile Welding Support
+Codification 
+AWS SFA 5.5  Eso1g-we 
+EN ISO 2560-A
+Characteristics  Applications 
+Corotherme(SPL) is a special electrode depositing a 0.5%Cr - 0.7%Ni - 0.5%Cu weld metal
+ideally suited for welding weathering stecls to resist high temperature atmospheric
+corrosion. Ideal for welding steels like Corten steels used in chemical petrochemical and
+railway industries to resist atmospheric corrosion
+Typical Chemical Composition Of All Weld Metal (%) 
+Element c Mn si cr  Ni  cu  5S P
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+ak CVN Impact Strength (1)
+Properties UTS(MPa)) YS(MPa) (LBd)
+- 20C
+Typical 456 475 27 5S
+Welding Positions 
+Current And Packing Data AC/DC()
+Current Range (Amps)
+Qty (Pes/Carton)
+Approvals  CE Indian Navy
+Precautions 
+Ensure the electrodes are dry Re-dry the electrodes at 250-300C for 01 hour.
+2. Use short arc and stringer bead.
+www.dnhSecheron.com

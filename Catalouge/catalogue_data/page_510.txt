@@ -1,0 +1,30 @@
+g 
+D&H
+Secheron
+Compile Welding Support
+OTHERS UTS ksi RECOMMENDED
+ELECTRODE
+Supratherme
+Supratherme(pi)
+0.46-0.64 Zr 0.04-0.16
+0.96-0.69  V0.02-0.097i0.01-0.04
+0.79-1.26 Ti0.03-0.11
+1.94-2.06 Ti0.03-0.11 116-195 Ultratensal-MH
+0.96-0.69  Vi 0.02-0.09Cu0.12-0.53
+0.79-1.26
+Cic2 C3
+090 100 Class 1 Nimotharme-1
+to to to Class 2 Tensal
+100 115 125 Class 3 Ultratherme-H
+70-90 SuprathermeSpl)
+80-100 Supratherma-NiSply
+CVN Impact strength
+at-195C for type l
+and- 170C for type Il and 100-120 OH 1212 (NS)
+lateral expn. specified
+89-105 Tensal  Ultratherme-H
+CVN Impact strength 95-115 OH 1212 (NS)
+at-1/0C and lateral expn
+Specified
+Indicates variation with thickness
+ 91 9833550505 www.dnhSecheron.com

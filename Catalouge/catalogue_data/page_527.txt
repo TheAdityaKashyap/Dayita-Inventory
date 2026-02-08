@@ -1,0 +1,35 @@
+ed
+D&H
+Secheron
+Compile Welding Support
+Re-Drying Conditions
+Re-drying temperatures and holding times are specified on the label and in the product
+specification. The re-drying temperature is the temperature in the bulk of the electrodes. The
+re-drying time is measured from the point at which the re-drying temperature has been
+reached. Do not stack more than one layers of electrodes in the re-drying oven. It is
+recommended notto re-dry covered electrodes more than five times.
+Holding Oven
+The holding oven is used for interrnediate storage to avoid moisture pick-up in the coating of
+low-hydrogen electrodes and acid rutile stainless ectrodes The electrodes which should be
+stored in the holding oven are
+1. Electrodes that have been re-dried
+2. Electrodes that have been removed from their container
+Holding oven temperature 120C-150C.
+Handling VacPac Electrodes
+Protect VacPac from darnage at all times. The outer board packaging offers extra protection
+from damage to the Protective layer. Handle the single inner Protective layer VacPac with
+special care. Do notuse a knife or any other sharp object to open the outer board packaging.
+Before Using VacPac Electrodes
+Check if the protective layer still contains a vacuum. If the vacuum has been last re-dry the
+electrodes before use. Cut open the protective layer atone end
+Approval
+Approval given in this catalague many DH Secheron electrodes are approved by various
+authorities railway boards private companies and so on. Information about the difterent
+types of approval can be available on request.
+Welding Current
+Maximum and minimum values are given in product label. The most suitable welding current
+depends largely onthe size of the workpiece the welding position and the type of joint.
+Marking
+The electrode brand name type is clearly marked on the coating of each electrode near the
+grip end.
+www.dnhSecheron.com

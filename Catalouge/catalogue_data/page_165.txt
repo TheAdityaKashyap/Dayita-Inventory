@@ -1,0 +1,34 @@
+CROMOTHERME-92
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5  9015-B92
+Characteristics  Applications 
+Alow hydrogen non synthetic electrode deposits 9%Cr-0.5%Mo-1.7%W and enriched with
+Niobium Vanadium and Nitrogen. Tungsten additions provides adequate creep rupture
+strength at higher steam pressures and temperatures The controlled addition of alloying
+elements improves the toughness and weldability. It is designed to weld advanced
+materials which are being used to improve thermal efficiency in power plant refineries
+ete. Ideal for welding steels of similar composition to achieve adequate creep rupture
+strength. Some typical materials that are welded with this consumable are A215 T932
+AdS6 P92 ASSTGr 92 ete.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element   Mn si P  S  Cr NiMo V Nb N al W Cul B
+Typical 0.10) 0.6 0.35/0.012)/0.007) 9.0  0.5  0.5  0.2 0.06 0.05 /0.02 1.7 0.100.004
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 760C FOR 2 HR)
+Hardness
+(BHN)
+Typical
+Creep Properties  Creep Strength at 600C/160MPa successfully
+completed for 20157 Hours and test still going on.
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length 4x350)  3.15350) 2.5350
+Current Range (Amps)  160-220  120-160  90-120  70-100 
+Qty (Pcs/Carton)
+Approvals  CIB-ME
+Precautions
+1. Ensure the electrodes are dry Re-dry the electrodes at 300C for 01 hour
+2. Use short arc low current and stringer beads.
+www.dnhSecheron.co

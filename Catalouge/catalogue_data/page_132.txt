@@ -1,0 +1,31 @@
+MOLYTHERME(SPL)
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5  9018-D1
+IS 1395. E63BD126
+EN ISO 18275-B E 62 18-3M3 P HS
+Characteristics  Applications 
+Extra low hydrogen type electrodes depositing a high strength weld metal. The electrode
+possesses excellent operating characteristics and is surtable for welding in all positions.
+Weld metal has got good toughness even at subzero temperatures Deposition efficiency 1s
+about 115%. The weld metal possesses high strength together with good notch toughness
+even at subzero temperatures down to -50C Ideally suited for welding fine-grained
+steels high etrength steels IS 8500-91 Gr 540B STOB S90B IS 2002-92 Gr.s IS 1875-
+92 clase SA or similar.
+Typical Chemical Composition Of All Weld Metal (%) 
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 620C FOR 1 HR)
+ET CVN Impact Strength (J)
+Properties  UTS(MPa) S(MPa) (L5d)
+Typical
+Diffusible Hydrogen Content 5ml/100 gms of weld metal max.
+Welding Positions 
+Size (mm) Dia x Length
+Current Range (Amps)
+Qty (Pes/Carton)
+Approvals  CE RD  SO Class-C1
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours
+2. During welding keep the heat input toa minimum.
+www.dnhSecheron.co

@@ -1,0 +1,30 @@
+ULTRATENSAL(SPL)H4R 
+Compile Welding Support
+Codification 
+AWS SFA5.5  11016-G Har 
+Characteristics  Applications 
+Ultratensal(SPLIH4K is a moisture resistant hydrogen-controlled type electrode ideally
+suited for welding high strength steels fine-grained steels HSLA QT steels etc. The
+weld metal possesses high strength combined with good toughness properties. Ideal for
+welding high strength steels used in earth moving industry and Hydal application etc
+Typical Chemical Composition Of All Weld Metal (0) 
+Biement   Mn si Mo Ni cr S P
+Typical  . 0.20  0.018  0.018
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 620C for 1 HR)
+Properties  UTS(MPa) YS(MPa)
+Typical
+Diffusible Hydrogen content  4ml/100 gm of weld metal.
+Welding Positions
+Current And Packing Data DC()
+Size (mm) Dia x Length  ox450 4x450  4.155450  2.50450
+Current Range (Amps) 200-260  140-190  100-150
+Qty (Pes/Carton) 20 50 45
+Precautions
+lL. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 1 hour.
+2. Use short arc and minimize heat input during welding.
+Advantages
+Electrodes are vacuum packed no need of redrving  can be used straight on the job
+Moisture as Conditioned 0.15Max.
+Moisture as Exposed 0.4Max
+www.dnhSecheron.co

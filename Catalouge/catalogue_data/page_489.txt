@@ -1,0 +1,27 @@
+g 
+iy
+MAXFLUXSS-4(LT) 22322
+Compile Welding Support
+Typical Mechanical Properties Of All Weld Metal 
+SAW Wire  Properties
+AUTOTHERME
+GRADE-3061 Typical
+AUTOTHERME
+GRADE-30g1  TBical
+AUTOTHERME
+GRADE-316L
+AUTOTHERME oar
+AUTOTHERME
+GRADE-347
+Typical
+Typical
+Major Constitutents 
+SiO  TiO CaO4MgO  ALOMnO
+S0% a a
+Approvals  LT
+Precautions  Re-dry the flux at 300-350C for 2 hours before use.
+Additional Information 
+Basicity Index  2.00
+Grain Size  0.45-1.60mm
+Packaging Data  25Kgz Poly-Lined Paper Bag
+ 91 9833550505 www.dnhSecheron.com

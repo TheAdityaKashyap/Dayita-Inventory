@@ -1,0 +1,28 @@
+1
+e
+TENSALMH 23
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5  E9018-M
+EN ISO 18275-B E 62 18-N3M1 A H5
+Characteristics  Applications 
+Extra low hydrogen type electrodes depositing a high strength weld metal Ideally suited
+for welding fine-grained steels high strength steels QT steels used in the fabrication of
+structures bridges penstocks and other components.
+Typical Chemical Gineesiinn Of All Weld Metal (%) 
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+  CVN Impact Strength (J)
+Properties  UTS(MPa) S(MPa) (L5d)
+Typical
+Welding Positions 
+Current And Packing Data  DC()
+Size (mm) Dia x Length  6.3%450 1ix430  25x30
+Current Range (Amps) t 200-2  5
+Qty (Pes/Carton)
+Approvals  CE CIB-MP
+Precautions 
+1. During welding keep the heat input toa minimum.
+2. Ensure the electrodes are dry Re-dry the electrode at 400C for 01 hour.
+www.dnhSecheron.com

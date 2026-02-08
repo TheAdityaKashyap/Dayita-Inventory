@@ -1,0 +1,29 @@
+TENSAL Der
+Compile Welding Support
+EN ISO 18275-B E 62 18-G A H5
+Characteristics  Applications 
+A low hydrogen iron powder type electrode for welding steels having tensile strength up
+to GS0Mpa Ideally suited for welding fine-grained steels high tensile stecls used in
+bridges penstocks tanks ete. The weld metal possesses excellent toughness at sub-zero
+temperatures down to -50C. Typical applications include welding of grain-refined steels
+QT steels HSLA steels pressure vessels structural fabrication etc.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element - c  un  Si  wi  Mo  s  P 
+Typical O46S  1.20 0.40 1.20 0.60 O.025  0.025
+Typical Mechanical Properties Of All Weld Metal 
+aie CVN Impact Strength (J
+Properties UTS(MPa) YS(MPa)  7 UeG) ee
+- fC
+Typical
+Welding Positions
+LEEEMR
+Current And Packing Data  DC()
+Size (mm) Dia x Length anda 4x40 3.15x450 2.50350
+Current Range (Amps) 6 140-190 100-140 TO-LOO
+Qty (Pes/Carton)
+Approvals CE CIB-MP PDIL
+Precautions 
+1. Ensure the electrodes are dry Re-dry the electrodes at 300C for 2 hours.
+2. When welding grain refined and QT steels control the heat input by using (a)
+Stringer bead. (b) Control over preheat and interpass temperature (c Short are
+www.dnhSecheron.co

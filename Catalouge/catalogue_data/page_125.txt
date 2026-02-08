@@ -1,0 +1,29 @@
+1
+e
+D&H
+Secheron
+Compile Welding Support
+NITHERME-3.5L
+Codification 
+E7016-C2L
+EN ISO 2560-8
+Characteristics  Applications 
+Alow hydrogen electrode depositing 3.4%Ni weld metal. Specially designed for welding
+fine-grained steels and nickel steels for service temperatures down to -100C Typical
+applications include pressure vessels piping valves tanks transportation and
+distribution of liquefied gases ete.
+Typical Chemical Composition Of All Weld Metal (%)
+Element  C  Mn si  Mi S  P
+Typical 0.045) 0.8  0.25  3.10  0.020 0.020
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 605C FOR 1 HR)
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length Sxaho 4x50 3.158350
+Current Range (Amps) 190-240 140-190 100-140 70-100
+ty (Pes/Carton)
+Approvals  CE
+Precautions 
+1. Ensure the electrodes are dry. Re-drv the electrodes at 300C for 3 hours.
+2. Restrict the heat input to a minimum during welding to achieve better properties.
+www.dnhSecheron.com

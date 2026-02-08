@@ -1,0 +1,26 @@
+DH 308L-17 Der
+Compile Welding Support
+Codification 
+AWS SPA 5.4  3081-17
+Characteristics  Applications 
+DH S08L-17 is a stainless steel electrode for welding 88304 SS83068 and its low carbon
+versions. t works well with transformer and good re-striking characteristic. Better welder
+appeal including easy slag detachability characterstics On horizontal fillet welds
+produce more of spray arc anda finer rippled weld bead and the bead shape ia typically flat
+to concave. It has no red hot tendency within current range specified and no porosity The
+weld deposit displays good corrosion and crack resistance. It is ideally suited for joining
+18-8 stainless steels like AISI 304 308 and its low carbon versions ete. and their
+equivalent prades in cast variety.
+Typical Chemical Composition Of All Weld Metal (%) 
+Typical 10.0  0.020  0.030
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical
+Welding Positions 
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  x350 a.15xa50  2.5a50
+Current Range (Amps) 150-180
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 800C for 2 hours.
+2. Use low current short arcand minimum weaving.
+www.dnhSecheron.co

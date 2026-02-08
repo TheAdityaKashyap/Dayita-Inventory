@@ -1,0 +1,38 @@
+g 
+D&H
+Secheron
+Compile Welding Support
+OTHERS UTS (ksi) RECOMMENDED
+Cr ELECTRODE
+. .  Medio  Supratherme
+0.31-0.64 - 75-95 Tensal
+0.91 -0.64 . BS 110 Tensal
+ 65-85 Nitherme 2.5
+70-90 Nitharme 2.5
+65-85 Nitherme 3.5
+70-90 Nitherme 3.5
+65-45 Molytherme
+70-90 Molytherme
+75-95 Molytherme
+45-65 Medio  Exobel (for T 16 mm
+50-70 Supratherme (for 7  16 mm)
+65-75
+75-95 Tensal
+75-95 Mimotherme-1/Molytherme- Extra
+80-100 Oo
+80-100 Nimotherma-1
+. 60-100 Nimotherme-1
+CVN Impact strength at 100-120 OH 1272 (NS)
+-195C and Lataral
+expansion specitied
+CLV CL2
+0.46-0.85 . 55-80  70-90 Cromatherme
+0.74-1.21 . 55-80 (65-85 Cromotherme-1
+0.94-156 - 60-85  75-100 Cromotherme-1
+1.88-2.62  60-85  75-100 Cromotherme-2
+2.83-3.37 . 60-65  75-100 Cromatherme-2
+9.90-6.10 . 60-85  75-100 Cromatherme5
+790-10. 10 . 60-85  75-100 Cromotherme-
+7.90-9.60  V0.16-0.27 Nb 0.05-0.11  785-10 Cromotherme-91
+NW 0.025-0.080
+ 91 9833550505 www.dnhSecheron.com

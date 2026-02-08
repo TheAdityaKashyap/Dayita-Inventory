@@ -1,0 +1,42 @@
+mT
+e
+D&H
+Secheron
+Compile Welding Support
+CROMOTHERME-2(RTE)
+Codification 
+AWS SFA 5.5  9018-B3
+EN ISO 3580-A E CrMo2 B32 H5
+Characteristics  Applications 
+Weld metal having strict control on 8 P As Sn  Sb will improve the subzero impact property
+and resists temper embrittlement. Weld metal retains its mechanical properties after prolonged
+heat treatments. deal for welding steam generating equipments and reactor ves . The weld
+metal displays excellent tensile strength and crevp resistance Specially applicable wherever
+temper embrittlement resistance is required.
+Typical Chemical Composition Of All Weld Metal 16) 3 
+Biement   xa si cr wo seas 6  s0 at v wi oul
+Typical 0 2.2  1.0  0.002 0.002 0.0070.007)0.004 0.01 0.01 0.10  0.02 0.003
+Typical Mochanival Pr operties Of All Weld Metal 
+CVN Impact.
+Properties UTS(MPa) YSCMPa) Z  Strength (J) _ Hardness
+(VPN)
+SR at 690C 1 hr bl a50
+stain ew oe a ee a
+seacwcivens 505  ws ao  0  ams
+Diffusible ideoeen Content 4 ml/100 ems of weld metal max.
+X-Factor (10P  5Sb  45n  As)/100  15.0 (Elements in ppm).
+J-factor (%5i %Mn) x (%P  %Sn) 10S 126.
+PE (C Mn  Mo Cr/3  Si/4)  3.5(10P  5Sb  48n  As)  3.
+Step Cooling Requirement CvTr54  2.5 A CvTrd48C  10C.
+(Where CvTr54 Transition temperature at absorbed energy of 4 of heat treated
+apecimen A CvTro45C Shift in 54 transition temperature due to step cooling)
+Welding Positions
+Current  Packing Data AC/DC ()
+Size (mm) Dia Lenuth  63xis0  saaso  aso ausaaso 2a 
+Current Range (Amps) 250-300  200-250  140-180  100-230
+Qty (Pes/Carton) 25  Th
+Approvals  CE
+Precautions 
+1 Ensure the electrodes are dev. Re-dry the electrodes at 250-300C for 01 hour
+2. Use short are low current and stringer beads
+www.dnhSecheron.com

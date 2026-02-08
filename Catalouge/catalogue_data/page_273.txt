@@ -1,0 +1,23 @@
+DH 535
+Secheron
+Compile Welding Support
+Characteristics  Applications 
+A heavy coated hydrogen controlled all conventional position electrode depositing low
+alloy weld metal. The electrode gives soft  smooth are which is easy to strike  re-strike
+Superior operating characteristics with easy slag detachability. The welds are of
+radiographic quality. For surfacing of hot forging dies. For repairs of large hot working
+dies and earth moving equipments made of high tensile steel. Repair of case hardening
+steel parts after removing the hard zones for repairing cracks in Ni-Cr hot working dies
+Typical Chemical Composition Of All Weld Metal (%) 
+Typical
+Weld Metal Hardness 
+on 3 Lavers  After SR 560C for 1 hour  36-39 HRC
+Welding Positions 
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length 6.4450 4x450
+Precautions 
+Ensure the electrodes are dry. Re-dry the electrodes at 250C for 1 hour
+When welding on high hardenable materials of large thicknesses. adequate care for preheating
+alow cooling  PWHT are necessary.
+Use short are  minimum weaving.
+www.dnhSecheron.com

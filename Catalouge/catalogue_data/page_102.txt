@@ -1,0 +1,27 @@
+SUPRATHERME(SPL) ped
+Compile Welding Support
+Codification 
+EN ISO 2560-A R424 B92
+Characteristics  Applications 
+Aniron powder low hydrogen type electrode producing a tough and ductile weld metal for
+welding heavy and rigid structures eubjected to dynamic loading and impact. The weld
+metal is of radiographic quality and displays remarkable impact strength even at -50C
+Typical applications include welding of carbon steels steels sensitive to hydrogen
+embrittlement heavy and rigid structures pressure vessels and equipment subjected to
+severe stress and requiring good toughness properties at sub-zero temperatures down to -
+50C
+Tepid Chemical Componttion Oh All Weld Metal (%)
+Typical
+Diffusible Hydrogen Content 5 ml / 100 gms of weld metal Max.
+Welding Positions 
+SCEEME
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  6.3x450 fxd 4x450 .16x450) 2.5350
+Current Range (Amps) 270-350 200-280 150-150 185 80-100
+Qty (Pes/Carton) i 150
+Approvals  ABS Adani Infra BHEL CE CIB-MP EIL LT Power
+NPCIL NTPC PDIL Reliance (Engineering)
+Precautions
+1. Ensure the electrodes are dry Re-dry the electrodes at 300C for 2 hours
+2. Use short arc and stringer bead.
+www.dnhSecheron.co

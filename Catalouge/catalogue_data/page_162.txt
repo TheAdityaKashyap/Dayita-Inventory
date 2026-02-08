@@ -1,0 +1,32 @@
+CROMOTHERME-23
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5  E9015-B23
+Characteristics  Applications 
+Cromotherme-23 is a basic coated low hydrogen type electrode depositing a weld metal of
+having less impurities 1.6.5 P will improve the impact property at subzero temperatures.
+tis ideally suited for swaldinig of creep resisting steels of similar composition. The weld
+deposit has excellent creep resistance at service temperatures up to 550C. Typical
+applications include welding of P23 steels wherever prolonged heat treatment cycles are
+involved
+Typical Chemical Composition Of All Weld Metal (%) 
+Ec Ee See ba Ee
+Typical
+Typical Mechanival Properties Of All Weld Metal 
+(PWHT 740C FOR 2 HR)
+Typical
+Hot Tensile
+Temperature
+UTS (MPa) a7
+wean  _
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length 5 4.15x350  2.50350
+Current Range (Amps) Pepa res re e
+Qty (Pcs/Carton)
+Approvals  Adani bifra Reliance (SASAN Power)
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300C for 01 hour.
+2. Useshort arc low current and stringer beads.
+www.dnhSecheron.co

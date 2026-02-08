@@ -1,0 +1,36 @@
+ AUTOTHERME Cr-Mo 522225
+Compile Welding Support
+Codification 
+AWS SFA 5.28  ERS0S-B6
+EN ISO 21952-B G55 M135CM
+(oH SECHESOM ELECTROOES
+Characteristics  Applications 
+Autotherme Cr-Mo 6 is a copper-coated solid wire for GMAW available in bright finish.
+The wire gives stable arc smooth welding performances and deposits radiographic quality
+welds It is suitable for welding 5%Cr 0.5Mo steel. The weld metal possesses good high
+temperature properties. The weld metal possesses excellent creep property up to 550C.
+Especially suitable for welding of pipes and tubes of matching composition in Power
+plants Refineries Petrochemicals Fertilizer plants ete. Suitable for welding of ASTM
+steels Grade FS Pia  F21 of SA-182 Grade T4 T22 of SA-199 Grade T22 of SA-214
+Grade C5 of SA-217 Grade P22 of SA-435 Grade FS  F21 (clase 13) of SA-336 Grade
+FPS FP21 of SA-369 Grade 521  21Lo0fSA-387 Grade CP5 CP21 of SA-426 Clase 4 4a
+of E types of SA-542 etc.
+Typical Chemical Composition Of Solid Wire (%) 
+Element C  Mn Si 5 P Cr  Mo  Cu 
+Typical 0.010  0.012 5.20
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 745C FOR 1 HR)
+Properties  UTS(MPa) S(MPa)
+Typical
+Welding Positions 
+Welding Parameter DC()
+Diameter (mm) Volt (V) Current (A)
+7-2  800-360
+S44 20
+Shielding Gas  Argon / 1-5 0
+Approval  CE
+Packing Data
+StandardSize - Thameter 1.2mm 1.6mm.
+Quantity  15.0 kg wire layer wound ina plastic spool that conforms to
+DIN-8549 5D-300.
+www.dnhSecheron.co

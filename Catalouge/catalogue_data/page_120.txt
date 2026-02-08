@@ -1,0 +1,27 @@
+NITHERME2.5L 22225
+Compile Welding Support
+Codification 
+AWS SPA 5.5  7018-CiL
+Characteristics  Applications 
+A low hydrogen electrode yielding low carbon 2.5% Ni in the weld deposit. It is ideally
+suited for welding fine-grained steels and Ni steels especially for service temperatures
+down to -75C The weld metal possesses strength combined with excellent sub-zero
+temperature notch toughness Typical applications include storage tanks pressure
+vessels containers and piping for liquefied gases like propane and butane.
+Typical Chemical Composition Of All Weld Metal (%) 
+Typical 0.40  0.018) 0.018
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 605C FOR 1 HR)
+CVN Impact Strength (J)
+- TC
+Typical 5
+Properties  UTS(MPa) S(MPa)
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length  x450 d.1hxdd  2.5xd50 
+Current Range (Amps)  210-270 100-155  80-100 
+Qty (Pes/Carton) BEY 75 125
+Precautions 
+1. Re-dry the electrodes at 250-300C for 1 hour.
+2. Restrict the heat input toa minimum during welding to achieve better properties
+www.dnhSecheron.co

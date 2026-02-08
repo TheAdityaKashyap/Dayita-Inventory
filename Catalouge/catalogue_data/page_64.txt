@@ -1,0 +1,25 @@
+g 
+MEDIO-S Der
+Compile Welding Support
+Codification 
+AWS SFA 4.1
+IS 814 ER4322X
+Characteristics  Applications 
+Medio-5 ig. rutile electrode ideally suited for welding of carbon steels. The weld metal is of
+radiographic quality and possesses excellent notch toughness at -20C. Typical
+applications include ship construction tanks barges dredgers structures etc
+Typical Chemical Composition Of All Weld Metal (%) 
+Element C F
+Si 
+ Typical  0.055  0.55  0.16  0.020  0.020 
+Typical Mechanical Properties Of All Weld Metal 
+Properties UTS(MPa) YS(MPa)
+Typical 485
+Welding Fostons 
+ Eat) Cal call E
+Current And Packing Data AC / DC(-)
+Size (mm) Dia x Length fxdd dxd iid S.04x450
+Current Range (Amps) 190-240 150-180 100-130
+Qty (Pes/Carton) 50
+Approvals  Indian Navy
+3550505 www.dnhSecheron.com

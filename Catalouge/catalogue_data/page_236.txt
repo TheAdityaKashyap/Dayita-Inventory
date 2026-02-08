@@ -1,0 +1,27 @@
+g 
+RUTOXA(ST) 2H
+Compile Welding Support
+Codification 
+AWS SFA 5.4  847-16
+B19.9Nb R16
+EN ISO 3581-A E (199 Nb) RS
+Characteristics  Applications 
+Rutox-A(ST) is an electrode depositing 18%Cr-10%QNi-Nb stabilised weld metal suitable
+for joining of stainless steels of similar composition. deal for welding of AISI 404 304L
+321 447 and their equivalents The weld metal has excellent resistance to intergranular
+corrosion.
+Typical Chemical Composition Of All Weld Metal (%) 
+UTS(MPa) 754)
+Welding Positions 
+LE-FETR
+Current And Packing Data AC / DC()
+ Size (mm) Dia x Length .15x350 2.6x350
+Current Range (Amps) 80-100 60-80 
+Weight/Carton (kgs) 25
+Approvals Adani Infra BHEL BV CE CIB-MP EIL NPCIL NTPC
+PDIL
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+2. Useshort are length and stringer bead to reduce heat input.
+Note  Batox-A(8T) conforming to AWS E347-16 is also available.
+www.dnhSecheron.com

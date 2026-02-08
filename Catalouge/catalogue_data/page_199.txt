@@ -1,0 +1,28 @@
+DH 310-16
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  E210-16
+IS 5206 E25.20R16
+EN ISO 3581-B E25 20R32
+Characteristics  Applications 
+DH 310-16 is a 25%Cr - 20% Ni type electrode for welding steels of simular composition.
+The weld metal has excellent resistance to oxidation and scaling up to 1200C. The
+electrode is also suitable for welding of hardenable steels clad steels C-Mo Cr-Mo steels
+where pre-heat and post weld heat treatment are not feasible
+7 pical Chemical Composition Of All Weld Metal (%) 
+Element  c_ silcr  mils  P
+UTS(MPa) er
+Welding Positions 
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length 3.15350
+ Current Range (Amps) La0-180  110-140
+ Weight/Carton (kgs) 25 2.5
+Approvals  BHEL CE CIB-MP PDIL
+Precautions 
+Use low current short arc length and minimum weaving.
+Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+Note A high carbon version containing 0.4C DH 310HC conforming to AWS Ed10H-
+161s also available for welding similar composition alloys like HK4AO Thermalloy 47
+ete
+www.dnhSecheron.co

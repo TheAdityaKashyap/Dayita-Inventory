@@ -1,0 +1,36 @@
+CROMOTHERME-1(MOD)
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5  s018-B2
+IS 1395. E S5BB2 26Fe
+EN ISO 3580-A E CrMol B42 H5
+Characteristics  a 
+Weld metal having lesser impurities Le. 8 P will improve the subzero impact property
+and retains its mechanical properties after prolonged heat treatments. Ideal for welding
+similar composition materials. The weld metal displays excellent tensile strength and
+creep resistance Specially applicable wherever the impact property requirement at
+subzero temperatures up to -20C
+Typical Chemical Composition Of All Weld Metal (%) 
+Element 
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 690C FOR 1 HR)
+CVN Impact Creep Strength at 540C
+Strength (J)  (1% offset in10000hrs)
+(MPa)
+Properties  UTS(MPa) YS(MPa) Ps 5d)
+apical ea av ee wo
+Diffusible Hydrogen Content 4 ml/100 gms of weld metal max.
+Welding Positions
+Current And Packing Data DC()
+Bige (mm) Tia x x rT ength 8. 3x 150 8x450 ix 50 i 3. 115x350. 2ae350 
+Current Range (Amps)  250-300  200-250  140-180  100-130
+Qty (Pcs/Carton)
+Approvals  BHEL CE.
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours.
+2. Use short arc low current and stringer beads
+Note  Low carbon version Cromotherme 1L(MOD) conforming to AWS E7018-B2L is
+also available.
+www.dnhSecheron.co

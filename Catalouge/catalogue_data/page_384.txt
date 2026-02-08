@@ -1,0 +1,39 @@
+MAXFIL-37B
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.29
+iC
+EN ISO 17632-B T555T5-0CP NZ
+Characteristics  Applications 
+Maxfill-37B is a low alloy steel flux cored wire designed for welding of high strength fine
+grained quenched  tempered steels to meet sub-zero impact resistance property down to -
+61C. The wire gives optimum performance under CO shielding and deposits radiographic
+quality weld metal. The weld has excellent bead appearance and easy slag removal. Maxfil
+7B is designed for single and multi-pass welding of similar composition steels and
+equivalent grade steels like A/B grades of BA-203 A/BIC grades of SA-662 BC grades of
+SA-737 N-A-XTRA-60/65 etc. This wire is used for heavy fabrication work subjected to
+dynamic loading earth moving equipments off-shore platforms and similar kind of
+applications ete.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element
+Range
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT  620C FOR 1HR)
+CVN Impact
+Properties  UTS(MPa) YS(MPa) Strength (1)
+550-690  470 Min 19.0 Min
+Welding Positions 
+Welding Parameter  DC ()
+Diameter
+(rum)
+1.20 24-28 160-260 160-260 2 10-160
+1.60 24-28 180-300 180-500 18-22 110-200
+Approvals CE
+Shielding Gas Carbon Dioxide CO (100%) at flow rate 15-20 litres per minute
+Packing Data
+Standard Size 120  1.60mm Other diameters may be available on request
+Quantity  Supphed approximately 15K gs in a plastic spool. Rach spool is sealed in an air
+tight polythene bag and then packed in acorrugated box.
+www.dnhSecheron.co

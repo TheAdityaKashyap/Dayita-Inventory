@@ -1,0 +1,28 @@
+g 
+DH309LMo 992
+Compile Welding Support
+Codification 
+EN ISO 3581-4 E(23 12 2L) R32
+Characteristics  Applications 
+DH 309LMo is a stainless steel electrode yielding a weld deposit of low carbon
+26o0r-12%Ni-2.6%Mo which has good oxidation resistance up to 1050C t is ideally
+suited for welding wrought and cast stainless steel of similar composition for overlay
+applications to resist heat and corrosion overlays on ferritic steels buffer layers for
+joining dissimilar steels such as 14-11-Mosteel to mild steel etc.
+Typical Chemical Composition Of All Weld Metal (%) 
+Btement   Mm Si S  P cr  Ni Mo
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+GEL
+Properties  UTS(MPa) (L4d)
+Typical 680 BEY
+Welding Positions 
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length
+Current Range (Amps)
+Weight/Carton (kgs)
+Approvals  CE
+Precautions 
+1. Re-dry the electrodes at 250-300C for 01 hour.
+2. Use short arc and stringer bead.
+www.dnhSecheron.com

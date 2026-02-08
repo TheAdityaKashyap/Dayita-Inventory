@@ -1,0 +1,29 @@
+BATOX-F(U) ae
+Compile Welding Support
+Codification 
+AWS SPA 54  ES16L-15 (Modified)
+Characteristics  Applications 
+Batox-F(U) is a semi-basic coated electrode depositing a weld metal which is fully
+austenitic in structure has high strength and good crack resistance. The weld metal
+displays remarkable corrosion resistance particularly in urea service. Ideally suitable for
+welding of AISI 316L and their nitrogen bearing versions particularly for urea service
+Typical Cc hemical a a rt Weld  tal (%) 
+ Element
+Ferrite Content  Nil
+Typical Mechanical Properties Of All Weld Metal 
+a Cc sion Rate
+Properties UTS(MPa) net  Corrosion Rate _
+(ASTM A262 Practice C)
+Typical i a7. T mils/year
+Welding Positions 
+zal vals a E
+Current And Packing Data DC()
+Size (mm) Diax Length  5x35  2a
+ Current Range (Amps)  150-180  110-140  80-100  6
+25 2.5 26
+ Weight/Carton (kgs)
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+2. Use short arc stringer bead smallest size of electrode and minimum current to ensure
+minimum heat input
+www.dnhSecheron.co

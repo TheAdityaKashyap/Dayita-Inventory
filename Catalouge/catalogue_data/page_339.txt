@@ -1,0 +1,31 @@
+F Cr-Mo 9
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.28  ERs0S-B8
+EN ISO 21952-B W55 11 9C1M
+Characteristics  Applications 
+F Cr-Mo 91s a copper-coated solid wire for GTAW available in bright finish. The wire gives
+atable arc smooth welding performances and deposits radiographic quality welds. It is
+designed for creep resistant steels. Tt is used for welding base metal of similar
+compositions usually in the form of pipe or tubing. Typical applications include welding of
+AdS8T Grade plate A335 P9 pipe A213 T9 tubes ete
+Typical Chemical Composition Of Solid Wire ()
+Element i Si
+Typical 0.50  0.020) 0.020) 9.00
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT  745C FOR 1HR)
+El
+Properties  UTS(MPa) YS(MPa) (L5d)
+Typical 570 Guth 18
+Welding Positions
+Shielding Gas  Argon
+Current Conditions  DCEN
+Approval CE
+Packing Data
+Standard Size Diameter 1.6 mm 2.0 mm 2.4 mm  3.2 mm in cut lengths of 500 mm /
+1000 mm each.
+Quantity  ike wire putin an air-tight polythene bag and finally packed ina plastic
+container
+Identification AWS code is punched on each wire.
+www.dnhSecheron.co

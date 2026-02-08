@@ -1,0 +1,25 @@
+g 
+DH 1414NS) BEE
+Compile Welding Support
+Codification 
+AWS SPA 5.11  ENiCrMo-14
+Characteristics  Applications 
+DH 1414(N8) provide excellent operating characteristics for groove and fillet welding in
+down hand position and smaller diameter electrodes are suitable for all position welding.
+Weld metal gives good resistance to the corrosion resistance to reducing oxidizing crevice
+and pitting corrosion. It is suitable to join duplex super duplex and super austenitic
+stainless steels and ideally suitable for nickel alloys auch as Inconel alloy C-276 622 625
+686 UNS NOGOS9 and NOGO22. Typical applications are include chemical process
+petrochemical oil and gas marine industries ete.
+Typical Chemical Composition Of All Weld Metal (%) 
+sii  P s  cr Ni w  cu
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa) oan
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length  oxa50 4x350  3.15350) 2.6x850
+Current Range (Amps) 120-150  80-110 60-70
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 800-325C for 1 hour.
+www.dnhSecheron.co

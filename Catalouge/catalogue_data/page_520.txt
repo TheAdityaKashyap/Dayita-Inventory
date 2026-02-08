@@ -1,0 +1,29 @@
+eron
+Complile Welding Support
+Common Gas Metal Arc Welding Defects
+POSSIBLE CAUSES
+CORRECTIVE ACTIONS
+LACK OF PENETRATION
+Improper joint preparation
+Improper welding technique
+ Provide/Increase root openings in
+butt-joint
+ Decrease the height of root face
+ Adequate access to maintain proper
+nozzle-to-work distance
+ Maintain the arc on the leading edge
+of the weld pool
+ Select proper travel angle to achieve
+maximum penetration
+Improper welding technique
+ Increase electrode feed rate
+Maintain proper nozzle-to-work
+ distance
+EXCESSIVE MELT THROUGH
+Excessive heat input
+ Reduce the electrode feed rate  volt
+ Increase the travel speed
+Improper joint preparation
+ Reduce excessive root opening
+ Increase the height of the root face
+www.dnhSecheron.com

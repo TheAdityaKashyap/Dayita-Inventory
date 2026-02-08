@@ -1,0 +1,33 @@
+CROMOTHERME-2(MOD)
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5  9018-B3
+IS 1395. E63 BBS 26 Fe
+EN ISO 3580-A E CrMo2 B42 H5
+Characteristics  Applications 
+A low hydrogen iron powder electrode depositing 2.25%Cr -11Mo weld metal having low
+level of impurities and exhibiting excellent toughness up to -18C. Weld metal retains its
+mechanical properties even after prolonged heat treatments. Ideal for welding steels of
+similar composition to achieve tough weld metals
+Typical Chemical Composition Of All Weld Metal (%) 
+_P  cr  Mo 
+O.007  0.010
+Typical Mechanical Properties Of All Weld Metal 
+Ee.  CVN Impact Strength (J)
+(L8d)
+Properties UTS(MPa) YS(MPa)
+- 18C  20C
+Typical  646 Bad 22 100 120
+Diffusible Hydrogen Content 5 ml/100 gms of weld metal max.
+Welding Positions 
+Current And Packing Data DC()
+Cc
+Qty (Pcs/Carton)
+Approvals  CE
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours.
+2. Use short arc low current and stringer beads
+Note Low carbon version Cromotherme -2L (Mod) conforming to
+AWS ES018-E3Lis alsoavailable
+www.dnhSecheron.co

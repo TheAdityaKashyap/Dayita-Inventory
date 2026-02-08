@@ -1,0 +1,30 @@
+1
+e
+D&H
+Secheron
+Compile Welding Support
+CROMOTHERME-24
+Codification 
+AWS SFA 5.5  E9015-B24
+Characteristics  Applications 
+A stable and steady arc which is easy to strike and re-strike. Easy slag removal and finely
+rippled smooth beads. Weld metal of having lesser impurities i.e. 8 P will improve the
+subzera impact property. The electrode ts used for welding similar composition materials
+and SA-182 F22V SA-496 F22V  SA-641 22V. Specially applicable wherever prolonged
+heat treatments cycles are involved. Basically it is used for fabricating desulphurization
+reactors heavy section pressure vessels having similar composition.
+Typical Chemical Composition Of All Weld Metal (%)
+Element C Mn Si  P    Cr NiMo/ V  Nb/ N  Al Ti Cu
+Typical 0.06 0.7 0.30/0.012/0.007 2.2  0.3  1.0  0.2 0.030.040.020.05 0.1 o.
+Typical Mechanical Properties Of All Weld Metal
+(PWHT 740C FOR 2 HR)
+Properties UTS(MPa) YS(MPa)
+Typical  wo  50
+Welding Positions 
+Current And  Data 
+Gawant Range (Amps)  180-240 rem 100-10 Paes 
+Qty (PcsCarton)
+Precautions 
+1 Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+2. Use short are low current and stringer beads.
+www.dnhSecheron.com

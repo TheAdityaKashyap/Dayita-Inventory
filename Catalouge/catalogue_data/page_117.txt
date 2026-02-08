@@ -1,0 +1,29 @@
+NIMOTHERME-NM2
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.5  E9018-NM2
+Characteristics  Applications 
+Nimotherme-NM2 is a basic coated low-hydrogen electrode. This electrode is intended ta
+meet strength requirements after extended post weld heat treatment as required im the
+construction of nuclear power plants and in the fabrication of components (e.g steam
+generators and pressurizers) used in nuclear power plants. The weld metal fulfill the
+requirements of drop weight testing to determine nil ductility temperature as well as
+measurement of mils of lateral expansion on broken Charpy V-notch specimens.
+Typical Chemical Composition Of All Weld Metal (%) 
+Pe Ni
+4d)
+Typical
+Welding Positions 
+LE-FRTR
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length
+Current Range (Amps)
+Qty (Pes/Carton)
+Approvals  CE
+Precautions
+1. Re-dry the electrodes at 250-300C for 01 hour as per our standard recommended
+practice.
+2. Use short arc. stringer bead and smallest size of electrode minimum current ta
+ensure minimum heat input.
+www.dnhSecheron.co

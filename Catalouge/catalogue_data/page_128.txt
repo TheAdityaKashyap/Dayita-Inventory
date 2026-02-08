@@ -1,0 +1,32 @@
+g 
+ip
+MOLYTHERME 2322
+Compile Welding Support
+Codification 
+EN ISO 3580-A E MoB 42
+rye is i
+Characteristics  Applications 
+Molytherme is a low hydrogen iron powder type electrode yielding a weld deposit
+containing 06%Mo. Ideal for welding creep resistant C-Mo steels for service temperatures
+up to 425C Typical applications include boilers pressure vessels pipes and tubes of
+similar composition
+Typical Chemical Composition Of All Weld Metal (%) 
+Element c Fi s
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 620C FOR 1 HR)
+1) CVNI Streneth (J) Creep Strength at
+Properties UTS(MPa)) YS(MPa)  _ mpnerseenen 525C (1% offset
+inl0000hrs) (MPa)
+Typical
+Diffusible Hydrogen Content 5 ml/100 gms of weld metal Max.
+Moisture Content  0.40% Max.
+Welding Positions 
+Current And Packing Data  DC()
+Size(mm) Dia x Length  6.45450 dot) 4x450 4.155450  2axdad
+Current Range (Amps) 270-340 170-240 140-170
+Approvals  Adani Infra BHEL CE CIB-MP EIL NPCIL NTPC PDIL
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours
+2. Use short are and stringer bead
+www.dnhSecheron.com

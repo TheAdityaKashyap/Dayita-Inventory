@@ -1,0 +1,30 @@
+NITHERME-2.5(SPL)H4R
+Secheron
+Compile Welding Support
+Codification 
+ AWSSFASS  E7018-C1L
+Characteristics  Applications 
+A low hydrogen electrode yielding low carbon 2.5% Ni in the weld deposit. It is ideally
+suited for welding fine-grained steels and Ni steels especially for service temperatures
+down to -75C. The weld metal possesses strength combined with excellent sub-zero
+temperature notch toughness. Typical appheations include storage tanks pressure
+vessels containers and piping for liquefied gases like propane and butane
+Typical Chemical Composition Of All Weld Metal (%) 
+Blemene   wm si P S  Ny
+Typical O.018  240
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 605C FOR 1 HR)
+CVN Impact
+Properties  UTS(MPa) YS(MPa) Strength (J)
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length  5x45 .15xd50  2.55050
+Precautions
+1. Re-drv the electrodes at 250-300C for 1 hour.
+2. Restrict the heat input toa minimum during welding to achieve better properties
+Advantages
+Electrodes are vacuum packed no need of redrving  can be used straight on the job
+Moisture as Conditioned 0.4Max.
+Moisture as Exposed 0.4Max.
+www.dnhSecheron.co

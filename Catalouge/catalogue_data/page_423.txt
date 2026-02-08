@@ -1,0 +1,39 @@
+MAXFIL-410
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.22 ) Ba10T0-1
+Dé Hi SECMERDA ELECTIVOMES
+Characteristics  Applications 
+Maxfil-410 is stainless steel flux cored wire designed for optimum performance with
+100% CO gas shielding. This wire provides the excellent usability with stable arc less
+spatter good head appearance. The wire welds satisfactorily when welding in the flat
+horizontal  fillet position. Maxfil-410is 13% Cr martensitic stainless steel flux cored wire.
+tis used for overlay welding on valve seat surface because of its martensite structure in as
+welded which shows high hardness and wear resisting properties. It will be showed good
+ductility and excellent corrosion resistance after post-weld heat treatment at G00850C
+and itis suitable for welding of AIST 410 403 420-11 and 42032 Normally pre-heat  post
+heat treatments is necessary at 205400C
+Typical Chemical Composition Of All Weld Metal (%) 
+Element i Si 5 P Cr Ni
+Range i 5 10  0.03  0.04  110-135
+Typical  0.050  0. 053  0.007  0.027  12.8
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 730-760C FOR 1 HR)
+Properties  UTS(MPa)
+Range 420 Min
+Typical ss
+Welding Positions 
+BF Cs
+a  
+y
+Welding Parameter  DC ()
+Diameter Horizontal/Flat.
+(mm) Volt (V) Current (A)
+Shielding Gas Carbon Dioxide CO (100%) at flow rate 15-22 htres per minute
+Packing Data 
+Standard Size  1.204 1.60mm.
+Quantity  Supplied approximately 12.5/15Kgs in a plastic spool. Each spool is
+vacuum sealed followed by polythene bag and then packed in a
+corrugated box.
+www.dnhSecheron.co

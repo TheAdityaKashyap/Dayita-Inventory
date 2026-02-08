@@ -1,0 +1,33 @@
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  B2209-15
+EN ISO 3581-A E2293NLB22
+Characteristics  Applications 
+DH 2209-15(N8) is a non-synthetic basic coated electrode depositing duplex stainless
+steel weld metal The weld metal possesses excellent corrosion resistance in marine 
+paper environments. tis ideal for welding duplex stainless steels and suitable for welding
+duplex stainless steels having Cr25% and other grades like INS 32205 UNS 31804 ete
+a Chemical  Of All Weld Metal ae 
+Typical 5 0.40  1.018) 0.020
+Typical Mechanical Properties Of All Weld Metal
+CYN Impact Strength (J)
+Properties  UTS(MPa
+20C
+Typical  730 25. 110
+Corrosion Property  Weld Metal meets ASTM A362 Practice C ASTM G-36 ASTM
+G-484 and NACE TM-OL-77 specification at 350 MPa stress level 16 bar pressure and 90C
+temperature requirements in as welded condition
+Hardness Of Weld Metal  26 HRC Max.
+Bend Test  Satisfactory with plunger diameter equal to 4 times the thickness
+of the specimen.
+Ferrite  40-55%
+Welding Positions 
+Current And Packing Data DC()
+Size(mm) Dia x Length
+Current Range (Amps)
+ Weight/Carton (kgs)
+Precautions 
+1. Re-dry the electrodes at 250-300C for 1 hour.
+2. Use Low Current Short are  stringer bead.
+www.dnhSecheron.co

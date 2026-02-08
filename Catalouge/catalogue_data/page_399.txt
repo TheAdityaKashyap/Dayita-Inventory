@@ -1,0 +1,39 @@
+MAXFIL-70A1 Pelee
+Compile Welding Support
+Codification 
+AWS SPA 5.29 -) E70TS-A1C
+EN ISO 17632-B T493T5-0CP 2M3
+Dé Hi SECMERDA ELECTIVOMES
+Characteristics  Applications 
+Maxfil-70A1 is a low alloy steel flux cored wire designed for welding of 0.5%Molybdenum
+and 1%sChromium and 0.5%Molybdenum steels. The wire gives optimum performance
+under CO shielding with radiographic quality weld deposits. The wire produces thin 
+friable slag covering with shiny bead appearance. Maxfil-70A1 is designed for single and
+multi-pass welding of similar composition steels and equivalent grade steels like Gr. Fl of
+SA-182 and SA-346 Gr. A of SA-204 Gr. T1/Tall1b of SA-209 Gr. WC1 of SA-217 Gr A
+of SA-302 Gr. Pl of SA-345 Class 1 of A grade of 54-434 etc.
+Typical Chemical Composition Of All Weld Metal (%) 
+Bement  o_ via si ss p wo 
+ange ous as ean oan ete eso
+Ty Seal
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 620C FOR 1 HR)
+CVN Impact
+Strength (J)
+30C
+Range 490-620 400 Min 20.0 Min 27 Min
+Welding Positions 
+Welding Parameter  DC ()
+Diameter Horizontal Vertical Up
+(mm) Volt (V) Current (A) Volt (V) Current (A) Volt (V) Current (A)
+160-260 24-28 160-260 2 100-160
+br a
+Properties  UTS(MPa) YS(MPa) (L4d)
+180-500  24-28  160-300 2 110-200
+Approvals  CE
+Shielding Gas Carbon Dioxide CO (100%) at flow rate 15-20 litres per minute.
+Packing Data
+Standard Sige 1.20% 160mm Other diameters may be available on request.
+Quantity  Supphed approximately LoKgs in a plastic spool. Rach spool is sealed in an air
+tight polythene hag and then packed in a corrugated box
+www.dnhSecheron.co

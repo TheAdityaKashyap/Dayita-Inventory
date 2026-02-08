@@ -1,0 +1,32 @@
+BATOX-F DEE
+Compile Welding Support
+Codification 
+AWS SFA 5.4 ) 3161-15
+Characteristics  Applications 
+Basic coated type electrode producing low carbon stainless steel weld which has excellent
+to resistance to cracking even on heavy and restrained joints. t has exceptional quality in
+meeting stringent applications where sub zero temperatures properties are required
+Balance Cr-Ni weld deposits with ferrite contralled below 2 FN ensure excellent resistance
+to the weld metal from formation of sigma phase corrosion oxidation and pitting at
+elevated temperatures. It is suitable for welding of ATS 316 and 316L particularly when
+the ferrite in the weld deposit has to be controlled at a low level as in the case of equipment
+for urea plant. The presence of Molybdenum enhances the corrosion resistance of the weld
+metal in reducing media as in urea service
+Typical Chemical a aca ae aad Weld Metal (%)
+Element  Cc Mn Si. P Ma
+Typical O04  LS0  0.45 ) 0.020) 0.020) 18.0) 13.5  2200
+Typical Mechanical Properties Of All Weld Metal 
+EI CVN Impact Lateral Expansion
+Properties  UTS(MPa) a saa Strength (J) (mm)
+ 196C  196C
+a2 0.5
+Typical 580
+Welding Positions
+Current And Packing Data 2 DC()
+Size (mm) Dia x Length  5x350 4x360  3.15x350  2.6x450
+Current Range (Amps)  150-180  110-140  30-100 60-80 
+Weight/Carton (kes) Z. 2.5 2.4
+Precautions 
+1. Re-dry the electrodes at 250-300C for 01 hour.
+2. Use short arc low current and stringer beads.
+www.dnhSecheron.co

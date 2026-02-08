@@ -1,0 +1,32 @@
+g ig
+AUTOTHERME Cr-Mo 9 2222
+Compile Welding Support
+Codification
+AWS SPA 5.28  ER80S-B8
+EN ISO 21952-B G55 M13 C1M
+(oH SECHESOM ELECTROOES
+Characteristics  Applications 
+Autotherme Cr-Mo 9 is a copper-caated solid wire for GMAW available in bright finish.
+The wire gives stable arc smooth welding performances and deposits radiographic quality
+welds It is designed for creep resistant steels. t iz used for welding base metal of similar
+compositions usually in the form of pipe or tubing. Typical applications include welding of
+AS87 Grade 9 plate ASS5 P9 pipe A219 T9 tubes etc.
+Typical Chemical Composition Of Solid Wire () 
+Element c a Si  s  P Cr we Cu
+Typical  (08  0.60  6.50 0.020) 0.020) 9.00  1.00  0.10
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT  745C FOR 1HR)
+Properties UTS(MPa) YS(MPa) Pasar
+Typical
+Welding Positions 
+Welding Parameter DC()
+Diameter (mim) Volt (V) Current (A)
+1.2 27-32 S00-3 60
+1.6 25-30 340-420
+Shielding Gas  Argon / 1-5% O
+Approval  CE
+Packing Data
+Standard Size  Diameter 1.2 mm  1.6mm.
+Quantity  15.0 kg wire layer wound in a plastic spool that conforms to
+DIN-8559 SD-300.
+3550505 www.dnhSecheron.com

@@ -1,0 +1,32 @@
+MOLYTHERME(SPL) MOD
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.5  B9018-D1
+E63BD1263
+IRS M28 2020 Class C2
+Characteristics  Applications 
+Extra low hydrogen type electrodes depositing a high strength weld metal. The electrode
+possesses excellent operating characteristics and is suitable for welding in all positions.
+Weld metal has got good toughness even at subzero temperatures. Deposition efficiency 15
+about 115% min. The weld metal possesses high strength together with good notch
+toughness even at subzero temperatures down to -50C. Ideally suited for welding
+components made of steel to 1S2062 Gr. E410 E450 82002-Gra 151875-04 clase 3A or
+similar.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element   Ni
+Typical
+Typical Mechanical Properties Of All Weld Metal
+(PWHT  620C FOR 1HR)
+CVN I t St th (0)
+Properties  UTS(MPa) YS(MPa) sei he
+Aypicat eso ae ae ef
+Diffusible Hydrogen Content  5 mi/100 gms of weld metal max.
+Welding Positions 
+Current And Packing Data DC()
+Current Range (Amps)  200-250  140-190  100-140  80-100
+Qty (Pes/Carton)
+Precautions 
+1 Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours.
+2. During welding keep the heat input toa minimum
+www.dnhSecheron.co

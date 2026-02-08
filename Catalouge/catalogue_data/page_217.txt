@@ -1,0 +1,32 @@
+DH 385
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  385-16
+EN ISO 3581-A E 20.255 CuNLR32
+Characteristics  Applications 
+DH 3865 iz a non-synthetic rutile coated stainless steel electrode depositing a weld metal
+containing low carbon 20%%Cr-25%Ni-5%Mo-2%Cu which exhibits excellent resistance to
+corrosion in non oxidizing media like sulfuric acid phosphoric acid acetic acid formic
+lacid fatty acids oxalic acid etc Soft and stable arc which is easy to strike and re-strike.
+Low spatter. Smooth weld beads. Easy slag detachability. It ia ideally auited for welding
+materials for application where phosphoric sulfuric acids. and other non-oxidizing
+solutions are encountered. The addition of Mo and Cu in the weld metal helps in resisting
+corrosive attack of these solutions. Itis particularly suited for welding Carpenter 20 HV9
+HVA Uranus B6 UHB S04L Sandvik 2RK65 and similar materials which are used for
+these service conditions.
+Typical Chemical Composition Of All Weld Metal (%) 
+Klement  C  Mn Si  Cr  Ni  Mo Cu  P
+Typical
+Properties
+Typical
+Welding Positions
+Current And Packing Data AC / DC()
+Current Range (Amps) 140-180  110-140  0-100 60-80
+Weight/Carton (kgs)  2.5 2.5 2.5 2.5
+Approvals  CE
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour
+2 Use stringer beads short arc and smallest possible size which helps in reducing the
+heat input
+www.dnhSecheron.co

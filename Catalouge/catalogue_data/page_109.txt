@@ -1,0 +1,27 @@
+SUPRATHERME-Ni(SPL)MOD 
+Compile Welding Support
+Codification 
+AWS SFA 5.5
+Characteristics  Applications 
+t is basic coated low hydrogen iron powder type electrode yielding a 1.0% Niin the weld
+metal. Radiographic quality welds having excellent cracking resistance. Weld metal of
+excellent toughness to withstand heavy dynamic loading and impact Ideally suited for
+welding fine grained steels low alloy steels subjected to sub-zero temperature
+applications down to -G0C Ideal for welding heavy sections highly restrained joints
+subjected to dynamic loading. Ideal for pressure vessels tanks spheres ete.
+Typical Chemical Sone Of All Weld Metal (%) 
+ Element
+ Py pical
+CTOD (SENB) at 0C  0.25 mm minimum
+Welding Positions
+LE-FRTR
+Current And Packing Data  AC/DC ()
+Size (mm) Dia x Length  6.3x450  sxaso  4xa0  3.150450
+Current Range (Amps)  270-330  220-280  160-190  too140  70-100
+Qty (Pcs/Carton)
+Precautions 
+Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+2. For best impact properties accomplish minimum heat input by Using smallest size of
+electrode possible minimum weaving maximum number of lavers welding in down
+hand position wherever possible.
+www.dnhSecheron.co

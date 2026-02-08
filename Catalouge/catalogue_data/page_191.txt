@@ -1,0 +1,27 @@
+DH 309L-17 Der
+Compile Welding Support
+Codification 
+AWS SPA 5.4  3091-17
+Characteristics  Applications 
+DH 309L-17 is a stainless steel electrode depositing an extra low carbon 23%Cr-15%Ni
+weld metal. t works well with transformer and good re-striking characteristic. Better
+welder appeal including easy slag detachability characteristics. On horizontal fillet
+welds produce more of spray arc and a finer rippled weld bead and the bead shape is
+typically flat to concave. It has no red hot tendency within current range specified and no
+porosity. The weld metal has excellent mechanical properties and possesses good
+oxidation and scaling resistance at clevated temperatures. Ideally suited for welding
+stainless steels wrought and cast materials of similar composition welding of 18/8 type
+stainless steels to carbon steels for buffer lavers for welding clad side of 18/8 clad stainless
+steels etc
+Typical Chemical Composition Of All Weld Metal (%) 
+Element  C Mn Si  Cr Ni Ss  P 
+Typical 0.03 L.00  0.80  29.0) 12.0  0.020 0.030)
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical
+Welding Positions 
+Current And Packing Data AC / DC()
+Precautions 
+1. Ensure the electrodes are dry Re-dry the electrodes at 300C for 2 hours.
+2. Use low current short arcand minimum weaving.
+www.dnhSecheron.co

@@ -1,0 +1,25 @@
+CROMOTHERME-2(15)RTE se
+Compile Welding Support
+Codification 
+AWS SPA 5.5  B9015-B3
+Characteristics  Applications 
+Weld metal having strict control on 8 FP As 8n  Sb will improve the sub-zero impact
+property and resists temper embrittlement. Weld metal retains ita mechanical properties
+after prolonged heat treatments. Ideal for welding steam generating equipments and
+reactor vessels. The weld metal displays excellent tensile strength and ereep resistance.
+Specially applicable wherever temper embrittlement resistance is required
+CVN Impact
+Strength (J)
+Diffusible Hydrogen Content 4 mi/100 gms of weld metal max.
+X-Factor (10P45b 45nAs)/ 100 15.0 (elements in ppm).
+PE (CMnMoCr/3Si/4 3.5(10P  55b  45n  As) 3.
+Step Cooling Requirement CvTri44 2.5A CvTrs48C  10C
+(Where CyvTri4 Transition temperature at absorbed energy of 544 of heat treated
+specimen. A CyTri48C Shift in 54 transition temperature due to step cooling).
+Welding Positions 
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  6.8x450 .16x950 2.4x950
+Precautions
+lL. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+2. Useshort arc low current and stringer beads
+www.dnhSecheron.co

@@ -1,0 +1,21 @@
+ed
+D&H
+Secheron
+Compile Welding Support
+General Recommendations for
+Submerged Arc Welding (SAW)
+1. The flux must be dry. Agglomerated fluxes must be protected from moisture pick-up.
+re-drying agglomerated fluxes at specified in product label before use is recommended. The
+remaining flux in the welding machine container should be removed and stored in a dry
+cabinet and should therefore not be feftin the open container.
+2. The fusion faces and the plate in the vicinity of the joint should be clean and dry. The
+cleaner the joint the better the chances of obtaining a satisfactory weld. Rust mill scale
+paint oil and residue from arc-air gouging or grinding can adversely affect the quality of the
+weld metal. The more impurities on the fusion faces the greater the risk of weld metal
+defects.
+3. The arc voltage must be kept constant. Increased arc voltage results in higher flux
+consumption. If the flux contains alloying elements the amount transferred to theweld metal
+willincrease as the are voltage increases.
+The mechanical properties are obtained according to the welding conditions given in
+applicable standards such as EN ISO  AWS
+91 9833550505 www.dnhSecheron.com

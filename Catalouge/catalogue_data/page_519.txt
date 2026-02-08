@@ -1,0 +1,31 @@
+oy
+pels
+eron
+Compile Welding Support
+Common Gas Metal Arc Welding Defects
+POSSIBLE CAUSES CORRECTIVE ACTIONS
+Electrode contamination  Use clean and dry electrodes
+ Eliminate contamination of electrode
+wire with any lubricant
+Work-piece contamination  Remove oil grease rust paints and
+dusts from the work surface prior to
+welding.
+Arc voltage too high  Reduce the operating voltage
+Excess nozzle-to-work distance  Reduce electrode extension
+INCOMPLETE FUSION
+Work-piece surface not clean  Clean all groove surfaces and
+weld zones
+Insufficient heat input  Increase the electrode feed rate and
+the are voltage
+ Decrease the travel speed
+Too large a weld puddle  Reduce arc weaving
+INCOMPLETE FUSION
+Improper welding technique  Direct the electrode at the leading
+edge of the weld pool
+ During weaving hold momentarily on
+the groove face
+Improper joint design  Select proper groove design
+ Maintain a proper groove angle to
+provide an easy access to electrode
+extension
+www.dnhSecheron.com

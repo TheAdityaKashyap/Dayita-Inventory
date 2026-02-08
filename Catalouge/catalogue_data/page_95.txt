@@ -1,0 +1,35 @@
+ULTRATENSAL-MH
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5  11018M
+EN ISO 18275-B E76 18 N4M2 A H5
+Characteristics  Applications 
+Basic coated extra low hydrogen electrode ideally suited for welding high strength QT
+steels like Welten 80 SA517 grades and their equivalents. The weld metal has excellent
+crack resistance and displays high strength combined with good sub-zero impact strength.
+Ideal for welding high strength steels under site conditions having high relative humidity
+and higher joint restraints as the extra low hydrogen levels ensure freedom from hydrogen
+induced cracking.
+Typical Te  Of All   (%) 
+ Element
+ Typical
+Typical Mechanical Properties Of All Weld Metal 
+CVNI Strength (J)/
+Properties UTS(MPa) YS(MPa) ERASE EERE
+- 60C
+Typical
+Diffusible Hydrogen Content 3ml/100gms of weld metal or less.
+Welding Positions 
+LE-FETR
+Current And Packing Data  DC()
+Size (mm) Dia x Length  6.3%450 axS50 4x350  915x850  2.5x950
+Current Range (Amps) 270-320 180-240  140-180.  90-140 e
+Weight/Carton (kgs)
+Approvals  BHEL CE Indian Navy
+Precautions
+1 Ensure the electrodes are dry. Re-dry the electrodes at 400C for 01 hour
+2. Keep the heat input during welding to a minimum by controlling the preheat and
+interpass temperatures between 120-150C
+Use stringer bead and minimise weaving
+www.dnhSecheron.co

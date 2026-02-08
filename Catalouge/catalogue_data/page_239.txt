@@ -1,0 +1,22 @@
+DH 410
+Secheron
+Compile Welding Support
+Codification 
+Characteristics  Applications 
+DH 410 is a high deposition electrode designed for joining of similar alloys and for
+surfacing and overlay applications on unalloyed steels and chromium steel having
+12.6%Cr The weld deposit displays good resistance to corrosion erosion pitting and
+abrasion Ideally suited for surfacing of valves and other components of turbine steam
+valves made of 15%Cr steel ete
+Typical Chemical Composition Of All Weld Metal ()
+ Element  c  Mn  si  Cr
+Weld Metal Hardness  370-400 VPN
+Welding Positions
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  5350 4x350  3.156350) 2.5x950
+ Current Range (Amps)  180-220  140-180  90-130  70-100
+WeightCarton (kgs)
+Precautions 
+Ll. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+2 Useshort arcand minimum heat input
+www.dnhSecheron.co

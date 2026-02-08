@@ -1,0 +1,35 @@
+MAXFIL-901G5
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.29  E90TS-GC
+Dé Hi SECMERDA ELECTIVOMES
+Characteristics  Applications 
+Maxfil-901025 1s a low alloy steel flux cored wire designed for welding of high tensile
+strength steel quenched  tempered steels etc where sub-zero impact resistance
+property of the weld metal is also desired. The wire gives optimum performance under CO
+shielding with radiographic quality weld deposits. The weld has excellent bead appearance
+and easy slag removal with diffusible hydrogen of less than 4m1/100gms of weld metal.
+Maxfil-901G5 is designed for single and multi-pass welding of similar composition steels
+and equivalent grade steels like HY-80 NAXTRA-60/65 Sumiten-610 A/B grades of BA-
+208 AIBIC grades of SA-662 BIC grades of SA-737 ete
+Typical  ae of _  _ eo 
+Blew nt
+Aieal  oano  vas was oar  wot a0
+Typical Mechanical Properties Of All Weld Metal 
+aig CVN Impact
+Properties  UTS(MPa) YS(MPa) ) Strength (J)
+Typical
+Welding Positions 
+ABR
+Welding Parameter  DC ()
+Diameter Horizontal Vertical Up
+imm)  Volt a Current (A) Volt (V) Volt (V)  Current (A)
+160-260 24-28 160-260 18-22 100-160
+180-300 24-28  180-30) 18-22 11-200
+Shielding Gas Carbon Dioxide CO (100%) at flow rate 15-20 litres per minute
+Packing Data
+Standard Size 1.20 1.60mm. Other diameters may be available on request.
+Quantity  Supplied approximately 15K gain a plastic spool. Each spool is vacuum
+sealed followed by polythene bag and then packed ina corrugated box.
+www.dnhSecheron.co

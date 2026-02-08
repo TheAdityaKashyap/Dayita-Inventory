@@ -1,0 +1,27 @@
+DH 2307-17 DEE
+Compile Welding Support
+Codification 
+AWS SPA 5.4  2307-17
+Characteristics  Applications 
+DH 2307-17 is a special electrode for welding lean low molybdenum duplex stainless
+ateels. The weld metal possesses excellent resistance to stress corrosion cracking with
+Increased strength It works well with transformer and good re striking characteristic.
+Better welder appeal including easy slag detachability characteristics. On horizontal
+fillet welds produce more of spray arc and a finer rippled weld bead and the bead shape is
+typically flat to concave. It has no red hot tendency within current range specified and no
+porosity. t is ideal for welding lean duplex stainless steels which include UNS 832101 and
+UNS 8323804.
+es Chemical Composition Of All Weld Metal (%%) 
+(Bement   xin si  or wi wo w 5 ou 5
+Properties
+Typical
+Welding Positions 
+Current And _ Data AC/DC()
+Size (mm) Dia x L length 4x50  9.15350  2.5x350
+Current Range (Amps) 150-180  110-L40  50-100 60-80
+Weight/Carton (kgs)
+Approvals  CE
+Precautions
+1. Ensurethe electrodes are dry Re-dry the electrodes at 300C for 2 hours.
+2. Use low current short arc and minimum weaving.
+www.dnhSecheron.co

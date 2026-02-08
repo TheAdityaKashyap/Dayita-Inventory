@@ -1,0 +1,34 @@
+OTs on
+tee eron
+e Complete Welding Support
+Common Gas Metal ARC Welding Defects
+The process variables materials or welding procedures can affect the weld quality. Some of
+the commonly observed defects in GMA welding and their possible remedies are tabulated
+below.
+POSSIBLE CAUSES  CORRECTIVE ACTIONS
+WELD METAL CRACKS
+Too high a weld depth-to-width ratio  Increase the are voltage or decrease
+the welding current
+Too small a weld bead Decrease the travel speed
+5 Rapid cooling of the crater at the end   Fill craters adequately
+of the weld
+ Use a back step welding technique
+at the end to complete the weld bead
+1.  Use of multiple pass short circuiting  Clean the previous bead before
+type welding (slag) making subsequent passes.
+2.  High travel speeds (film type inclusions)  Reduce the travel speed
+ Increase the arc voltage
+POSSIBLE CAUSES CORRECTIVE ACTIONS
+POROSITY
+Inadequate shielding of arc and  Increase the shielding gas flow
+weld pool
+ Remove the spatter from the interior
+part of the nozzle
+ Eliminate drafts (from fans open
+doors etc.) blowing into the welding
+arc
+ Reduce the travel speed
+ Reduce the arc gap
+ Hold the gun till the molten crater
+solidifies
+ 91 4 www.dnhSecheron.com

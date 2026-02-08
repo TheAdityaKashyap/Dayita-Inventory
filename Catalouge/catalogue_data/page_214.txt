@@ -1,0 +1,25 @@
+DH 347-17 BIE
+Codification 
+AWS SFA 5.4
+Characteristics  Applications 
+DH 347-17 is an electrode depositing 19%Cr-10.Ni-Nb stabilized weld metal suitable
+for joining of stainless steels of similar composition. It works well with transformer and
+good re-striking characteristic. Better welder appeal including easy slag detachability
+characteristics. On horizontal fillet welds produce more of spray arc and a finer rippled
+weld bead and the bead shape is typically flat to concave. It has no red hot tendency within
+current range specified and no porosity. Ideal for welding of AIST 304 3041 321 347 and
+their equivalents.The weld metal has excellent resistance tointergranular corrosion.
+a eee a  All Mea Metal (%)
+Te
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa) Der
+Typical 590
+Welding Positions 
+Current And aim Data AC / DC()
+Size (mm) Dia x Length 1 .15x250  2.5x850
+Current Range (Amps) 110-140  80-100 ae
+Weight/Car ton (kgs)
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 400C for 2 hours
+2. Use low current short arc and minimum weaving.
+www.dnhSecheron.co

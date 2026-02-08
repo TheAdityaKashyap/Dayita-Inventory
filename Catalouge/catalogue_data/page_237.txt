@@ -1,0 +1,29 @@
+1
+e
+BATOX-A(ST) 222
+Compile Welding Support
+Codification 
+AWS SFA 5.4  E347-15
+E 19.9 Nb B 20
+EN ISO 3581-A E1959 NbB22
+Characteristics  Applications 
+Batox-A(ST) is a basic coated electrode depositing 18%Cr-10%Ni-Nb stabilized weld
+metal suitable for joining of stainless steels of similar composition. It 1s ideal for welding
+of AIST 304 3041 321 847 and their equivalents The weld metal has excellent resistance
+tointergranular corrosion
+cence) Chemical Composition Of All Weld Metal (%) 
+(Bement  wn st e 8 or wi x0
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+EL
+Properties  UTS(MPa) YS(MPa) (Ld)
+Typical 595 440 a4
+Welding Positions
+Current And Packing Data DC()
+Size (mm) Dia x Length 5 4dxdi0  d.15xd50) 2.5x050
+Current sanee (Amps) ree  ose 60-30
+Approvals  CE
+Precautions 
+1 Re-dry the electrodes at 250-310FC for 01 hour.
+2 Useshort are low current and stringer beads.
+www.dnhSecheron.com

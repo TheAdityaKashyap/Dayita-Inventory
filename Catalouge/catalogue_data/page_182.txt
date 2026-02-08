@@ -1,0 +1,26 @@
+DH 307-15 Der
+Compile Welding Support
+Codification 
+AWS SFA 5.4
+Characteristics  Applications 
+DH 307-1513 a basic coated electrode depositing a stainless steel weld metal
+having 20%Cr-10%Ni-4.0%Mn-1.0%Mo. The weld metal possess high crack resistant with
+moderate strength. t is ideally suited for moderate strength welds with good crack
+resistance between dissimilar steels such as austenitic manganese steel and carbon steel
+forgings or castings.
+ypical Chemical Composition Of All Weld Metal (%) 
+Ct ee Ea ee
+Typical 4.0  0.60  0.014 0.026) 20.0
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa) Gon a
+Typical
+Welding Positions 
+Current And Packing Data mi
+Size (mm) Dia x I jength 3. 156x350
+Current Range (Amps) Cimon ore  oor on 
+Weight/Carton (kgs)
+Approvals  BV
+Precautions 
+1. Re-dry the electrodes at 250-300C for 01 hour.
+2. Use short arc lowest current possible
+www.dnhSecheron.co

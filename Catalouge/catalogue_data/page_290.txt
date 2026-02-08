@@ -1,0 +1,28 @@
+1
+e
+DH1225(NS) Wit
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.11  ENiCrCoMo-1
+Characteristics  Applications 
+Anon-synthetic Inconel type of electrode depositing weld metal of Ni-Cr-Co-Mo alloy. The
+weld metal has excellent crack resistance Electrodes are used for welding similar type of
+alloys to themselves and to steel and for surfacing steels with Ni-Cr-Co-Mo weld metal The
+electrodes are also used for applications where optimum strength and oxidation resistance
+is required above 820C  up to 1140C especially when welding on base metal of Nickel-
+Iron-Chromium alloys. Specially recommended for welding furnace heating elements
+reformer tubes ete.
+i ee Chemical Composition Of All Weld Metal (%) 
+Paiement  a re  st  Ni  Go  ce end oe 
+Ty ical
+Typical Mechanical Properties Of All Weld Metal 
+El
+Properties UTS(MPa) (L4d)
+Typical 665 29
+Welding Positions 
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300-325C for 1 hour.
+2. Operate the electrodes wherever possible weld in flat position only.
+3. Maintain a short arc use stringer bead and minimize the heat input.
+www.dnhSecheron.co

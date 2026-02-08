@@ -1,0 +1,26 @@
+g 
+ip
+RUTOX-Mo Der
+Compile Welding Support
+Codification 
+AWS SFA 5.4  E216-16
+IS 5206 E19.12.2R16
+EN ISO 3581-B E1981Z2 R32
+Characteristics  Applications 
+Rutox-Mo is a stainless steel electrode depositing a weld metal containing 18%0Cr-11%Ni-
+2.3Mlo The weld metal displays good crack resistance excellent creep strength and
+resists scaling at elevated temperatures up to 850C The weld metal has excellent
+resistance to corrosion and pitting. Ideal for joining wrought and cast material of similar
+composition
+Typical Chemical Composition ofr All Weld Metal (%)
+Welding Positions
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  5x350 4n350  165x550) 2.5x050
+ Current Range (Amps)  150-180  110-140  80-110
+ Weight/Carton (kes)  25 2.5  25
+Approvals  Adani Infra BHEL CE CIB-MP EIL NPCIL NTPC PDIL
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+2. Uselow current short are length and avoid weaving of the electrodes.
+Note Batox-M oconforming to AWS E316-15 is also available.
+www.dnhSecheron.com

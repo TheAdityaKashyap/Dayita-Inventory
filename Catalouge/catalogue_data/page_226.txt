@@ -1,0 +1,27 @@
+BATOX-D
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  E816L-15
+IS 5206 E19.12.2 LB 20
+Characteristics  Applications 
+Batox-D is a basic coated stainless steel electrode depositing an extra low carbon 18%Cr-
+12%Ni-2.9%Mo stainless steel weld metal. The weld metal has excellent resistance to
+intergranular corrosion even at elevated temperatures. Ideally suited for welding
+stainless steels of similar composition
+T pical Chemical Composition Of All Weld Metal ()
+Element  c Mn si  cr  Ni  Mol 8 P
+0.035 ) 1.75  045  18.5 12.5 2.3  0.020  0.020
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical mo
+Welding Positions
+Current And Packing Data DC()
+ Size (mm) Diax Length  3x350  4x350 3.15x350 2.54350 
+Current Range (Amps) 150-180 80-100  60-80 
+Weight/Carton (kgs) 25 of 25
+Precautions 
+1. Use short are and stringer bead to restrict heat input.
+2. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+www.dnhSecheron.co

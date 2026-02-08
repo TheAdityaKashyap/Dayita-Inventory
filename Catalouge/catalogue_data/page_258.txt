@@ -1,0 +1,34 @@
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.4
+EN ISO 3581-A
+Characteristics  Applications 
+DH 2594-15(NS) is a basic coated non-synthetic electrode depositing super duplex
+stainless steel weld metal. The weld metal exhibits high strength high impact energy and
+resistance to stress corrosion cracking pitting and crevice corrosion The weld metal
+possesses excellent corrosion resistance in marine  paper environments Examples of
+application areas are Oil and gas industry Off shore plat forms Petrochemical plants
+Mechanical and structural components. t is suitable for welding. ASTM A890/4A995 Gr
+5A CE3IMn UNS J93404. Super Duplex 2507 UNS 832750 EN 1.4410 NF 43 CND 35-
+06A% 882528
+Typical ih Composition Of All Weld Metal (%%) 
+ Element
+Typical
+UTS(MPa) om
+Pitting Resistance Number  Meets the requirement of PREN 240
+Corrosion Property  Weld metal meets ASTM A 262 Practice C and ASTM G-48A
+Ferrite (FN)  30-60
+Welding Positions 
+ARECETR
+--L And Packing Data DC()
+Size (mm) Dia x Length  5x35 35 3.16%450
+Current Range (Amps)  150-180  110-140
+ Weight/Carton (kgs) 25 25
+Approvals  CE
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 250-a00C for 1 hour.
+2 The heatinput should be in the range of 0.5-15 Kal/mim
+3. Please ensure inter pass temperature is less than 10C and better less than 102C
+4. For better results solution annealing at 1080-1120C is required.
+www.dnhSecheron.co

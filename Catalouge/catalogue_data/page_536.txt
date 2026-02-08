@@ -1,0 +1,11 @@
+Djxz
+Secheron
+Compile Welding Support
+WEIGHT OF WELDMETAL (STEEL)
+IN VARIOUS JOINTS
+(BASED ON DATA FROM AWS WELDING HANDBOOK)
+Fillet welds
+2 4 6 6 1012 1416 18 20 22 24
+Weld size mm T
+(Excel software available on request for accurate calculation)
+() 91 9833550505 532 www.dnhSecheron.com

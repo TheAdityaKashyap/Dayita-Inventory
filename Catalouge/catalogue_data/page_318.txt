@@ -1,0 +1,31 @@
+AUTOTHERME Cr-Mo 91
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.28  ER908-B91
+EN ISO 21952-B G62 M13 CIMV
+Characteristics  Applications  Se
+Autotherme Cr-Mo 1 is copper-coated a solid wire for GMAW vielding 9%Cr - 1%Mo and
+modified with Niobium Vanadium and Nitrogen designed to provide improved creep
+strength toughness fatigue life oxidation and corrosion resistance at elevated
+temperatures. The wire gives stable arc smooth welding performance and deposits
+radiographic quality welds. lt is designed to weld the materials in power plant refineries
+naptha cracker units ete Following are some of the steels that can be welded with this
+wire 1) Plate A387 Gr.f1 (I) Pipes A 335-P91 (111) Tubes.4213-T91
+Typical Chemical Composition Of Solid Wire (%) 
+ Typical
+Typical Mechanical Properties Of All Weld Metal
+(PWHT  760C FOR 2HR)
+Properties UTS(MPa) YS(MPa)
+apieat eo seo ar 
+Welding Positions 
+Welding Parameter DC()
+Diameter (num) Volt () Current (A)
+a eee ee so0-369
+40-420
+Shielding Gas  Argon / 6% 0
+Approval  CE
+Packing Data
+Standard Size Diameterl.2 mm  1.6 mm.
+Quantity 115.0 ke wire laver wound in a plastic spool that conforms to
+www.dnhSecheron.co

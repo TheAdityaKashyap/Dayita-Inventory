@@ -1,0 +1,31 @@
+DH 1400
+Secheron
+Compile Welding Support
+Characteristics  Applications 
+DH 1400 is a nickel base electrode depositing a Ni-Cr-Mo-W-Co deposit. The weld deposit
+has excellent heat resistance and strength up to LO00C. The deposit work hardens under
+impact load and the hardness is retained even at elevated temperatures. The deposit has
+high resistance to static or eyelic loads at high temperatures Ideally suited for surfacing
+applications and joining applications to resist corrosion due to chloride environment and
+for surfacing of hot working tools dies punches ete.
+Typical Chemical Composition Of All Weld Metal () 
+ Typical  0.05  0.60  0.50  15.0 Balanee 14.5  3.5 4.0  2.0
+Typical Mechanical Properties Of All Weld Metal 
+El
+er  ic
+Properties  UTS(MPa (L5d)
+Typical  713 28
+Welding Positions 
+Current And Packing Data DC()
+ Size(mm) Dia x Length  5x35 4x950  315x350) 2.5x350
+Current Range (Amps) 120-150
+Weight/Carton (kgs) at 3.5
+Approvals  CE
+Precautions 
+Ensure the electrodes are dry. Re-dry the electrodes at 300-325C for 1 hour.
+Use short are and minimise heat input.
+I
+2
+3. Clean the area thoroughly free from all contamination
+4 Wherever possible weld in flat position only.
+www.dnhSecheron.co

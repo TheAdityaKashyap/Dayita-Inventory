@@ -1,0 +1,41 @@
+oy
+pels
+eron
+Compile Welding Support
+Weld Metal Calculation
+a Roof Gap
+b Bevel Angle
+h Reinforcement
+we With
+t  Thickness
+if t is thickness of plate or pipe to be joint  is the groove angle. The calculation of weld
+metal by SMAWY process is as under Also consider length (L) is 1 meter
+We know
+Density Mass/Volume
+Mass Densily x Volume
+To calculate volume Volume Area x Length (In figure there are 3 area)
+4x bx tal
+2(v2xbxth(axtheb
+( 2 Trangles  Rectangla(A)
+btx tane
+Consider t 12mm  6  30
+b 12x lan 30
+12x0.577
+BEA (tan 30  0.577)
+Now Volume fram Eq. (A)
+ 2 (2x 6.92 x 12  (2.x 12) x 1000 mm3 
+ (83.04  24) x 1000 mm3  consider a  2rnim)
+ 107043 mm3
+ 107.43 cm3
+Now
+Mass  7.85 gm cma x 107.04 cm3 (Density of carbon steel  7.85 gmicm3
+40 gm
+We know the deposition efficiency of SMAW is 65% (multiple factor will be 1.54)
+So
+840 x 1.54  1294 gm
+For Reinforcement consider 20% Extra
+ 1294  20%
+ 1204 x 1.2
+ 1553 gm
+ 1.5 Kg (Approximately)
+www.dnhSecheron.com

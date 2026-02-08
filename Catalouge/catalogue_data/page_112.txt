@@ -1,0 +1,33 @@
+NIMOTHERME-1L(MOD) poses
+Compile Welding Support
+E7018-CaL
+EN ISO 2560-B E4918 N2 A H5
+Characteristics  Applications  a
+tis low hydrogen  low carbon electrode depositing 1.0% Ni - 025%Mo - 0.02%V weld
+metal. Weld metal poss eg excellent strength together with toughness at subzero
+temperatures. It is ideally suited for welding low bon grain-retined steels nickel steels
+normalized and tempered steels. Typical applications include storage tanks for liquefied
+gases like Ammonia distillers in coke oven batteries and pe trocherical industries. Also
+suitable for welding heavy sections and highly restrained joints subjected to dynamic
+loading impact and severe service conditions
+Typical  Sree Of All Weld Metal (%) 
+ Element s P  Cr  Ni  Mo  V
+_Typical 0.06 Si 0.010) 1.015 pa 10  1.00  0.25  0.02
+Typical Mechanical Properties Of All Weld Metal 
+JE CVN Impact Strength (J)
+L5d
+ao 50C
+Typical  th a
+Properties  UTS(MPa) YS(MPa
+Hardness As per NACE MR-0175 Requirements 220 VPN Max.
+Welding Positions
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  Bxd5o dx450 3.150450  2.5x350
+Current Range (Amps) 190-250  140-200  100-130 70-100
+Qty (Pes/Carton)  oo     
+Approvals  CE
+Precautions 
+1. Re-dry the electrodes at 250-300C for 01 hour.
+2. Use smallest size of electrode possible
+. Use low current short are and stringer beads.
+www.dnhSecheron.co

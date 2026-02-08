@@ -1,0 +1,33 @@
+1
+e
+D jx
+RUTOX-B Der
+Compile Welding Support
+Codification 
+AWS SFA 5.4  308.16
+IS 5206 E19.9L R16
+EN ISO 3581-A E1ssLRa2
+Characteristics  Applications 
+Asemi-basic electrode producing an extra low carbon 19%Cr-10Ni weld metal which has
+excellent resistance to intergranular corrosion The weld metal has higher resistance to
+cracking oxidation and scaling at elevated temperatures Ideally suited for welding of
+stainless steels of similar composition lke AIST 304L 308L and their equivalents for
+overlays surfacing applications ete.
+Typical i Compontiun Of All _ Metal (%)
+Element
+ee
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical abd
+Welding Positions
+EEE
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  5x35 4xd500  d.15xd50) 25x50
+Current Range (Amps)  150-180  110-140 ea 60-50
+ Weight/Car ton (kgs)
+Approvals  Adani Infra BHEL CE EIL LT Power NPCIL NTPC PDIL
+Precautions 
+1 Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour
+2. Useshort arc and low currents.
+Note Batox-B conforming to AWS ES08L-15 is also available.
+www.dnhSecheron.com

@@ -1,0 +1,30 @@
+SUPRATHERME-P2
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5
+Characteristics  Applications 
+Supratherme-P2 is designed primarily for the welding of the hot fill and cap passes in
+high strength pipe butt joints in the vertical position in upward progression. The low
+hydrogen nature of the covering of these electrodes makes them especially suited for
+joining crack-senaitive high strength pipe. Typical applications of these electrodes are the
+welding of API SL pipe steels up to and including Grade X80 along with many other high
+strength medium and high carbon and low-alloy steels.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element Cc Mn Si te PF Cr Ni Mo V
+Typical 0.07 1.30 o.40 0.018  0.018 0.10 0.60 0.20 o.02
+Typical Mechanical Properties Of All Weld Metal 
+CVN Impact Strength (J)
+Properties  UTS(MPa) YS(MPa 
+- 30C
+ Typical 580 500 45
+Welding Positions 
+Current And Packing Data AC / DC ()
+Size (mm) Dia x Length 4.15%350 2.5xd50
+Current Range (Amps) 220-280  160-190  110-195 
+35 5a 6
+Qty (Pes/Carton)
+Precautions 
+1. Re-diry the electrodes at 200C for 01 hour as per our standard recommended practice
+2. Use short are and stringer bead.
+www.dnhSecheron.co

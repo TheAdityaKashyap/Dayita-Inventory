@@ -1,0 +1,28 @@
+DH 308H-17 Der
+Compile Welding Support
+Codification 
+AWS SPA 5.4  E308H-17
+Characteristics  Applications 
+DH 08H-17 is a stainless steel electrode depositing 19%Cr-10%Ni stainless steel weld
+metal with carbon in the range of 0.04%-0.08% It works well with transformer and good re-
+striking characteristic. Better welder appeal including easy slag detachability
+characteristics. On horizontal fillet welds produce more of spray arc and a finer rippled
+weld bead and the bead shape is typically flat to concave. Weld metal possesses excellent
+crack resistance and displays good elevated temperature properties. Ideally suited for
+joining 18/8 stainless stecls where the carbon content is in the range of 0.04%-0.08% i.e.
+ATS 304H material.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element  C Mm Si cr Ni 8  P
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa) res
+Welding Positions 
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length  5350 dx850  3.150350 2.5%850 
+Current Range (Amps) 160-180
+Weight/Carton (kgs)
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 800C for 2 hours.
+2. Use short arc atringer bead and low current
+3. Avoid build-up of heat during welding.
+www.dnhSecheron.co

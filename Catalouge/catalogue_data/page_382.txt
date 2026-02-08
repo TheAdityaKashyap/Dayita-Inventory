@@ -1,0 +1,35 @@
+MAXFIL-36B
+Secheron
+Compile Welding Support
+ EseTsG-c
+EN ISO 17632-A T4632BC
+Characteristics  Applications 
+Maxfil-36B is.a low alloy steel flux cored wire designed for welding of medium tensile steels
+structures subjected to dynamic loading pressure vessels etc. The wire gives good
+performance under CO shielding with radiographic quality deposits. The weld metal has
+excellent crack resistance  toughness at sub-zero temperatures. Maxfil-36B is designed
+for single and multi-pass welding of medium tensile steels like Aldur 45/60 BH 39/47
+BHW 27/30 fine grained steels and equivalent grade steels like SA-841 A/BAC grades of
+SA-662 ate.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element  Cc Mn Si 5 P Mo
+Typical  006  160  045 0.011 a.016 0.50
+Typical Mechanical Properties Of All Weld Metal 
+wn CVN Impact
+Properties UTS(MPa) YS(MPa) at  Strength (J)
+320C
+Typical GAT add aha 30
+Welding Positions
+Lii-H
+Welding Parameter  DC ()
+Diameter
+(mm) Volt (V) Current (A) Volt (V) Current (A)) Volt (V)  Current (A)
+1.20 24-28 160-260 24-28 160-260 B22 100-160
+1.60 24-28 180-300 24-28 160-200 18-22 110-200
+Approvals CE
+Shielding (sas  Carbon Dioxide CE 1 (100%) at flow rate 15-20 litres per minute
+Packing Data
+Standard Size1.20  1.0mm Other diameters may beavailable on request.
+Quantity  Supphed approximately 15K gs in a plastic spool Each spool is sealed in an air
+tight polythene bag and then packed ina corrugated box
+www.dnhSecheron.co

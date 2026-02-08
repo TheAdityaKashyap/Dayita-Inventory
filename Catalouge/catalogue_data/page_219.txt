@@ -1,0 +1,30 @@
+DH 16/8/2 Der
+Compile Welding Support
+Codification 
+AWS SFA 5.4  E16-8-2-16
+Characteristics  Applications 
+DH 16/8/2 is a rutile coated stainless steel electrode depositing 15.5%Cr 8.5% Ni 1.9%Mo
+atainless steel weld metal. Electrodes provide excellent operating characteristics with
+easy slag detachability The lean composition of weld metal minimize the in-service
+formation of inter-metallic compound excellent hot ductility properties which offer
+freedom from weld or crater cracking even under high-restraint conditions This lean
+version weld metal is ideally suited for welding stainless steels euch as types 16-8-2
+304H 316H and 347H for high pressure high temperature piping systems and catalytic
+cracker structures
+Typical Chemical  Se All Weld Metal () 
+Element  C Ss
+Paypical_oos use oss now owmeaes  as a3 
+Ferrite (As Welded)  5.0 FN Max as per WRC 1992
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical
+Welding Positions
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length
+Current Range (Amps)
+Weight/Carton (kgs)
+Precautions 
+1. Re-dry the electrodes at 350C for 2 hours
+2. Use short arc stringer bead and smallest size of electrode minimum current to
+ensure minimum heat. in pit
+www.dnhSecheron.co

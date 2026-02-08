@@ -1,0 +1,27 @@
+Secheron
+Compile Welding Support
+Codification
+EN ISO 2560-B E43 104
+Characteristics  Applications 
+Cellutherme is a light coated cellulosic type electrodes. The electrodes are characterized
+by a deeply penetrating forceful spray type are and readily removable thin friable slag.
+Ideally suited for welding in all positions including vertical down. The weld metal
+possesses good mechanical properties Ideal for stove pipe technique and faster welding.
+Welds are of radiographic quality. It is ideally suited for root pass welding of API 5L X42
+and X46 grades. Typical applications include welding of pipes tubes ducts ete.
+Typical Chemical Composition Of All Weld Metal (%) 
+Fiement  Mn Si S  P
+Typical 0.016  0.018
+Typical Mechanical Properties Of All Weld Metal 
+Properties
+Typical
+Welding Positions 
+LEEFRTRA
+Current And Packing Data  DC()
+Size (mm) Dia x Length 4xd50 3.15%350 2.52550
+Current Range (Amps) 110-160 70-100 40-65
+Approvals  CE EIL PDIL
+Precautions 
+1. Inorder to achieve best results ensure a good joint fit-up.
+2. Donotuse highcurrent which may lead to high spatter loss
+www.dnhSecheron.co

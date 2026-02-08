@@ -1,0 +1,27 @@
+DH NM-CI ae
+Compile Welding Support
+Codification 
+AWS SFA 5.15
+Characteristics  Applications 
+Weld metal from DH NM-Cl is not readily machinable. It is the most economical for
+repairing various types of cast ron where machinability of the weld deposit is not required
+where weld shrinkage stress is not a concern and color match of the base metal should not
+be expected. It melts at relatively low temperatures which permit the use of low welding
+currents. Commonly used on gears motor housings machine parts farm equipment large
+fames etc.
+Typical Chemical Composition Of All Weld Metal (0) 
+ Element  c  Mn si  P  s Fe
+Typical 0.12  0.50 0.13  0.03  0.05 Balanee
+Typical Weld Metal Hardness  300-400 BHN
+Welding Positions
+Current And Packing Data AC / DC()
+Current Range (Amps)  150-200  110-150  60-110  60-95
+25 i 2.5
+Weight/Carton (kgs)
+Precautions 
+1. Clean the base material thoroughly free from any surface contamination.
+2. Machine or chamfer the casting skin from weld area.
+8. Uselow current stringer beads and short weld runs followed by peening.
+Over heating of casting should be avoided by putting intermittent weld beads
+Allow the weld to cool slowly.
+www.dnhSecheron.co

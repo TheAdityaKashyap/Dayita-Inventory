@@ -1,0 +1,29 @@
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.5  E10018-D2
+EN ISO 18275-B E 69 18-4 M2 P H5
+Characteristics  Applications 
+A basie coated low hydrogen iron powder type electrode for welding high tensile steels. The
+weld metal is of radiographic quality. Ideally suited for welding high tensile steels QT
+steels castings etc. with UTS range of 711Mpa. The weld metal possesses high strength
+combined with excellent toughness at sub-zero temperatures
+Typical Chemical di ati Of All Weld Metal (%) 
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 620C for 1 HR)
+E  CVN Impact Strength (J)
+Properties  UTS(MPa) YS(MPa (L5d)
+Typical
+Welding Positions 
+2CEEWE
+Current And Packing Data DC() 
+Size (mm) Dia x Length T G.ax4i0 x450
+Current Range (Amps) 280-350
+Qty (Pcs/Carton)
+Approvals  CE
+Precautions 
+1. Ensure the electrodes are dry Re-dry the electrodes at 300C for 2 hours.
+2. When welding grain refined and QT steels control the heat input by using
+a Stringer bead. (b) Control over preheat and interpass temperature. (c) Short arc.
+www.dnhSecheron.co

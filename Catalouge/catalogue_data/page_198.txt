@@ -1,0 +1,24 @@
+DH 310-15 Der
+Compile Welding Support
+Codification 
+AWS SFA 5.4
+IS 5206 E25.20 B20
+Characteristics  Applications 
+DH 310-15 is a basic coated 25% Cr-20%Ni type electrode for welding steels of similar
+composition The weld metal has excellent resistance to oxidation and scaling up to
+1200C. The electrode 1s also suitable for welding of hardenable steels clad steels (-Mo
+Cr-Mo steels where pre-heat and post weld heat treatment are not feasible.
+Typical Chemical Composition Of All Weld Metal 
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Current Range (Amps)  140-180  110-140  s0-100  6080 
+25
+Weight/Carton (kgs) i. 25
+Precautions 
+1. Use low current short are length and minimum weaving.
+2. Ensure the electrodes are dry. Re-cdry the electrodes at 250-300C for 01 hour
+www.dnhSecheron.co

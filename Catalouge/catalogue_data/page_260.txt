@@ -1,0 +1,33 @@
+1
+e
+DH2595(NS) Wit
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  B2595-16
+EN ISO 3581-A E2594NLR32
+Characteristics  Applications 
+DH 2595(N8) is a non-synthetie electrode depositing super duplex stainless steel weld
+metal. The weld metal exhibits high strength and resistance to stress corrosion cracking
+pitting and crevice corrosion. t is ideally suited for welding of super duplex stainless
+steels LINS 832550 832750 and S32760 (wrought) and UNS J8sa70 J9as80 Jaded
+CD4AMCuN(cast) and similar compositions. Examples of application areas are Oi and gas
+industry Oil country tubular Food processing Valves and fittings Flue gas de-sulfurizers
+Off shore plat forms Petrochemical plants Mechanical and structural components.
+sansa Chemical es Of All Weld Metal aoe .
+Typical
+Typical Mechanical Properties Of All Weld Metal
+Properties UTS(MPa) YS(MPa) aa
+Typical
+Pitting Resistance Number  Meets the requirement of PREN  40.
+Ferrite (FN)  40-60
+Welding Positions 
+Current And Packing Data AC / DC()
+ Size(mm) Dia x Length  5x x .15x350  2.5%350
+Approvals  CE
+Precautions
+1. Ensure the electrodes are dry. Re-dry the electrodes at 260-300C for 1 hour.
+2. The heat input should bein the range of (.5-1.5 Kd/imm.
+3. Please ensure inter pass temperature is lesa than 140C and better less than 102C
+4. Forbetter results solution annealing at LOBD-1120C is required
+www.dnhSecheron.co

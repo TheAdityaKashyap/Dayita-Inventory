@@ -1,0 +1,30 @@
+DH SECHERON 209 -
+Compile Welding Support
+Codification 
+AWS SFA 5.4  209-16
+Characteristics  Applications 
+DH Secheron 209 is a special purpose stainless steel electrode. This composition are
+mast often used to weld AISI type 209 (UNS 820910) base metals. The alloy is a nitrogen
+strengthened austenitic stainless steel exhibiting high strength with good toughness over
+a wide range of temperatures. Nitrogen alloying reduces the tendency for intergranular
+carbide precipitation in the weld area by inhibiting carbon diffusion and thereby
+increasing resistance to intergranular corrosion. Nitrogen alloving coupled with the
+molybdenum content provides superior resistance to pitting and crevice corrosion in
+aqueous chloride-containing media. Electrodes have sufficient total alloy content for use
+in joining dissimilar alloys like mild steel and the stainless steels and also for direct
+overlay on mild steel for corrosion applications
+Typical Chemical Composition Of All Weld Metal (%) 
+Element C  Mn Si Ss P Cr  Ni  Mo  N Vv
+Typical 0.04 5.0 0.70 0.020) 0.033 21.5  10.5 2.0 O15 O15
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa) Paris
+Typical
+Welding Positions 
+Current And Packing Data AC/DC()
+Size (mm) Dia x Length 4x850
+Current Range (Amps)
+Weight/Carton (kgs) _ 2 2 i a7
+Precautions 
+1. Ensure the electrodes are dry Re-dry the electrodes at 250-300C for 01 hour.
+2. Useshort arcand minimum heat input.
+www.dnhSecheron.co

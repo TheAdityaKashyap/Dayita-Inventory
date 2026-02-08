@@ -1,0 +1,20 @@
+Secheron
+Compile Welding Support
+WEIGHT OF WELDMETAL (STEEL)
+IN VARIOUS JOINTS
+(BASED ON DATA FROM AWS WELDING HANDBOOK)
+Double V groove joint
+  3mm
+rs)
+8
+fd
+6
+5
+4
+3
+2
+1
+5 10 15 20 25 30 35 40 45 50 55 60 65 7075
+T thk mm
+(Excel software available on request for accurate calculation)
+() 91 9833550505 529) www.dnhSecheron.com

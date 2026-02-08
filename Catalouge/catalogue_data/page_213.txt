@@ -1,0 +1,33 @@
+DH 320LR-15 DEE
+Compile Welding Support
+Codification 
+Characteristics  Applications 
+DH 820LR-15is a basic type non-synthetic all position electrode depositing low residuals
+20% Cr-35%0N1-25%Mo-3.5%Cu-Nb weld metal The elements C Si P and 8 maintained
+as low as possible and Nb  Mn are controlled to get better properties The weld metal has
+excellent resistance to oxidation and scaling at 1200C continuous service. Quiet and
+stable arc. Less spatter loss good head appearance with equal ripples. The control on
+chemistry reduces the weld metal fissuring frequently encountered in fully austenitic
+stainless steel. DH S20LR-15 is primarily used to weld base metals of similar
+composition for applications where resistance to severe corrosion 16 required for a wide
+range of chemicals including sulfuric and sulfurous acid and their salts These electrodes
+can be used to weld both castings and wrought alloys of similar composition without post
+weld heat treatment. The typical applications include H-9A stainless steel for
+fabricating carpenter 20 stainless steels etc
+Typical Chemical Composition Of All Weld - i ys
+Bement   wn  si 5 _p or  si  mo  ou evn
+Typical 1.60 0.25 O11  0.013
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Typical 590
+Welding Positions 
+ECLe TN
+Current And Packing Data DC()
+Size (mm) Dia x Length  5x60 4x050  3.150360  2.50950
+Current Range (Amps) 150-180  110-140  80-100 6-80
+Weight/Carton (kgs)
+Precautions
+1. Re-dry the electrodes at 250-300C for 01 hour.
+2. Use short arc stringer bead and smallest possible size of electrode and min. current to
+reduce the heat input
+www.dnhSecheron.com

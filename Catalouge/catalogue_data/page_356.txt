@@ -1,0 +1,31 @@
+FW 385 
+Compile Welding Support
+Codification
+AWS SFA 5.9
+Characteristics  Applications 
+FW 385 is a solid wire for TIG welding available in bright finish gives amooth flow stable
+arc and spatter free under optimum welding conditions. It gives radiographic quality weld
+deposit Wire contains low carbon 20%%Cr-25%Ni- 5%Mo-2%%Cu which exhibits excellent
+resistance ta corrosion in non oxidizing media like sulfuric acid phosphoric acid acetic
+acid formic acid fatty acids oxalic acid etc. t is ideally suited for welding materials for
+application where phosphoric sulfuric acids and other non oxidizing solutions are
+encountered. The addition of Mo and Cu helps in resisting corrosive attack of these
+solutions. tis particularly suited for welding Carpenter 20 HV9. HV9A Uranus 86 UHB
+S04L Sandvik 2RK65 and similar materials which are used for these service conditions.
+Typical Chemical Composition Of Solid Wire () 
+Element  Si 5 P Cr Ni Mo Cu
+Typical rt  4.80
+arties TITS
+Properties  UTS(MPa) (L54)
+Typical
+Welding Positions 
+Shielding Gas  Argon
+Current Conditions  DCEN
+Approval CE
+Packing Data
+Standard Size  Diameter 1.6 mm. 2.0 mm 2.4 mm  3.2 mm in cut lengths of 1000 mm
+each
+Quantity  kgs wire put in an air-tight polythene bag and finally packed in a
+plastic container.
+Identification  AWS code is punched on each wire
+www.dnhSecheron.co

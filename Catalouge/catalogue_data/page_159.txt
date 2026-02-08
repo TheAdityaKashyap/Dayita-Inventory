@@ -1,0 +1,29 @@
+g 
+D&H
+Secheron
+Compile Welding Support
+CROMOTHERME-9(15)
+Codification 
+AWS SPA 5.5  s015-B8
+Characteristics  Applications 
+A low hydrogen electrode yielding 9%Cr - 1%Mo deposit having excellent creep strength
+up to 600C and resistance to oxidising atmospheres up to 700C It is used for welding
+similar composition plates pipes forging and tubes. Typical applications include welding
+of AS87 Gr.9 plate Ad35 PS pipe A217 C12 castings A213 T9 tubes etc
+Typical Chemical Composition Of All Weld Metal (%)
+Element
+typical 006  o.c 0 onan ooas a0 
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 740C FOR 1 HR)
+ me  EI
+Properties  UTS(MPa) S(MPa) (Ldd)
+Typical
+Welding Positions 
+Current And Packing Data DC()
+ Size (mm) Dia x Length x450 4x450 .15x450 2.anda0
+Current Range (Amps) 180-240  140-180  100-130  70-100
+Fay PevCarony  as  os  me  100 
+Precautions 
+1. Re-dry the electrodes at 250-300C for 01 hour.
+2. Use short arc and stringer bead
+www.dnhSecheron.com

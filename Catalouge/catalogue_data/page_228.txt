@@ -1,0 +1,30 @@
+RUTOX-F DEE
+Compile Welding Support
+Codification 
+AWS SFA 5.4  E316L-16
+IS 5206 E19.12.2L R16
+Characteristics  Applications 
+Rutox-F is a stainless steel electrode depositing a weld metal contaming 18%Cr-18%Ni-
+2.8% Mo which is unique in combination to produce a maximum ferrite content of 2FN in
+the weld metal. This extra low ferrite content ensures excellent corrosion resistance
+against severe corrosive media Ideal for welding AISI 316L 316 particularly when the
+weld metal ferrite content has to be controlled at a low level as in the case of urea
+equipments.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element Cc Mn  Si Cr  Ni  Mo 5 P
+O04  Leo  0.45 1a0  18.5 2.4  O.020) 0.020
+Typical
+Typical Mechanical Properties Of All Weld Metal 
+CVN Impact Lateral Expansion
+Strength (J) (mm)
+- 196C
+Welding Positions 
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length 9.154350  2.50350
+Weight/Carton (kgs)  25  25  a5  a5 
+Approvals  PDIL
+Precautions
+1. Useshort are and stringer bead to restrict heat mput.
+2. Ensure the electrodes are dry. Re-dry the electrodes at 250-300C for 01 hour.
+Note  Batox-F conforming to AWS E316L-15is alsoavailable.
+www.dnhSecheron.co

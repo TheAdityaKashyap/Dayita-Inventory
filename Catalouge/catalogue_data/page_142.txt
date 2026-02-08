@@ -1,0 +1,37 @@
+1
+e
+D&H
+Secheron
+Compile Welding Support
+CROMOTHERME-1(RTE)
+Codification 
+EN ISO 1580-4
+Characteristics  Applications 
+Weld metal having strict control on 5 P As Sn  Sb will improve the subzero impact
+property and resists temper embrittlement Weld metal retains its mechanical properties
+after prolonged heat treatments. Ideal for welding steam generating equipments and
+reactor vessels. The weld metal displays excellent tensile strength and creep resistance.
+Specially applicable wherever temper embrittlement resistance is required
+Typical Chemical Composition Of All Weld Metal (%) 
+Element  C Mn Si  Cr MoSb/As 8  P  SnCul Nil Til V
+Typical 0.06 0.6  0.25 1.300.55  0.001  1.0035 0.009  0.009 0.003  1.018 0.1.4  0.002 9.008
+Typical Mechanical Properties Of All Weld Metal 
+CVN Impact
+ae pala 5 et iH a Hardness
+Properties  UTS(MPa) YS(MPa) . _. Strength (J) (VPN)
+SR at 90C 1 hr
+Diffusible  Content 4 ml 100 ems of weld metal max
+X-Factor (10P  5Sb  45n  As)/100  12.0 (Elements in ppm).
+J-factor (Si Mn) x (P Sn) 10  125
+Step Cooling Requirement CvTr40 2.5 A CvTr40Se  10C
+(Where CvTr4i Transition temperature at absorbed energy of 400 of heat treated
+specimen. A CvTrt0S8e Shift in 40) transition temperature due to step cooling).
+Welding Positions 
+Se
+Current  Packing Data AC/DC sual
+Qty (Pes/Carton)
+Approvals  CE
+Precautions 
+lL. Ensure the electrodes are dry. Re-dry the electrodes at 00-250C for 01 hour.
+2. Useshertare low current and stringer beads
+www.dnhSecheron.com

@@ -1,0 +1,31 @@
+g 
+DH 1423NS) 2
+Compile Welding Support
+Codification 
+AWS SPA 5.11  ENiCrMo-10
+Characteristics  Applications 
+DH 1423(N8) is an ideal non synthetic electrode for welding Ni-Cr-Mo alloys as well as
+the clad side of joints in steel clad with a Ni-Cr-Mo alloy and for welding Ni-Cr-Mo alloys to
+steal and to other nickel base alloys. t is suitable for welding components in plants for
+chemical processes with highly corrosive media. Typical base materials which are welded
+with this product are ASTM B574 B575 B619 B622 and B626 with UNS No. NoGOz2.
+Ideal for C-22 alloys.
+Typical Chemical Composition Of All Weld Metal () 
+Typical 0.015) 0.80) 0.17 /0.008) 0.02)21.0) Bal.13.6/6.0) 3.0  0.3
+Typical Mechanical Properties Of All Weld Metal 
+- CVN Impact Lateral
+Properties Strength (J) Expansion (mm)
+27C
+Typical
+Welding Positions 
+i tT 1
+CE TR
+Current And Packing Data DC()
+Size (mm) Dia x Length  axkod  4xda0 3.154350
+ Current Range (Amps)  150-150  120-150  80-110
+Weight/Carton (kes) 25 2.5
+Approvals  CE
+Precautions 
+1. Ensure the electrodes are dry. Re-dry the electrodes at 300-325C for 1 hour
+2 Use short are stringer beads and low currents.
+www.dnhSecheron.co

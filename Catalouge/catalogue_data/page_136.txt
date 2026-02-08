@@ -1,0 +1,26 @@
+g 
+ip
+CROMOTHERME-0.5 2222
+Compile Welding Support
+Characteristics  Applications 
+Cromotherme-0.5 is a low hydrogen electrode yielding a weld metal containing 0.4%Cr -
+O.8%Mo - 0.3%. Cromotherme 0.5 is ideally suited for welding Cr-Mo-V steels used in
+boilers pipelines in chemical and power plants
+Typical Chemical Composition Of All Weld Metal (%) 
+Element Cc Mn Si Cr  Mo Vv 5  P
+Typical  0.06  o.80  0.95  0.50  0.85  0.30  0.020  0.020
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 690C FOR 1 HR)
+Creep Strength at 650C
+(1% offset in10.000hrs)
+(MPa)
+Typical
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length  ax450  Sxas0  4x50  3.15x450 2.5x350 
+Current Range (Amps) 270-340  180-240  140-180  100-130
+Qty (Pes/Carton)  85  a6 3.0 25
+Precautions 
+1 Use short arc during welding.
+2. Ensure the electrodes are dry.
+3550505 www.dnhSecheron.com

@@ -1,0 +1,28 @@
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.1
+EN ISO 2560-A
+Characteristics  Applications 
+A medium coated basic type hydrogen controlled electrode producing a tough ductile weld
+metal for welding heavy sections in mild steel medium high tensile steels subjected to
+dynamic loading. Also suited for cast steels difficult steels of unknown composition and
+for non-machinable deposits on cast iron Typical applications include coaches ships
+heavy duty structures earth moving machinery rotary kiln shells cast irons.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element
+Typical F  aay 0.018  0.021
+ypical Mechanical Properties Of All Weld Metal
+sk CWN Impact Strength (J)
+Properties UTS(MPa) YS(MPa) (L5d)
+- 30C
+Typical 458 477 28 Ti
+Welding Positions 
+Current and packing data  AC / DC()
+Size (mm) Diax Length) 6.4x450 Gxd50 dxd50 B15 2.5850
+Current Range ns) eae eae wae  on  rere
+Approvals  BHEL BIS CE ETL NTPC PDIL
+Precautions 
+1. Ensure the electrodes are dry Re-cdry the electrodes at 300C for 2 hours
+2. Useshort are minimize heat input.
+www.dnhSecheron.co

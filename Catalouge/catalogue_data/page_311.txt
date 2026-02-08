@@ -1,0 +1,35 @@
+AUTOTHERME C-Mo
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.28  ER70S-A1
+EN ISO 21952-B
+(Dor SECHEROM ELECTIVONES
+Characteristics  Applications 
+Autotherme C-Mo is a copper-coated solid wire for GMAW available in bright finish The
+wire gives stable arc smooth welding performances and deposits radiographic quality
+welds It is ideally suited for welding of low alloy ferritic steels of similar composition. The
+weld metal possesses good high temperature properties Typical applications include the
+welding of Carbon Molybdenum steels such as ASTM Grade F1 of SA-182  SA-336
+Grade A of SA-204 Grade T1/TlafT1b of SA-209 Grade WC1 of SA-217 Grade A of SA-
+802 Grade Pl of SA-335 Class lof A grades of SA-53% ete.
+Typical oo  Of Solid Wire ()
+Element  5
+Fpieat Ross 20 oat Joona ora 35
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 620C FOR 1 HR)
+EL
+Properties  UTS(MPa) YS(MPa) (L8d)
+Typical ob  25
+Welding Positions 
+Welding Parameter DC()
+Diameter (mm) Volt (V) Current (A)
+1.2 27-82 300-360
+16 25-40 340-420
+Shielding Gas  Argon/ 1-5% 0
+Approval  CE CIB-MP
+Packing Data
+Standard Size  Diameter 1.2 mm  1.4mm
+Quantity 115.0 kgs wire random/ layer wound ina plastic spool that conforms to
+DIN-8559 8D-300.
+www.dnhSecheron.co

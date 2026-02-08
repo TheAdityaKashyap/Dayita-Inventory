@@ -1,0 +1,30 @@
+CROMOTHERME-5(15)MOD
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.5  8015-6
+Characteristics  Applications 
+It is low hydrogen electrode producing a weld deposit containing 5%%Cr  0.5%Mo which
+has excellent creep resistance at elevated temperatures up to 550C. The weld metal
+displays excellent creep resistance with controlled hardness This electrode is used for
+welding creep resistant steel and cast steels of similar composition Typical applications
+include steam boiler construction welding of steam and super-heater piping power
+plants Oil refinery and chemical plants.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element Cc Mn  Si P tJ Cr  Mo
+Typical OF.06  1.70  40  O018  O08  S00  od 
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 740C FOR 1 HR)
+oe  CVN Impact Strength (J)
+Properties  UTS(MPa) S(MPa) (L4d)
+Typical 605 500 
+Welding Positions 
+Current And Packing Data DC()
+Size (mm) Dia x Length
+Current Range (Amps) 180-240  140-180  100-140
+Qty (Pcs/Carton) 85 EA 7h
+Precautions 
+1. Re-dry the electrodes at 250-300C for 01 hour as per our standard recommended
+practice.
+2 Use short arc and stringer bead.
+www.dnhSecheron.co

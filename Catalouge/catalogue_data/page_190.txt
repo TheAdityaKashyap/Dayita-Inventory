@@ -1,0 +1,26 @@
+DH 309L-15
+Secheron
+Compile Welding Support
+Codification 
+AWS SFA 5.4  B309L-15
+IS 5206 E 23.12L B 20
+Characteristics  Applications 
+Basic coated electrode yielding an extra low carbon 24%Cr-12%Ni weld metal The weld
+metal has excellent mechanical properties and possesses goad oxidation and scaling
+resistance at elevated temperatures Ideally suited for welding stainless steels wrought
+and cast materials of similar composition welding of 18/8 type stainless steels to carbon
+steels for buffer layers for welding clad side of 18/4 clad stainless steels etc.
+Typical Chemical Composition Of All Weld Metal () 
+ Element Cc Mn  Si 5 P Cr Ni
+Typical U0 1.0) 0.50  0.020  0.020  23.5 LZ.
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa)
+Welding Positions 
+Current And Packing Data DC()
+ Size (mm) Dia x Length  SxR50 40350  .15x350
+Current Range (Amps) 110-140  80-100
+WeightCarton (kgs)
+Precautions 
+1. Re-dry the electrodes at 240-300C for 01 hour.
+2. Useshort are and stringer bead.
+www.dnhSecheron.co

@@ -1,0 +1,41 @@
+MAXFIL-38R
+Secheron
+Compile Welding Support
+) 91T1-K2C
+EN ISO 17632-B TS72T1-1CA N3
+Characteristics  Applications 
+Maxfil-S8R is a low alloy steel flux cored wire designed for welding of moderate strength
+fine-crained steels to meet sub-zero impact resistance property down to -L8C. The wire is
+suitable for positional welding application results easy slag removal and has excellent
+welders appeal. Weld bead is smooth  uniform and satisfies the requirements of
+radiographie quality. Maxfil-38R is designed for single and multi-pass welding of similar
+composition steels and equivalent prade steels like A/B grades of SA-203 A/BAIC grades of
+SA-662 etc This wire is used for fabrication of penstock pipelines pressure vessels 
+valves refineries off-shore structures and similar applications ete.
+Typical Chemical Composition of All Weld Metal (%) 3
+Element Mn Ni  Mo
+1.00-2.00  085
+Range 15 0.50-175
+Typical  0.08 1.48 .45  0.013  OF018) 0.12
+Peat CVN Impact
+Properties UTS(MPa) YS(MPa) ii Strength (J)
+(L4d)
+Range 620-760 540 Min 17.0 Min
+Typical 697 585 21.0
+Welding Positions 
+LEEERTR
+Welding Parameter  DC ()
+Diameter Over Head
+(mm) Volt (V) Current (A) Volt (V) Current (AJ) Volt (VW)  Current (A)
+120 24-3 160-260  20-22  100-160 22-25 1H)-160
+1.60 24-2) 180-300 2 110-200 22-25 110-200
+Approvals  CE
+Shielding Gas Carbon Dioxide CO (100%) at flow rate 15-20 litres per minute.
+Packing Data
+Standard Size 1
+Quantity
+2  160mm Other diameters may be available on request.
+ Supplied approximately LoKg2 ina plastic spool Kach spool is sealed in an air
+tight polythene bag and then packed in a corrugated box_
+() 91 9833550505
+www.dnhSecheron.com

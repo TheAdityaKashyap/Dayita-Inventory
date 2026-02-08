@@ -1,0 +1,23 @@
+CNM(SPL) 22
+Compile Welding Support
+Codification 
+AWS SFA 5.5  12018-G
+EN ISO 18275-B E83 18-G A H5
+Characteristics  Applications 
+CNM(SPL) is a special formulated electrode to deposit a very high strength weld metal.
+The weld metal possesses high strength and toughness and is ideally suited for welding
+hich strength steels.
+Typical eee oe  Weld a jess
+Element Mn
+UTS(MPa) YS(MPa) os
+Welding Positions
+Current And Packing Data  DC()
+Current Range (Amps) 270-320 200-250
+Qty (Pes/Carton) 25 a5
+Approvals  CE
+Precautions
+Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours.
+Use short arc and stringer beads.
+Use a carefully formulated welding procedure with preheat and post weld heat
+treatment
+www.dnhSecheron.co

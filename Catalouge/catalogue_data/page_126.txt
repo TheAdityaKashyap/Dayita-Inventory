@@ -1,0 +1,31 @@
+NITHERME-3.5L(SPL)
+Characteristics  Applications 
+Low hydrogen iron powder electrode depositing 3.5%Ni in weld metal Easy to operate in
+all conventional welding positions. Radiographic quality welds possesses excellent
+toughness even at sub-zero temperatures down to -100C_ Ideal suited for welding fine-
+erained and Nickel steels. Typical applications include pressure vessels piping valves
+and tanks used for storage transportation and distribution of liquefied gases.
+Typical Chemical Composition Of All Weld Metal (%)
+Element Cc Mn Si P 5 Ni
+Typical  0.045 0.80  0.25  0.020 0.020) 3.10
+Typical Mechanical Properties Of All Weld Metal
+(PWHT 605C FOR 1 HR)
+CVN Impact Strength (J)
+Properties  UTS(MPa) S(MPa)
+Typical 425
+Welding Positions 
+LE-FETR
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length 4.15x950
+Current Range (Amps) 190-240 140-190 100-130 70-100
+Qty (Pes/Carton) ah ao Th 125
+Approvals  CE
+Precautions
+1. Forbest impact properties accomplish minimum heat input by
+ Using smallest size of electrode possible -Minimum weaving
+ Proper control over interpass temperatures. Maximum number of layers.  Welding
+in down hand position wherever possible
+2. Ensure the electrodes are dry. Re-dry the electrodes at 300C for 2 hours
+www.dnhSecheron.co
+Secheron
+Compile Welding Support

@@ -1,0 +1,29 @@
+NIMOTHERME-NM1
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.5  Es018-NM1
+Characteristics  Applications 
+Nimotherme-NM1 is a low-hydrogen electrode which contains about 1% Nickel and 0.5%
+Molybdenum. This electrode can be welded without PWHT. Some typical applications
+include the welding of similar composition high-strength low-alloy or microalloyed
+structural steels.
+Typical Chemical Composition Of All Weld Metal (%) 
+Typical Rs) O.015
+Typical Mechanical Properties Of All Weld Metal 
+JE  CVN Impact Strength (J)
+Properties  UTS(MPa) S(MPa) (L4d)
+- 40C
+Typical
+Welding Positions 
+2RCrEME
+Current And Packing Data AC / DC()
+Size (mm) Dia x Length  5350  4x350  3.154350
+Current Range (Amps)  220-280  160-200  100-140  so-100 
+Qty (Pes/Carton) af 55 rid 125
+Precautions 
+1. Re-dry the electrodes at 250-300C for 1 hour as per our standard recommended
+practice.
+2. Use short arc stringer bead and amallest size of electrode minimum current to
+ensure minimum heat input.
+www.dnhSecheron.co

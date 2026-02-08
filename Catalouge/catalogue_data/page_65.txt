@@ -1,0 +1,23 @@
+g 
+MEDIOV 2
+Compile Welding Support
+Codification 
+AWS SFA 5.1
+Characteristics  Applications 
+Medio- is a medium coated rutile type all position electrode. The electrode operates on
+alternating and direct current either polarity. The weld metal is soft ductile
+metallurgically clean and mechanically sound with radiographic quality. Typical
+applieations include industrial papes and tubes storage tanks bowlers fire boxes tanks
+ships barges dredgers trawlers tugs rail coaches etc.
+Typical Chemical Composition Of All Weld Metal (%) 
+Element Cc 5
+Mn Si 5 E
+ Typical  0.08  0.45  0.22  0.018  0.038 
+Typical Mechanical Properties Of All Weld Metal 
+i CVN Impact Strength (.J)
+Properties
+Typical
+Welding Positions
+Current and packing data AC / DC()
+Approvals  BIS
+www.dnhSecheron.com

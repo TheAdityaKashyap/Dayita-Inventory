@@ -1,0 +1,26 @@
+g 
+UNITHERME 22
+Compile Welding Support
+Codification 
+AWS SFA 5.1
+IS 814 BA4245X
+Characteristics  Applications 
+Unitherme is an iron oxide type electrode for welding of carbon steels. The welds are
+radiographic quality. Typical applications include locomotive fire boxes rotary kilns
+heavy structures engine frames bases etc
+Typical Chemical Composition Of All Weld Metal (%)
+Typical 0.020
+Typical Mechanical Properties Of All Weld Metal 
+  . CVN Impact Strength (J)
+Properties  UTS(MPa) YS(MPa)
+Typical
+Welding Positions 
+aN
+em
+Current and packing data AC / DC(-)
+Size (mm) Dia x Length  6.3x450 5x450 4x40 4.150450
+Current Range (Amps) 260-350 190-260 Lo0-210 110-150
+Precautions 
+1. Redrythe electrodes at 125C for 01 hour ifmecessary.
+2. Ensure use of clectrode in horizontal and flat positions
+www.dnhSecheron.com

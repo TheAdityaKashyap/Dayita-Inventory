@@ -1,0 +1,30 @@
+ CELLUTHERME-80Mo 
+Compile Welding Support
+Codification
+AWS SFA 5.5  8010-6
+EN ISO 2560-B ES5510GA
+Characteristics  Applications 
+Cellutherme-80Mo electrodes have been designed primarily for welding typical high-
+strength pipe butt joints in the vertical welding position with downward or upward
+progression This electrode operates with a forceful penetrating arc produce deep
+penetrating spray-type welding arcs and thin easily removable elag. It is extremely
+beneficial for welding of pipes in Stave Pipe Technique both for faster welding and
+greater control on penetration of the root runs. The welds are of radiographic quality. Itis
+ideally suited for welding of APL 5L-X56 APLSL-A70 piping assemblies.
+Typical Chemical Composition Of All Weld Metal (%)
+Element  Cc  Mn si s P  ni  Mo 
+
+Typical O08 O45 0.15 O.018 100 O25 
+Typical Mechanical Properties Of All Weld Metal 
+Properties  UTS(MPa) YS(MPa)
+Typical 570 abd
+Welding Positions 
+Current And Packing Data  DC()
+Size (mm) Dia x Length 4dxdai .15x850
+Current Range (Amps) 120-170 90-120
+Qty (Pes/Carton) BO 120
+Approvals  CE
+Precautions 
+1. Inorder to achieve best results ensure a good joint fit-up
+2. Do not use high current which may lead to high spatter loss
+www.dnhSecheron.co

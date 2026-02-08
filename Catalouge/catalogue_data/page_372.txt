@@ -1,0 +1,33 @@
+MAXFIL-12M
+Codification 
+AWS SFA 5.20 ) B71T-1M/E71T-9M
+EN ISO 17632-B T493T1-1IMA-K
+IS 15769 2008 ET 541RM9-Hi
+Characteristics  Applications 
+Maxfil-12M is an all-position flux cored wire with Argon-CO gas shielding to deposit weld
+metal with improved impact resistance characteristics. The wire facilitates easy
+deposition of vertical-up stringer beads and provide fat to slightly convex contour with
+equal leg lengths and uniform sidewall wetting. The slag coverage is complete and
+designed for easy removal The deposited weld metal contains very low diffusible hydrogen
+and is of radiographic quality. Maxfil-12M is designed for single and multi-pass welding of
+low and medium carbon steels like A-36/ A-36M A/B/C/D grades of SA-283 A/B/C grades of
+SA-285 A/B grades of SA-414 ete
+ee i nt All Bil Metal sR. 
+Secheron
+Compile Welding Support
+CVN Impact
+Strength (I)
+Typical
+Welding Positions 
+Li-HTR
+Welding Parameter  DC ()
+(mm) Volt (V)  Current (4) Volt (V) Volt (V)
+160-260 20-22 100-160 22-35 100-160
+180-300 ne 110-200 22-25 110-200
+Approvals CE BIS BY
+Shielding Gas Argon - Carbon Dioxide CO (8020) at flow rate L5-20 litres per minute
+Packing Data
+Standard Sige  1.204 160mm. Other diameters may be available on request.
+Quantity  Supplied approximately 1iKegs in a plastic spool. Each spool is vacuum sealed
+followed by polythene bag and then packed ina corrugated box.
+www.dnhSecheron.co

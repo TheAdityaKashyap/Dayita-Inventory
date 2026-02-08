@@ -1,0 +1,31 @@
+MAXFIL-2209
+Secheron
+Compile Welding Support
+Codification 
+AWS SPA 5.22  B2209T0-1
+O  H SECHERDW ELECTRODES
+Characteristics  Applications 
+Maxfil-2209 is an all position stainless steel flux cored wire designed for optimum
+performance with LOO%CO gas shielding which deposit 22%Cr  8.5%Ni  3.5%Mo and
+O.10N. The wire welds satisfactorily in out of position and performs equally well when
+welding in the flat  horizontal position. The wire Maxfil-2209 suitable for welding duplex
+stainless steels allove like 2205 grades. (UNS 32205 UNS 31808) ete.
+Typical a ea -   Metal (%)
+Element
+El
+Properties  UTS(MPa) (L4a)
+Range 690 Min 20 Min
+Welding Positions 
+Lei
+Welding Parameter  DC ()
+Diameter Overhead
+(mm) Volt (V)  Current (A) Current (A)
+160-260) 20-22 Livo-1 100-1 60
+130-300  20-22 110-200 f 110-200
+Shielding Gas Carbon Dioxide CO (100%) at flow rate 15-22 litres per minute.
+Packing Data
+Standard Size  1.20. 1.60mm.
+Quantity  Supplied approximately 12.5/14Kgs in a plastic spool. Each spool ia
+vacuum sealed followed by polythene bag and then packed in a
+corrugated box
+www.dnhSecheron.co

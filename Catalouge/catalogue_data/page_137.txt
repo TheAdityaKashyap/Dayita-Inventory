@@ -1,0 +1,36 @@
+1
+e
+CROMOTHERME-1 22322
+Compile Welding Support
+Codification 
+AWS SFA 5.5  s018-B2
+IS 1395. E55 B B22 6 Fe
+EN ISO 3580-A E CrMol B42
+Characteristics  Applications 
+Cromotherme-1 is low hydrogen iron powder type electrodes yielding a weld deposit
+containing 1 Cr - 0.5% Mo Excellent for welding creep resistant 0.5%Cr - 0.5%Mo
+1Cr - 05 vo steels. The weld deposit has excellent creep resistance at service
+temperatures up to 550C
+Typical Chemical Composition Of All Weld Metal (%) 
+Element  C Si ) Cr  Mo
+Typical H le le O.025/ 0.020) 1.25 0.55
+Typical Mechanical Properties Of All Weld Metal 
+(PWHT 690C FOR 1 HR)
+ap (CVNI St hid) Creep Strength at 540C
+Properties UTS(MPa)) YS(MPa)  sania (1% offset in10000hrs)
+(MPa)
+Tvieat soe as as 
+Welding Positions 
+LEFRETR
+Current And Packing Data DC()
+Size (mm) Dia x Length  6.3x450 5 3.15x450  2.5x350
+Current Range (Amps) -senoe oan  140-180  100-180  70-100
+E 125
+Qty (Pes/Carton)
+12
+Approvals  Adani Infra BHEL BV CE CIB-MP EIL LT Power
+NTPC PDIL
+Precautions 
+1. Ensure the electrodes are dry Re-dry the electrodes at 300C for 2 hours.
+2 Use short are and stringer bead.
+www.dnhSecheron.com
