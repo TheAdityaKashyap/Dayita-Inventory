@@ -1,0 +1,57 @@
+html
+/* Global Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    color: var(--primary);
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+input, textarea {
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--primary);
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #10a37f;
+    --secondary-color: #343541;
+    --background-color: #1e1e2f;
+    --text-color: #ffffff;
+    --text-secondary: #d1d5db;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --highlight-color: #6366f1;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.sidebar {
+    background-color: var(--secondary-color);
+    border-right: 1px solid var(--border-color);
+}
+
+.chat-container {
+    background-color: var(--background-color);
+}
+
+.msg {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.user-msg {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.bot-msg {
+    background-color: var(--highlight-color);
+    color: var(--text-color);
+}
+
+.input-area {
+    background-color: var(--secondary-color);
+    border-top: 1px solid var(--border-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+button:hover {
+    background-color: var(--highlight-color);
+}
