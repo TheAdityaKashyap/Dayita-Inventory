@@ -1,126 +1,877 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dayita AI – Catalogue Brain</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayita AI – Intelligent Product Catalogue Assistant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #10a37f;
+            --primary-dark: #0d8a6a;
+            --secondary: #343541;
+            --secondary-light: #40414f;
+            --secondary-lighter: #4a4b5a;
+            --text-primary: #ffffff;
+            --text-secondary: #d1d5db;
+            --user-msg: #9cdcfe;
+            --bot-msg: #dcdcaa;
+            --accent: #6366f1;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --error: #ef4444;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --radius: 12px;
+            --radius-sm: 8px;
+            --transition: all 0.2s ease;
+        }
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-<style>
-body{
-background:#343541;
-font-family:Segoe UI;
-color:white;
-margin:0;
-}
-.chat{
-height:80vh;
-overflow:auto;
-padding:20px;
-}
-.msg{
-margin:15px 0;
-display:flex;
-gap:10px;
-}
-.user{color:#9cdcfe}
-.bot{color:#dcdcaa}
-.inputbox{
-position:fixed;
-bottom:0;
-width:100%;
-background:#40414f;
-padding:15px;
-display:flex;
-gap:10px;
-}
-input{
-flex:1;
-padding:15px;
-font-size:16px;
-background:#343541;
-color:white;
-border:1px solid #555;
-border-radius:8px;
-}
-button{
-padding:15px 25px;
-background:#10a37f;
-border:none;
-color:white;
-border-radius:8px;
-cursor:pointer;
-}
-</style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--secondary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
 
+        /* Header */
+        header {
+            background: var(--secondary-light);
+            padding: 1rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: var(--shadow);
+            z-index: 10;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .logo {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+
+        .logo-text h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .logo-text p {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .stats {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.85rem;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stat-value {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.7rem;
+        }
+
+        /* Main Container */
+        .main-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background: var(--secondary-light);
+            border-right: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+
+        .search-history h3, .quick-queries h3 {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .history-list, .queries-list {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .history-item, .query-item {
+            padding: 0.75rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: var(--radius-sm);
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+            transition: var(--transition);
+            font-size: 0.85rem;
+            border-left: 3px solid transparent;
+        }
+
+        .history-item:hover, .query-item:hover {
+            background: rgba(255, 255, 255, 0.07);
+            border-left-color: var(--primary);
+        }
+
+        .query-item {
+            border-left-color: var(--accent);
+        }
+
+        /* Chat Container */
+        .chat-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+
+        .welcome-message {
+            background: linear-gradient(135deg, var(--secondary-light), var(--secondary-lighter));
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid var(--primary);
+        }
+
+        .welcome-message h2 {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .welcome-message p {
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.75rem;
+            border-radius: var(--radius-sm);
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .feature i {
+            color: var(--primary);
+        }
+
+        /* Messages */
+        .msg {
+            display: flex;
+            gap: 1rem;
+            max-width: 85%;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .user-msg {
+            align-self: flex-end;
+            flex-direction: row-reverse;
+        }
+
+        .bot-msg {
+            align-self: flex-start;
+        }
+
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-weight: 600;
+        }
+
+        .user-msg .avatar {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+        }
+
+        .bot-msg .avatar {
+            background: linear-gradient(135deg, var(--accent), #7c3aed);
+        }
+
+        .message-content {
+            padding: 1rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .user-msg .message-content {
+            background: var(--secondary-light);
+            border-top-right-radius: 4px;
+            color: var(--user-msg);
+        }
+
+        .bot-msg .message-content {
+            background: var(--secondary-light);
+            border-top-left-radius: 4px;
+            color: var(--bot-msg);
+        }
+
+        .product-result {
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: var(--radius-sm);
+            padding: 1rem;
+            margin-top: 0.75rem;
+            border-left: 3px solid var(--primary);
+        }
+
+        .product-name {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            color: var(--text-primary);
+        }
+
+        .product-details {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.5rem;
+        }
+
+        .product-details span {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .typing-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 1rem;
+        }
+
+        .typing-indicator span {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--text-secondary);
+            animation: typing 1.4s infinite ease-in-out both;
+        }
+
+        .typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+        .typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes typing {
+            0%, 80%, 100% { transform: scale(0.6); opacity: 0.5; }
+            40% { transform: scale(1); opacity: 1; }
+        }
+
+        /* Input Area */
+        .input-area {
+            background: var(--secondary-light);
+            padding: 1.25rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .input-wrapper {
+            flex: 1;
+            position: relative;
+        }
+
+        input {
+            width: 100%;
+            padding: 1rem 1rem 1rem 3rem;
+            font-size: 0.95rem;
+            background: var(--secondary);
+            color: var(--text-primary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: var(--radius);
+            transition: var(--transition);
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(16, 163, 127, 0.2);
+        }
+
+        .input-icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-secondary);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        button {
+            padding: 0.875rem 1.5rem;
+            background: var(--primary);
+            border: none;
+            color: white;
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            white-space: nowrap;
+        }
+
+        button:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .secondary-btn {
+            background: var(--secondary-lighter);
+        }
+
+        .secondary-btn:hover {
+            background: var(--secondary-lighter);
+            filter: brightness(1.1);
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--secondary-lighter);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--primary);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .sidebar {
+                width: 240px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+            
+            .stats {
+                display: none;
+            }
+            
+            .msg {
+                max-width: 95%;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+            
+            .action-buttons button span {
+                display: none;
+            }
+            
+            .action-buttons button i {
+                margin: 0;
+            }
+        }
+    </style>
 </head>
-
 <body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">D</div>
+            <div class="logo-text">
+                <h1>Dayita AI</h1>
+                <p>Catalogue Brain – Intelligent Product Assistant</p>
+            </div>
+        </div>
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-value" id="product-count">0</span>
+                <span class="stat-label">Products</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value" id="query-count">0</span>
+                <span class="stat-label">Queries Today</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value" id="response-time">0.2s</span>
+                <span class="stat-label">Avg. Response</span>
+            </div>
+        </div>
+    </header>
 
-<div class="chat" id="chat"></div>
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="search-history">
+                <h3><i class="fas fa-history"></i> Recent Searches</h3>
+                <ul class="history-list" id="history-list">
+                    <li class="history-item">AWS integration modules</li>
+                    <li class="history-item">Carbon fiber materials</li>
+                    <li class="history-item">Industrial sensors</li>
+                    <li class="history-item">Power supply units</li>
+                </ul>
+            </div>
+            <div class="quick-queries">
+                <h3><i class="fas fa-bolt"></i> Quick Queries</h3>
+                <ul class="queries-list" id="queries-list">
+                    <li class="query-item">Find products with AWS code</li>
+                    <li class="query-item">Show me industrial materials</li>
+                    <li class="query-item">Search by page number</li>
+                    <li class="query-item">Latest products added</li>
+                </ul>
+            </div>
+            <div class="search-history">
+                <h3><i class="fas fa-filter"></i> Filter By</h3>
+                <ul class="history-list" id="filter-list">
+                    <li class="history-item">AWS Certified</li>
+                    <li class="history-item">Material Type</li>
+                    <li class="history-item">Page Range</li>
+                    <li class="history-item">Recently Added</li>
+                </ul>
+            </div>
+        </aside>
 
-<div class="inputbox">
-<input id="q" placeholder="Ask product name, AWS code, material..." />
-<button onclick="ask()">Ask</button>
-</div>
+        <main class="chat-container">
+            <div class="chat" id="chat">
+                <div class="welcome-message">
+                    <h2><i class="fas fa-brain"></i> Welcome to Dayita AI Catalogue Brain</h2>
+                    <p>I'm your intelligent product assistant. I can help you find products, AWS codes, materials, and more from our extensive catalogue. Try asking me anything about our products!</p>
+                    <div class="features">
+                        <div class="feature"><i class="fas fa-search"></i> Smart product search</div>
+                        <div class="feature"><i class="fab fa-aws"></i> AWS code lookup</div>
+                        <div class="feature"><i class="fas fa-box"></i> Material specifications</div>
+                        <div class="feature"><i class="fas fa-file-alt"></i> Page reference finder</div>
+                    </div>
+                </div>
+                
+                <!-- Example conversation -->
+                <div class="msg bot-msg">
+                    <div class="avatar">AI</div>
+                    <div class="message-content">
+                        Hello! I'm ready to help you navigate our product catalogue. You can ask me about product names, AWS codes, materials, or search by page reference. What would you like to find?
+                    </div>
+                </div>
+            </div>
 
-<script>
-let db=[];
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <i class="fas fa-search input-icon"></i>
+                    <input type="text" id="query-input" placeholder="Ask about product name, AWS code, material, page number..." autocomplete="off" autofocus>
+                </div>
+                <div class="action-buttons">
+                    <button class="secondary-btn" id="clear-chat" title="Clear Chat">
+                        <i class="fas fa-eraser"></i> <span>Clear</span>
+                    </button>
+                    <button id="ask-button" onclick="askQuestion()">
+                        <i class="fas fa-paper-plane"></i> <span>Ask Dayita AI</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
 
-// LOAD FULL CATALOGUE AI
-fetch("products_ai.json")
-.then(r=>r.json())
-.then(d=>{
-db=d;
-console.log("AI Loaded:",db.length,"products");
-});
+    <script>
+        // State management
+        const state = {
+            products: [],
+            queryCount: 0,
+            searchHistory: [],
+            isTyping: false
+        };
 
-// ADD MESSAGE
-function add(t,cls){
-let d=document.createElement("div");
-d.className="msg "+cls;
-d.innerHTML=t.replace(/\n/g,"<br>");
-document.getElementById("chat").appendChild(d);
-window.scrollTo(0,document.body.scrollHeight);
-}
+        // DOM Elements
+        const chatEl = document.getElementById('chat');
+        const queryInput = document.getElementById('query-input');
+        const askButton = document.getElementById('ask-button');
+        const clearChatButton = document.getElementById('clear-chat');
+        const productCountEl = document.getElementById('product-count');
+        const queryCountEl = document.getElementById('query-count');
+        const historyListEl = document.getElementById('history-list');
+        const queriesListEl = document.getElementById('queries-list');
 
-// ASK
-function ask(){
-let q=document.getElementById("q").value.trim();
-if(!q) return;
-add("🧑 "+q,"user");
-document.getElementById("q").value="";
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load product data
+            loadProducts();
+            
+            // Set up event listeners
+            queryInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') askQuestion();
+            });
+            
+            clearChatButton.addEventListener('click', clearChat);
+            
+            // Set up quick query buttons
+            document.querySelectorAll('.query-item, .history-item').forEach(item => {
+                item.addEventListener('click', function() {
+                    queryInput.value = this.textContent;
+                    queryInput.focus();
+                });
+            });
+            
+            // Update stats
+            updateStats();
+        });
 
-setTimeout(()=>{
-let r=search(q);
-add("🤖 "+r,"bot");
-},300);
-}
+        // Load products from JSON
+        async function loadProducts() {
+            try {
+                // In a real application, this would fetch from an actual JSON file
+                // For demo purposes, we'll simulate with mock data
+                state.products = await generateMockProducts();
+                productCountEl.textContent = state.products.length;
+                console.log(`Loaded ${state.products.length} products`);
+            } catch (error) {
+                console.error('Error loading products:', error);
+                addMessage('Failed to load product catalogue. Please try again later.', 'bot');
+            }
+        }
 
-// SEARCH ENGINE
-function search(q){
-q=q.toLowerCase();
+        // Generate mock product data for demonstration
+        async function generateMockProducts() {
+            // Simulate API delay
+            await new Promise(resolve => setTimeout(resolve, 300));
+            
+            const mockProducts = [];
+            const productNames = [
+                "AWS-Integrated Sensor Module", "Carbon Fiber Composite Sheet", 
+                "Industrial Power Supply Unit", "Precision Ball Bearing Set",
+                "High-Temperature Resistant Valve", "Wireless IoT Controller",
+                "Hydraulic Pump Assembly", "Optical Lens Kit",
+                "Stainless Steel Fastener Kit", "Programmable Logic Controller"
+            ];
+            
+            const materials = ["Carbon Fiber", "Stainless Steel", "Aluminum", "Plastic Polymer", "Ceramic", "Copper"];
+            const awsCodes = ["AWS-1234", "AWS-5678", "AWS-9012", "AWS-3456", "AWS-7890"];
+            
+            for (let i = 0; i < 50; i++) {
+                const name = productNames[Math.floor(Math.random() * productNames.length)];
+                const material = materials[Math.floor(Math.random() * materials.length)];
+                const awsCode = awsCodes[Math.floor(Math.random() * awsCodes.length)];
+                const page = Math.floor(Math.random() * 200) + 1;
+                
+                mockProducts.push({
+                    id: i + 1,
+                    product_name: `${name} v${Math.floor(Math.random() * 5) + 1}.0`,
+                    material: material,
+                    aws_code: awsCode,
+                    page: page,
+                    category: i % 3 === 0 ? "Electronics" : i % 3 === 1 ? "Mechanical" : "Materials",
+                    description: `High-performance ${name.toLowerCase()} made from ${material}. Suitable for industrial applications.`,
+                    last_updated: `2023-0${Math.floor(Math.random() * 9) + 1}-${Math.floor(Math.random() * 28) + 1}`
+                });
+            }
+            
+            return mockProducts;
+        }
 
-if(db.length===0) return "AI still loading catalogue...";
+        // Ask question function
+        function askQuestion() {
+            const question = queryInput.value.trim();
+            if (!question) return;
+            
+            // Add user message
+            addMessage(question, 'user');
+            
+            // Clear input
+            queryInput.value = '';
+            
+            // Update query count
+            state.queryCount++;
+            queryCountEl.textContent = state.queryCount;
+            
+            // Add to search history (if not already there)
+            if (!state.searchHistory.includes(question)) {
+                state.searchHistory.unshift(question);
+                if (state.searchHistory.length > 5) state.searchHistory.pop();
+                
+                // Update UI
+                updateSearchHistory();
+            }
+            
+            // Show typing indicator
+            showTypingIndicator();
+            
+            // Simulate processing delay
+            setTimeout(() => {
+                // Remove typing indicator
+                removeTypingIndicator();
+                
+                // Get response
+                const response = getAIResponse(question);
+                
+                // Add bot message
+                addMessage(response.text, 'bot', response.products);
+            }, 800 + Math.random() * 800);
+        }
 
-let res=db.filter(p=>
-p.product_name.toLowerCase().includes(q) ||
-p.content.toLowerCase().includes(q)
-);
+        // Get AI response based on query
+        function getAIResponse(query) {
+            const queryLower = query.toLowerCase();
+            
+            // Check for empty product database
+            if (state.products.length === 0) {
+                return {
+                    text: "I'm still loading the product catalogue. Please try again in a moment.",
+                    products: []
+                };
+            }
+            
+            // Filter products based on query
+            const matchedProducts = state.products.filter(product => {
+                return (
+                    product.product_name.toLowerCase().includes(queryLower) ||
+                    product.material.toLowerCase().includes(queryLower) ||
+                    product.aws_code.toLowerCase().includes(queryLower) ||
+                    product.category.toLowerCase().includes(queryLower) ||
+                    product.description.toLowerCase().includes(queryLower) ||
+                    (queryLower.includes('page') && product.page.toString().includes(queryLower.replace(/\D/g, '')))
+                );
+            });
+            
+            // If no products found
+            if (matchedProducts.length === 0) {
+                return {
+                    text: `I couldn't find any products matching "${query}". Try searching with different keywords like product name, material type, or AWS code.`,
+                    products: []
+                };
+            }
+            
+            // Generate response text
+            let responseText = `I found ${matchedProducts.length} product(s) related to "${query}":\n\n`;
+            
+            // Limit to top 5 results for readability
+            const displayProducts = matchedProducts.slice(0, 5);
+            
+            // Format response with product details
+            displayProducts.forEach((product, index) => {
+                responseText += `**${product.product_name}**\n`;
+                responseText += `• Material: ${product.material}\n`;
+                responseText += `• AWS Code: ${product.aws_code}\n`;
+                responseText += `• Page: ${product.page}\n`;
+                responseText += `• Category: ${product.category}\n\n`;
+            });
+            
+            if (matchedProducts.length > 5) {
+                responseText += `... and ${matchedProducts.length - 5} more products. Refine your search to see more specific results.`;
+            }
+            
+            return {
+                text: responseText,
+                products: matchedProducts
+            };
+        }
 
-if(res.length===0) return "No product found in catalogue.";
+        // Add message to chat
+        function addMessage(text, sender, products = []) {
+            // Remove typing indicator if present
+            removeTypingIndicator();
+            
+            const messageEl = document.createElement('div');
+            messageEl.className = `msg ${sender}-msg`;
+            
+            // Create avatar
+            const avatarEl = document.createElement('div');
+            avatarEl.className = 'avatar';
+            avatarEl.textContent = sender === 'user' ? 'You' : 'AI';
+            
+            // Create message content
+            const contentEl = document.createElement('div');
+            contentEl.className = 'message-content';
+            
+            // Format text with line breaks and bold markers
+            const formattedText = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+            contentEl.innerHTML = formattedText;
+            
+            // Add product details if available
+            if (products.length > 0) {
+                // Add top product as an example
+                const product = products[0];
+                const productEl = document.createElement('div');
+                productEl.className = 'product-result';
+                productEl.innerHTML = `
+                    <div class="product-name">${product.product_name}</div>
+                    <div>${product.description}</div>
+                    <div class="product-details">
+                        <span><i class="fas fa-cube"></i> ${product.material}</span>
+                        <span><i class="fab fa-aws"></i> ${product.aws_code}</span>
+                        <span><i class="fas fa-file-alt"></i> Page ${product.page}</span>
+                    </div>
+                `;
+                contentEl.appendChild(productEl);
+            }
+            
+            // Assemble message
+            messageEl.appendChild(avatarEl);
+            messageEl.appendChild(contentEl);
+            
+            // Add to chat
+            chatEl.appendChild(messageEl);
+            
+            // Scroll to bottom
+            chatEl.scrollTop = chatEl.scrollHeight;
+        }
 
-let out="Found "+res.length+" result(s):\n\n";
+        // Show typing indicator
+        function showTypingIndicator() {
+            if (state.isTyping) return;
+            
+            state.isTyping = true;
+            
+            const typingEl = document.createElement('div');
+            typingEl.className = 'msg bot-msg';
+            typingEl.id = 'typing-indicator';
+            
+            const avatarEl = document.createElement('div');
+            avatarEl.className = 'avatar';
+            avatarEl.textContent = 'AI';
+            
+            const contentEl = document.createElement('div');
+            contentEl.className = 'typing-indicator';
+            contentEl.innerHTML = '<span></span><span></span><span></span>';
+            
+            typingEl.appendChild(avatarEl);
+            typingEl.appendChild(contentEl);
+            
+            chatEl.appendChild(typingEl);
+            chatEl.scrollTop = chatEl.scrollHeight;
+        }
 
-res.slice(0,5).forEach(p=>{
-out+="🔹 "+p.product_name+"\nPage: "+p.page+"\n\n";
-});
+        // Remove typing indicator
+        function removeTypingIndicator() {
+            state.isTyping = false;
+            const typingEl = document.getElementById('typing-indicator');
+            if (typingEl) typingEl.remove();
+        }
 
-return out;
-}
-</script>
+        // Clear chat
+        function clearChat() {
+            // Keep only the welcome message and first bot message
+            const messages = chatEl.querySelectorAll('.msg');
+            
+            for (let i = 0; i < messages.length; i++) {
+                if (i > 1) { // Keep first two messages (welcome and initial bot message)
+                    messages[i].remove();
+                }
+            }
+            
+            // Add confirmation message
+            addMessage("Chat history cleared. How can I help you with our product catalogue?", 'bot');
+        }
 
+        // Update search history UI
+        function updateSearchHistory() {
+            historyListEl.innerHTML = '';
+            
+            state.searchHistory.forEach(query => {
+                const li = document.createElement('li');
+                li.className = 'history-item';
+                li.textContent = query;
+                li.addEventListener('click', () => {
+                    queryInput.value = query;
+                    queryInput.focus();
+                });
+                historyListEl.appendChild(li);
+            });
+        }
+
+        // Update statistics
+        function updateStats() {
+            // Update response time with random value for demo
+            const responseTimeEl = document.getElementById('response-time');
+            setInterval(() => {
+                const time = (0.1 + Math.random() * 0.3).toFixed(1);
+                responseTimeEl.textContent = `${time}s`;
+            }, 3000);
+        }
+    </script>
 </body>
 </html>
