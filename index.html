@@ -268,6 +268,8 @@
             border-radius: var(--radius);
             box-shadow: var(--shadow);
             position: relative;
+            max-width: 100%;
+            word-wrap: break-word;
         }
 
         .user-msg .message-content {
@@ -292,8 +294,16 @@
 
         .product-name {
             font-weight: 600;
-            margin-bottom: 0.25rem;
+            margin-bottom: 0.5rem;
             color: var(--text-primary);
+            font-size: 1.1rem;
+        }
+
+        .product-content {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+            margin-bottom: 0.5rem;
         }
 
         .product-details {
@@ -302,12 +312,22 @@
             font-size: 0.85rem;
             color: var(--text-secondary);
             margin-top: 0.5rem;
+            flex-wrap: wrap;
         }
 
         .product-details span {
             display: flex;
             align-items: center;
             gap: 0.25rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+        }
+
+        .highlight {
+            background-color: rgba(16, 163, 127, 0.2);
+            padding: 0 2px;
+            border-radius: 2px;
         }
 
         .typing-indicator {
@@ -493,28 +513,25 @@
             <div class="search-history">
                 <h3><i class="fas fa-history"></i> Recent Searches</h3>
                 <ul class="history-list" id="history-list">
-                    <li class="history-item">AWS integration modules</li>
-                    <li class="history-item">Carbon fiber materials</li>
-                    <li class="history-item">Industrial sensors</li>
-                    <li class="history-item">Power supply units</li>
+                    <!-- Will be populated dynamically -->
                 </ul>
             </div>
             <div class="quick-queries">
                 <h3><i class="fas fa-bolt"></i> Quick Queries</h3>
                 <ul class="queries-list" id="queries-list">
-                    <li class="query-item">Find products with AWS code</li>
-                    <li class="query-item">Show me industrial materials</li>
-                    <li class="query-item">Search by page number</li>
-                    <li class="query-item">Latest products added</li>
+                    <li class="query-item">Find welding electrodes</li>
+                    <li class="query-item">Search by AWS code</li>
+                    <li class="query-item">Products on page 100</li>
+                    <li class="query-item">CNM(SPLM 2 details</li>
                 </ul>
             </div>
             <div class="search-history">
                 <h3><i class="fas fa-filter"></i> Filter By</h3>
                 <ul class="history-list" id="filter-list">
                     <li class="history-item">AWS Certified</li>
-                    <li class="history-item">Material Type</li>
                     <li class="history-item">Page Range</li>
-                    <li class="history-item">Recently Added</li>
+                    <li class="history-item">Electrodes</li>
+                    <li class="history-item">Weld Metal</li>
                 </ul>
             </div>
         </aside>
@@ -523,11 +540,11 @@
             <div class="chat" id="chat">
                 <div class="welcome-message">
                     <h2><i class="fas fa-brain"></i> Welcome to Dayita AI Catalogue Brain</h2>
-                    <p>I'm your intelligent product assistant. I can help you find products, AWS codes, materials, and more from our extensive catalogue. Try asking me anything about our products!</p>
+                    <p>I'm your intelligent product assistant. I can help you find products, AWS codes, materials, and more from our extensive welding catalogue. Try asking me anything about our products!</p>
                     <div class="features">
                         <div class="feature"><i class="fas fa-search"></i> Smart product search</div>
                         <div class="feature"><i class="fab fa-aws"></i> AWS code lookup</div>
-                        <div class="feature"><i class="fas fa-box"></i> Material specifications</div>
+                        <div class="feature"><i class="fas fa-fire"></i> Welding electrodes</div>
                         <div class="feature"><i class="fas fa-file-alt"></i> Page reference finder</div>
                     </div>
                 </div>
@@ -536,7 +553,7 @@
                 <div class="msg bot-msg">
                     <div class="avatar">AI</div>
                     <div class="message-content">
-                        Hello! I'm ready to help you navigate our product catalogue. You can ask me about product names, AWS codes, materials, or search by page reference. What would you like to find?
+                        Hello! I'm ready to help you navigate our welding product catalogue. You can ask me about product names, AWS codes, welding specifications, or search by page reference. What would you like to find?
                     </div>
                 </div>
             </div>
@@ -544,13 +561,13 @@
             <div class="input-area">
                 <div class="input-wrapper">
                     <i class="fas fa-search input-icon"></i>
-                    <input type="text" id="query-input" placeholder="Ask about product name, AWS code, material, page number..." autocomplete="off" autofocus>
+                    <input type="text" id="query-input" placeholder="Ask about welding electrodes, AWS codes, product specifications..." autocomplete="off" autofocus>
                 </div>
                 <div class="action-buttons">
                     <button class="secondary-btn" id="clear-chat" title="Clear Chat">
                         <i class="fas fa-eraser"></i> <span>Clear</span>
                     </button>
-                    <button id="ask-button" onclick="askQuestion()">
+                    <button id="ask-button">
                         <i class="fas fa-paper-plane"></i> <span>Ask Dayita AI</span>
                     </button>
                 </div>
@@ -563,7 +580,7 @@
         const state = {
             products: [],
             queryCount: 0,
-            searchHistory: [],
+            searchHistory: JSON.parse(localStorage.getItem('searchHistory')) || [],
             isTyping: false
         };
 
@@ -575,7 +592,6 @@
         const productCountEl = document.getElementById('product-count');
         const queryCountEl = document.getElementById('query-count');
         const historyListEl = document.getElementById('history-list');
-        const queriesListEl = document.getElementById('queries-list');
 
         // Initialize
         document.addEventListener('DOMContentLoaded', function() {
@@ -587,70 +603,75 @@
                 if (e.key === 'Enter') askQuestion();
             });
             
+            askButton.addEventListener('click', askQuestion);
             clearChatButton.addEventListener('click', clearChat);
             
             // Set up quick query buttons
-            document.querySelectorAll('.query-item, .history-item').forEach(item => {
+            document.querySelectorAll('.query-item, .history-item, .feature').forEach(item => {
                 item.addEventListener('click', function() {
-                    queryInput.value = this.textContent;
+                    if (this.classList.contains('feature')) {
+                        const text = this.textContent.replace('Search by page number', 'Search by page').replace('AWS code lookup', 'Find AWS codes');
+                        queryInput.value = text;
+                    } else {
+                        queryInput.value = this.textContent;
+                    }
                     queryInput.focus();
                 });
             });
             
             // Update stats
             updateStats();
+            updateSearchHistoryUI();
         });
 
         // Load products from JSON
         async function loadProducts() {
             try {
-                // In a real application, this would fetch from an actual JSON file
-                // For demo purposes, we'll simulate with mock data
-                state.products = await generateMockProducts();
+                // Load the products_ai.json file
+                const response = await fetch('products_ai.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load product data');
+                }
+                state.products = await response.json();
                 productCountEl.textContent = state.products.length;
                 console.log(`Loaded ${state.products.length} products`);
+                
+                // Update query count from localStorage
+                state.queryCount = parseInt(localStorage.getItem('queryCount')) || 0;
+                queryCountEl.textContent = state.queryCount;
             } catch (error) {
                 console.error('Error loading products:', error);
-                addMessage('Failed to load product catalogue. Please try again later.', 'bot');
+                // Fallback to sample data
+                state.products = getSampleProducts();
+                productCountEl.textContent = state.products.length;
+                addMessage('Note: Using sample data. To use full catalogue, ensure products_ai.json is in the same directory.', 'bot');
             }
         }
 
-        // Generate mock product data for demonstration
-        async function generateMockProducts() {
-            // Simulate API delay
-            await new Promise(resolve => setTimeout(resolve, 300));
-            
-            const mockProducts = [];
-            const productNames = [
-                "AWS-Integrated Sensor Module", "Carbon Fiber Composite Sheet", 
-                "Industrial Power Supply Unit", "Precision Ball Bearing Set",
-                "High-Temperature Resistant Valve", "Wireless IoT Controller",
-                "Hydraulic Pump Assembly", "Optical Lens Kit",
-                "Stainless Steel Fastener Kit", "Programmable Logic Controller"
+        // Sample product data as fallback
+        function getSampleProducts() {
+            return [
+                {
+                    "product_name": "CNM(SPLM 2",
+                    "page": "page_100.txt",
+                    "content": "CNM(SPLM 2\nComplete Welding Support\nCodification \nAWS SFA 5.5  12018M\nEN ISO 18275-B E 83 18 N4C2M2 A H5\nCharacteristics & Applications \nBasic coated electrode with a stable and smooth arc easy to strike and restrike.\nLow spatter and good bead finish. Welds are of radiographic quality. The weld metal\ndisplays good crack resistance and produces sound weld metal possessing excellent\nstrength combined with good impact properties at subzero temperature. It is suitable for\njoining many high strength low alloy or micro alloyed steels to themselves or to lower\nstrength steels including carbon steels. Ideally suited for welding earth moving\nequipments and other heavy equipments."
+                },
+                {
+                    "product_name": "EN ISO 2560-A",
+                    "page": "page_101.txt",
+                    "content": "COROTHERME(SPL)\nComplete Welding Support\nCodification \nAWS SFA 5.5  E7018-W\nEN ISO 2560-A\nCharacteristics & Applications \nCorotherme(SPL) is a special electrode depositing a 0.5%Cr - 0.7%Ni - 0.5%Cu weld metal\nideally suited for welding weathering steels to resist high temperature atmospheric\ncorrosion. Ideal for welding steels like Corten steels used in chemical petrochemical and\nrailway industries to resist atmospheric corrosion."
+                },
+                {
+                    "product_name": "EN ISO 2560-A R424 B92",
+                    "page": "page_102.txt",
+                    "content": "SUPRATHERME(SPL)\nComplete Welding Support\nCodification \nEN ISO 2560-A R424 B92\nCharacteristics & Applications \nAn iron powder low hydrogen type electrode producing a tough and ductile weld metal for\nwelding heavy and rigid structures subjected to dynamic loading and impact. The weld\nmetal is of radiographic quality and displays remarkable impact strength even at -50C\nTypical applications include welding of carbon steels, steels sensitive to hydrogen\nembrittlement, heavy and rigid structures, pressure vessels and equipment subjected to\nsevere stress and requiring good toughness properties at sub-zero temperatures down to -\n50C"
+                },
+                {
+                    "product_name": "EB5626H1X",
+                    "page": "page_103.txt",
+                    "content": "SUPRATHERME(SPL)H4R\nComplete Welding Support\nCodification \nAWS SFA 5.1  E7018-1 H4R\nEN ISO 2560-A E424632 H5\nCharacteristics & Applications \nSupratherme(SPL)H4R is a moisture resistant hydrogen controlled basic coated electrode\nfor producing tough and ductile weld of radiographic quality in boilers, pressure vessels,\nmedium carbon steels, cast steel and problematic steels. The weld metal is clean and has\nlow level of impurities thus having unique properties. Some typical applications include\nmaintenance welding of all types of C-Mn steels, heavy tensile steels, heavy structures,\nplants & equipments subjected to static or dynamic loading."
+                }
             ];
-            
-            const materials = ["Carbon Fiber", "Stainless Steel", "Aluminum", "Plastic Polymer", "Ceramic", "Copper"];
-            const awsCodes = ["AWS-1234", "AWS-5678", "AWS-9012", "AWS-3456", "AWS-7890"];
-            
-            for (let i = 0; i < 50; i++) {
-                const name = productNames[Math.floor(Math.random() * productNames.length)];
-                const material = materials[Math.floor(Math.random() * materials.length)];
-                const awsCode = awsCodes[Math.floor(Math.random() * awsCodes.length)];
-                const page = Math.floor(Math.random() * 200) + 1;
-                
-                mockProducts.push({
-                    id: i + 1,
-                    product_name: `${name} v${Math.floor(Math.random() * 5) + 1}.0`,
-                    material: material,
-                    aws_code: awsCode,
-                    page: page,
-                    category: i % 3 === 0 ? "Electronics" : i % 3 === 1 ? "Mechanical" : "Materials",
-                    description: `High-performance ${name.toLowerCase()} made from ${material}. Suitable for industrial applications.`,
-                    last_updated: `2023-0${Math.floor(Math.random() * 9) + 1}-${Math.floor(Math.random() * 28) + 1}`
-                });
-            }
-            
-            return mockProducts;
         }
 
         // Ask question function
@@ -667,37 +688,31 @@
             // Update query count
             state.queryCount++;
             queryCountEl.textContent = state.queryCount;
+            localStorage.setItem('queryCount', state.queryCount);
             
-            // Add to search history (if not already there)
+            // Add to search history
             if (!state.searchHistory.includes(question)) {
                 state.searchHistory.unshift(question);
-                if (state.searchHistory.length > 5) state.searchHistory.pop();
-                
-                // Update UI
-                updateSearchHistory();
+                if (state.searchHistory.length > 10) state.searchHistory.pop();
+                localStorage.setItem('searchHistory', JSON.stringify(state.searchHistory));
+                updateSearchHistoryUI();
             }
             
             // Show typing indicator
             showTypingIndicator();
             
-            // Simulate processing delay
+            // Process query
             setTimeout(() => {
-                // Remove typing indicator
                 removeTypingIndicator();
-                
-                // Get response
-                const response = getAIResponse(question);
-                
-                // Add bot message
+                const response = processQuery(question);
                 addMessage(response.text, 'bot', response.products);
-            }, 800 + Math.random() * 800);
+            }, 500 + Math.random() * 500);
         }
 
-        // Get AI response based on query
-        function getAIResponse(query) {
+        // Process user query
+        function processQuery(query) {
             const queryLower = query.toLowerCase();
             
-            // Check for empty product database
             if (state.products.length === 0) {
                 return {
                     text: "I'm still loading the product catalogue. Please try again in a moment.",
@@ -705,43 +720,144 @@
                 };
             }
             
-            // Filter products based on query
-            const matchedProducts = state.products.filter(product => {
-                return (
-                    product.product_name.toLowerCase().includes(queryLower) ||
-                    product.material.toLowerCase().includes(queryLower) ||
-                    product.aws_code.toLowerCase().includes(queryLower) ||
-                    product.category.toLowerCase().includes(queryLower) ||
-                    product.description.toLowerCase().includes(queryLower) ||
-                    (queryLower.includes('page') && product.page.toString().includes(queryLower.replace(/\D/g, '')))
-                );
-            });
-            
-            // If no products found
-            if (matchedProducts.length === 0) {
+            // Check for greetings
+            if (queryLower.match(/\b(hi|hello|hey|greetings)\b/)) {
                 return {
-                    text: `I couldn't find any products matching "${query}". Try searching with different keywords like product name, material type, or AWS code.`,
+                    text: "Hello! I'm Dayita AI, your welding catalogue assistant. How can I help you find products today?",
                     products: []
                 };
             }
             
-            // Generate response text
-            let responseText = `I found ${matchedProducts.length} product(s) related to "${query}":\n\n`;
+            // Check for page search
+            const pageMatch = query.match(/\bpage\s+(\d+)\b/i) || query.match(/\bpage[_-]?(\d+)\b/i);
+            if (pageMatch) {
+                const pageNum = pageMatch[1];
+                return searchByPage(pageNum);
+            }
             
-            // Limit to top 5 results for readability
-            const displayProducts = matchedProducts.slice(0, 5);
+            // Check for AWS code search
+            if (queryLower.includes('aws') || queryLower.includes('code')) {
+                return searchByAWS(query);
+            }
             
-            // Format response with product details
-            displayProducts.forEach((product, index) => {
-                responseText += `**${product.product_name}**\n`;
-                responseText += `• Material: ${product.material}\n`;
-                responseText += `• AWS Code: ${product.aws_code}\n`;
-                responseText += `• Page: ${product.page}\n`;
-                responseText += `• Category: ${product.category}\n\n`;
+            // General search
+            return searchProducts(query);
+        }
+
+        // Search by page number
+        function searchByPage(pageNum) {
+            const matchedProducts = state.products.filter(product => {
+                const productPage = product.page.match(/\d+/);
+                return productPage && productPage[0] === pageNum;
             });
             
-            if (matchedProducts.length > 5) {
-                responseText += `... and ${matchedProducts.length - 5} more products. Refine your search to see more specific results.`;
+            if (matchedProducts.length === 0) {
+                return {
+                    text: `I couldn't find any products on page ${pageNum}. Try searching for a different page or use general search terms.`,
+                    products: []
+                };
+            }
+            
+            let responseText = `Found ${matchedProducts.length} product(s) on page ${pageNum}:\n\n`;
+            matchedProducts.forEach(product => {
+                const productPage = product.page.match(/\d+/);
+                responseText += `**${product.product_name || 'Unnamed Product'}** (Page ${productPage ? productPage[0] : 'N/A'})\n`;
+                if (product.content) {
+                    const preview = product.content.substring(0, 150) + '...';
+                    responseText += `*${preview}*\n\n`;
+                }
+            });
+            
+            return {
+                text: responseText,
+                products: matchedProducts
+            };
+        }
+
+        // Search by AWS code
+        function searchByAWS(query) {
+            const awsPattern = /\bAWS\s+(?:SFA\s+)?[0-9\.]+\b/i;
+            const awsMatch = query.match(awsPattern);
+            
+            let searchTerm = query;
+            if (awsMatch) {
+                searchTerm = awsMatch[0];
+            }
+            
+            const matchedProducts = state.products.filter(product => {
+                const content = product.content || '';
+                return content.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                       (product.product_name && product.product_name.toLowerCase().includes(searchTerm.toLowerCase()));
+            });
+            
+            if (matchedProducts.length === 0) {
+                return {
+                    text: `No products found matching AWS code "${searchTerm}". Try searching with a different AWS code or product name.`,
+                    products: []
+                };
+            }
+            
+            let responseText = `Found ${matchedProducts.length} product(s) related to AWS codes:\n\n`;
+            matchedProducts.forEach(product => {
+                responseText += `**${product.product_name || 'Unnamed Product'}**\n`;
+                // Extract AWS code from content if present
+                const awsInContent = product.content.match(/\bAWS\s+(?:SFA\s+)?[0-9\.\-]+\b/i);
+                if (awsInContent) {
+                    responseText += `AWS Code: ${awsInContent[0]}\n`;
+                }
+                responseText += '\n';
+            });
+            
+            return {
+                text: responseText,
+                products: matchedProducts
+            };
+        }
+
+        // General product search
+        function searchProducts(query) {
+            const searchTerms = query.toLowerCase().split(' ');
+            
+            const matchedProducts = state.products.filter(product => {
+                const content = (product.content || '').toLowerCase();
+                const productName = (product.product_name || '').toLowerCase();
+                
+                // Check if any search term matches
+                return searchTerms.some(term => {
+                    return content.includes(term) || 
+                           productName.includes(term) ||
+                           (product.page && product.page.toLowerCase().includes(term));
+                });
+            });
+            
+            if (matchedProducts.length === 0) {
+                return {
+                    text: `I couldn't find any products matching "${query}". Try searching with different keywords like:\n- Product names (e.g., "CNM(SPLM 2")\n- AWS codes\n- Page numbers\n- Welding terms`,
+                    products: []
+                };
+            }
+            
+            let responseText = `Found ${matchedProducts.length} product(s) related to "${query}":\n\n`;
+            
+            // Limit to top 3 results for readability
+            const displayProducts = matchedProducts.slice(0, 3);
+            
+            displayProducts.forEach((product, index) => {
+                const pageNum = product.page.match(/\d+/);
+                responseText += `**${index + 1}. ${product.product_name || 'Unnamed Product'}**\n`;
+                if (pageNum) {
+                    responseText += `Page: ${pageNum[0]}\n`;
+                }
+                
+                // Show preview of content
+                if (product.content) {
+                    const preview = product.content.substring(0, 200).split('\n')[0];
+                    responseText += `${preview}...\n\n`;
+                }
+            });
+            
+            if (matchedProducts.length > 3) {
+                responseText += `... and ${matchedProducts.length - 3} more products. Refine your search for more specific results.`;
             }
             
             return {
@@ -752,48 +868,79 @@
 
         // Add message to chat
         function addMessage(text, sender, products = []) {
-            // Remove typing indicator if present
             removeTypingIndicator();
             
             const messageEl = document.createElement('div');
             messageEl.className = `msg ${sender}-msg`;
             
-            // Create avatar
             const avatarEl = document.createElement('div');
             avatarEl.className = 'avatar';
             avatarEl.textContent = sender === 'user' ? 'You' : 'AI';
             
-            // Create message content
             const contentEl = document.createElement('div');
             contentEl.className = 'message-content';
             
             // Format text with line breaks and bold markers
-            const formattedText = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+            let formattedText = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+            
+            // Highlight search terms in content
+            if (sender === 'bot' && products.length > 0) {
+                const lastQuery = state.searchHistory[0] || '';
+                if (lastQuery) {
+                    const terms = lastQuery.toLowerCase().split(' ').filter(term => term.length > 2);
+                    terms.forEach(term => {
+                        const regex = new RegExp(`(${term})`, 'gi');
+                        formattedText = formattedText.replace(regex, '<span class="highlight">$1</span>');
+                    });
+                }
+            }
+            
             contentEl.innerHTML = formattedText;
             
             // Add product details if available
-            if (products.length > 0) {
-                // Add top product as an example
+            if (products.length > 0 && sender === 'bot') {
+                // Add first product as detailed example
                 const product = products[0];
-                const productEl = document.createElement('div');
-                productEl.className = 'product-result';
-                productEl.innerHTML = `
-                    <div class="product-name">${product.product_name}</div>
-                    <div>${product.description}</div>
-                    <div class="product-details">
-                        <span><i class="fas fa-cube"></i> ${product.material}</span>
-                        <span><i class="fab fa-aws"></i> ${product.aws_code}</span>
-                        <span><i class="fas fa-file-alt"></i> Page ${product.page}</span>
-                    </div>
-                `;
-                contentEl.appendChild(productEl);
+                if (product.content) {
+                    const productEl = document.createElement('div');
+                    productEl.className = 'product-result';
+                    
+                    const pageNum = product.page.match(/\d+/);
+                    let detailsHTML = '';
+                    
+                    if (product.product_name) {
+                        detailsHTML += `<div class="product-name">${product.product_name}</div>`;
+                    }
+                    
+                    // Show first 300 characters of content
+                    const contentPreview = product.content.substring(0, 300) + (product.content.length > 300 ? '...' : '');
+                    detailsHTML += `<div class="product-content">${contentPreview}</div>`;
+                    
+                    detailsHTML += `<div class="product-details">`;
+                    if (pageNum) {
+                        detailsHTML += `<span><i class="fas fa-file-alt"></i> Page ${pageNum[0]}</span>`;
+                    }
+                    
+                    // Extract AWS code if present
+                    const awsMatch = product.content.match(/\bAWS\s+(?:SFA\s+)?[0-9\.\-]+\b/i);
+                    if (awsMatch) {
+                        detailsHTML += `<span><i class="fab fa-aws"></i> ${awsMatch[0]}</span>`;
+                    }
+                    
+                    // Check for welding terms
+                    if (product.content.toLowerCase().includes('electrod')) {
+                        detailsHTML += `<span><i class="fas fa-fire"></i> Electrode</span>`;
+                    }
+                    
+                    detailsHTML += `</div>`;
+                    
+                    productEl.innerHTML = detailsHTML;
+                    contentEl.appendChild(productEl);
+                }
             }
             
-            // Assemble message
             messageEl.appendChild(avatarEl);
             messageEl.appendChild(contentEl);
-            
-            // Add to chat
             chatEl.appendChild(messageEl);
             
             // Scroll to bottom
@@ -803,7 +950,6 @@
         // Show typing indicator
         function showTypingIndicator() {
             if (state.isTyping) return;
-            
             state.isTyping = true;
             
             const typingEl = document.createElement('div');
@@ -820,7 +966,6 @@
             
             typingEl.appendChild(avatarEl);
             typingEl.appendChild(contentEl);
-            
             chatEl.appendChild(typingEl);
             chatEl.scrollTop = chatEl.scrollHeight;
         }
@@ -834,33 +979,50 @@
 
         // Clear chat
         function clearChat() {
-            // Keep only the welcome message and first bot message
             const messages = chatEl.querySelectorAll('.msg');
-            
             for (let i = 0; i < messages.length; i++) {
-                if (i > 1) { // Keep first two messages (welcome and initial bot message)
+                if (i > 1) {
                     messages[i].remove();
                 }
             }
-            
-            // Add confirmation message
-            addMessage("Chat history cleared. How can I help you with our product catalogue?", 'bot');
+            addMessage("Chat history cleared. How can I help you with our welding product catalogue?", 'bot');
         }
 
         // Update search history UI
-        function updateSearchHistory() {
+        function updateSearchHistoryUI() {
             historyListEl.innerHTML = '';
-            
             state.searchHistory.forEach(query => {
                 const li = document.createElement('li');
                 li.className = 'history-item';
-                li.textContent = query;
+                li.textContent = query.length > 30 ? query.substring(0, 30) + '...' : query;
+                li.title = query;
                 li.addEventListener('click', () => {
                     queryInput.value = query;
                     queryInput.focus();
                 });
                 historyListEl.appendChild(li);
             });
+            
+            // Add default if empty
+            if (state.searchHistory.length === 0) {
+                const defaultItems = [
+                    "Find welding electrodes",
+                    "Search by AWS code",
+                    "Products on page 100",
+                    "Welding specifications"
+                ];
+                
+                defaultItems.forEach(item => {
+                    const li = document.createElement('li');
+                    li.className = 'history-item';
+                    li.textContent = item;
+                    li.addEventListener('click', () => {
+                        queryInput.value = item;
+                        queryInput.focus();
+                    });
+                    historyListEl.appendChild(li);
+                });
+            }
         }
 
         // Update statistics
